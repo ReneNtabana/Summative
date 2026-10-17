@@ -20,3 +20,4 @@ wandb/
 .vscode/
 .env
 logs/
+models/onnx-*/

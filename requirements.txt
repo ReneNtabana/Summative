@@ -29,3 +29,7 @@ gradio>=4.31
 
 # Tests
 pytest>=8.0
+
+# ONNX export (web deployment)
+onnx>=1.16
+onnxruntime>=1.18

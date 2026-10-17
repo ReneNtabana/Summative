@@ -118,3 +118,11 @@ timestamp,family,model,config,seed,split,accuracy,macro_f1,weighted_f1,macro_pre
 2026-10-17T14:54:20,ood,ft-afriberta_base-fullFT,"{""dataset"": ""masakhanews-run"", ""n"": 1525}",42,ood,0.8302,0.7554,0.8496,0.4287,0.3602,
 2026-10-17T14:55:39,ood,ft-afro-xlmr-base,"{""dataset"": ""masakhanews-run"", ""n"": 1525}",42,ood,0.8715,0.7987,0.8777,0.4309,0.3815,
 2026-10-17T14:56:58,ood,ft-xlm-roberta-base,"{""dataset"": ""masakhanews-run"", ""n"": 1525}",42,ood,0.4662,0.3504,0.4591,0.2322,0.2298,
+2026-10-17T15:16:10,transformer,afriberta_base,"{""best_epoch"": 7.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": true, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 57.7}",43,val,0.8736,0.7593,0.8713,0.7414,0.8028,1044.8
+2026-10-17T15:16:10,transformer,afriberta_base,"{""best_epoch"": 7.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": true, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 57.7}",43,test,0.9084,0.8324,0.907,0.8535,0.8543,1044.8
+2026-10-17T15:33:50,transformer,afriberta_base,"{""best_epoch"": 5.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": true, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 57.7}",44,val,0.8851,0.7596,0.8804,0.7521,0.795,1038.1
+2026-10-17T15:33:50,transformer,afriberta_base,"{""best_epoch"": 5.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": true, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 57.7}",44,test,0.8817,0.7847,0.877,0.8292,0.8083,1038.1
+2026-10-17T16:03:08,transformer,afro-xlmr-base,"{""best_epoch"": 8.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": true, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 86.0}",43,val,0.8927,0.7626,0.8882,0.7404,0.8012,1715.9
+2026-10-17T16:03:08,transformer,afro-xlmr-base,"{""best_epoch"": 8.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": true, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 86.0}",43,test,0.9122,0.8295,0.9131,0.8354,0.8338,1715.9
+2026-10-17T16:32:51,transformer,afro-xlmr-base,"{""best_epoch"": 7.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": true, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 86.0}",44,val,0.9004,0.7893,0.8975,0.766,0.8189,1746.7
+2026-10-17T16:32:51,transformer,afro-xlmr-base,"{""best_epoch"": 7.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": true, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 86.0}",44,test,0.9198,0.8623,0.9207,0.8572,0.8897,1746.7

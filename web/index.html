@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kirundi News Classifier</title>
+<style>
+  :root {
+    --bg: #f9f9f7; --surface: #ffffff; --ink: #0b0b0b; --ink-2: #52514e; --muted: #8a8984;
+    --line: #e4e3df; --accent: #2a78d6; --accent-ink: #ffffff; --bar: #2a78d6; --bar-bg: #eceae5;
+    --warn-bg: #fff4dc; --warn-ink: #7a4b00; --radius: 10px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #8f8e88;
+      --line: #2e2e2c; --accent: #3987e5; --bar: #3987e5; --bar-bg: #2a2a28;
+      --warn-bg: #3a2c0f; --warn-ink: #f4cf86;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 28px 16px 48px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--ink-2); margin: 0 0 20px; }
+  .grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; }
+  label { display: block; font-weight: 600; font-size: .9rem; margin: 0 0 6px; }
+  input, textarea { width: 100%; font: inherit; color: var(--ink); background: var(--bg);
+                    border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  textarea { min-height: 200px; resize: vertical; }
+  input:focus, textarea:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .field { margin-bottom: 14px; }
+  button { font: inherit; font-weight: 600; border: 0; border-radius: 8px; padding: 10px 18px;
+           background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; }
+  .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .status { color: var(--muted); font-size: .88rem; }
+  .pred { margin: 0 0 14px; }
+  .pred .top { font-size: 1.35rem; font-weight: 700; }
+  .pred .kir { color: var(--ink-2); font-weight: 500; }
+  .bars { display: grid; gap: 8px; }
+  .bar { display: grid; grid-template-columns: 9.5rem 1fr 3.2rem; gap: 8px; align-items: center; font-size: .9rem; }
+  .bar .track { height: 10px; background: var(--bar-bg); border-radius: 5px; overflow: hidden; }
+  .bar .fill { height: 100%; background: var(--bar); border-radius: 0 5px 5px 0; }
+  .bar .v { text-align: right; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .note { margin-top: 14px; padding: 10px 12px; border-radius: 8px; font-size: .9rem; }
+  .note.warn { background: var(--warn-bg); color: var(--warn-ink); }
+  .note.info { color: var(--ink-2); border: 1px solid var(--line); }
+  .empty { color: var(--muted); }
+  .examples { margin-top: 22px; }
+  .examples h2 { font-size: 1rem; margin: 0 0 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { background: var(--surface); color: var(--ink); border: 1px solid var(--line); font-weight: 500;
+          padding: 6px 10px; font-size: .85rem; }
+  .chip:hover { border-color: var(--accent); }
+  details { margin-top: 22px; color: var(--ink-2); }
+  details summary { cursor: pointer; font-weight: 600; color: var(--ink); }
+  a { color: var(--accent); }
+  footer { margin-top: 28px; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kirundi News Topic Classifier</h1>
+  <p class="sub"><em>Gutondora amakuru mu Kirundi</em>. Paste a Kirundi news article to predict its topic.
+    The model (AfroXLMR-base fine-tuned on KIRNEWS) runs entirely in your browser.</p>
+
+  <div class="grid">
+    <section class="card" aria-label="Input">
+      <div class="field">
+        <label for="title">Title · Umutwe</label>
+        <input id="title" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="body">Article text · Inkuru</label>
+        <textarea id="body"></textarea>
+      </div>
+      <div class="row">
+        <button id="go" disabled>Classify · Tondora</button>
+        <span id="status" class="status">Loading model (~280 MB, first visit only)…</span>
+      </div>
+    </section>
+
+    <section class="card" aria-label="Prediction" aria-live="polite">
+      <div id="result"><p class="empty">The predicted topic will appear here.</p></div>
+    </section>
+  </div>
+
+  <section class="examples">
+    <h2>Try an example</h2>
+    <div id="chips" class="chips"></div>
+  </section>
+
+  <details>
+    <summary>About the model and its limitations</summary>
+    <p>10 topics: politics, sport, economy, health, education, entertainment, relationship, technology,
+      environment, culture. Trained on 1,219 de-duplicated articles from eight Burundian news websites
+      (KIRNEWS; Niyongabo et al., 2020). Held-out test: accuracy 0.90, macro-F1 0.80. On 1,525 BBC Gahuza
+      articles (MasakhaNEWS): accuracy 0.87.</p>
+    <ul>
+      <li>Rare topics (culture, environment, technology) are less reliable.</li>
+      <li>The model is over-confident, so predictions below 90% confidence are flagged.</li>
+      <li>It always picks one of the 10 topics. Other topics (e.g. religion) usually come out as <em>politics</em>.</li>
+      <li>This page runs an int8-quantised copy of the model. It agrees with the full model on 95% of test articles.</li>
+    </ul>
+  </details>
+
+  <footer>
+    Model: <a href="https://huggingface.co/ReneNtabana/kirundi-news-classifier">ReneNtabana/kirundi-news-classifier</a> ·
+    Code &amp; report: <a href="https://github.com/ReneNtabana/Summative">github.com/ReneNtabana/Summative</a>
+  </footer>
+</main>
+
+<script type="module">
+import { pipeline, env } from "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1";
+import { normalise, looksForeign } from "./normalise.js";
+
+const MODEL_ID = "ReneNtabana/kirundi-news-classifier";
+const THRESHOLD = 0.9;   // chosen on the validation set (results/error_analysis/selective.csv)
+const KIRUNDI = { politics: "Poritike", sport: "Inkino", economy: "Ubutunzi", health: "Amagara",
+  entertainment: "Kwidagadura", technology: "Ubuhinga", culture: "Akaranga",
+  environment: "Ibidukikije", education: "Indero", relationship: "Urukundo" };
+
+env.allowLocalModels = false;
+const $ = (id) => document.getElementById(id);
+let classifier = null;
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+async function load() {
+  try {
+    classifier = await pipeline("text-classification", MODEL_ID, {
+      dtype: "q8",
+      progress_callback: (p) => {
+        if (p.status === "progress" && p.file && p.file.endsWith(".onnx")) {
+          $("status").textContent = `Downloading model… ${Math.round(p.progress)}%`;
+        }
+      },
+    });
+    $("status").textContent = "Model ready.";
+    $("go").disabled = false;
+  } catch (e) {
+    console.error(e);
+    $("status").textContent = "Could not load the model. Please reload the page.";
+  }
+}
+
+async function classify() {
+  const text = normalise(`${$("title").value} . ${$("body").value}`).replace(/^[ .]+|[ .]+$/g, "");
+  if (text.split(" ").filter(Boolean).length < 3) {
+    $("result").innerHTML = `<div class="note warn">Please enter at least a few words of Kirundi text.</div>`;
+    return;
+  }
+  $("go").disabled = true;
+  $("status").textContent = "Classifying…";
+  const t0 = performance.now();
+  // The tokenizer truncates to the model's maximum length (512 subword tokens), as in training.
+  const out = await classifier(text, { top_k: 10 });
+  const ms = Math.round(performance.now() - t0);
+  const top = out[0];
+  let html = `<div class="pred"><div class="top">${escapeHtml(top.label)} <span class="kir">· ${KIRUNDI[top.label] ?? ""}</span></div></div><div class="bars">`;
+  for (const r of out.slice(0, 5)) {
+    html += `<div class="bar"><span>${escapeHtml(r.label)}</span><span class="track"><span class="fill" style="width:${(r.score * 100).toFixed(1)}%;display:block"></span></span><span class="v">${(r.score * 100).toFixed(1)}%</span></div>`;
+  }
+  html += `</div>`;
+  if (looksForeign(text)) {
+    html += `<div class="note warn">This text looks like English or French. The model was trained on Kirundi news and may still guess a topic, but results are not validated for other languages.</div>`;
+  } else if (top.score < THRESHOLD) {
+    html += `<div class="note warn">Low confidence (${(top.score * 100).toFixed(0)}%). The article may be outside the 10 topics or about several at once. Treat the prediction with caution.</div>`;
+  } else {
+    html += `<div class="note info">Confidence ${(top.score * 100).toFixed(0)}% · ${ms} ms</div>`;
+  }
+  $("result").innerHTML = html;
+  $("status").textContent = "Model ready.";
+  $("go").disabled = false;
+}
+
+async function loadExamples() {
+  const ex = await (await fetch("./examples.json")).json();
+  for (const e of ex) {
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.textContent = e.note.replace(/^KIRNEWS test · /, "");
+    b.title = e.title;
+    b.onclick = () => { $("title").value = e.title; $("body").value = e.body; if (classifier) classify(); };
+    $("chips").appendChild(b);
+  }
+}
+
+$("go").addEventListener("click", classify);
+loadExamples();
+load();
+</script>
+</body>
+</html>

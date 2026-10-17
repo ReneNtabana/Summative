@@ -1,0 +1,31 @@
+{
+  "pytorch": {
+    "accuracy": 0.8969,
+    "macro_f1": 0.7954,
+    "weighted_f1": 0.8951,
+    "macro_precision": 0.825,
+    "macro_recall": 0.777,
+    "agreement_with_pytorch": 1.0,
+    "max_abs_logit_diff": 0.0
+  },
+  "onnx_fp32": {
+    "accuracy": 0.8969,
+    "macro_f1": 0.7954,
+    "weighted_f1": 0.8951,
+    "macro_precision": 0.825,
+    "macro_recall": 0.777,
+    "agreement_with_pytorch": 1.0,
+    "max_abs_logit_diff": 0.0
+  },
+  "onnx_int8": {
+    "accuracy": 0.9008,
+    "macro_f1": 0.8052,
+    "weighted_f1": 0.9005,
+    "macro_precision": 0.8195,
+    "macro_recall": 0.7984,
+    "agreement_with_pytorch": 0.9504,
+    "max_abs_logit_diff": 4.7542
+  },
+  "model.onnx_MB": 1112.4,
+  "model_quantized.onnx_MB": 278.8
+}
