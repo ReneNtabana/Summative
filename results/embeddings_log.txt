@@ -1,0 +1,25 @@
+avg-w2v-kir            vocab= 17097 C=0.1  val F1=0.617 test acc=0.844 F1=0.704
+avg-w2v-kir+kin        vocab=109513 C=0.1  val F1=0.716 test acc=0.840 F1=0.729
+avg-fasttext-kir       vocab= 17097 C=0.1  val F1=0.639 test acc=0.821 F1=0.698
+avg-fasttext-kir+kin   vocab=109513 C=0.3  val F1=0.704 test acc=0.851 F1=0.714
+
+Nearest neighbours (w2v, kir):
+  umupira      -> maguru, b'umupira, diamond, mukibuga, wamaguru, gukina
+  amafaranga   -> y'amarundi, angana, y'amafaranga, kigurwa, mafaranga, n'imiriyoni
+  abanyeshure  -> biga, y'ishure, banyeshure, y'imyuga, y'icenda, abanyeshuri
+  indwara      -> n'indwara, zifatira, bihimba, y'igisukari, vy'irondoka, zituruka
+  leta         -> reta, amerika, y'uburundi, gufashanya, ifitaniye, zunze
+
+Nearest neighbours (w2v, kir+kin):
+  umupira      -> w'amaguru, mupira, n'umupira, awutera, umutambiko, rw'amahina
+  amafaranga   -> mafaranga, n'amafaranga, amafanga, amafranga, y'amafaranga, w'amafaranga
+  abanyeshure  -> banyeshure, mashure, abigeme, abavyeyi, ibisata, y'ishure
+  indwara      -> z'umutima, n'indwara, kanseri, zitandura, asima, y'ibere
+  leta         -> zunze, ubumwe, guverinoma, z'amerika, z'abarabu, lata
+
+Nearest neighbours (fasttext, kir+kin):
+  umupira      -> mumupira, mupira, k'umupira, c'umupira, y'umupira, w'umupira
+  amafaranga   -> amafarannga, namafaranga, yámafaranga, wamafaranga, amafaranag, kumafaranga
+  abanyeshure  -> banyeshure, abanyeshuri, c'abanyeshure, abanyeshuli, vy'abanyeshure, n'abanyeshure
+  indwara      -> nindwara, k'indwara, nk'indwara, c'indwara, n'indwara, y'indwara
+  leta         -> zunze, reta, lete, guverinoma, eta, greta
