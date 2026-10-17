@@ -21,3 +21,4 @@ wandb/
 .env
 logs/
 models/onnx-*/
+report/report.html
