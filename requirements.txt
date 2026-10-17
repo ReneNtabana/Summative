@@ -1,0 +1,30 @@
+# Core
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+pyyaml>=6.0
+
+# Data
+datasets>=2.18
+huggingface_hub>=0.23
+
+# Classical embeddings
+gensim>=4.3
+
+# Deep learning (PyTorch with Apple MPS support)
+torch>=2.2
+transformers>=4.41
+accelerate>=0.30
+sentencepiece>=0.2
+protobuf>=4.25
+
+# Analysis / plots
+matplotlib>=3.8
+seaborn>=0.13
+jupyter
+
+# App
+gradio>=4.31
+
+# Tests
+pytest>=8.0

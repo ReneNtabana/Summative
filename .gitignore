@@ -1,0 +1,21 @@
+# Environments
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data and large artefacts (rebuilt by scripts / hosted on HF Hub)
+data/raw/
+data/processed/
+models/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.model
+wandb/
+
+# OS / editor
+.DS_Store
+.vscode/
+.env
