@@ -19,3 +19,4 @@ wandb/
 .DS_Store
 .vscode/
 .env
+logs/

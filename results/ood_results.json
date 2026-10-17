@@ -1,0 +1,9 @@
+{
+  "baseline_svm": {
+    "accuracy": 0.8013,
+    "macro_f1": 0.7215,
+    "weighted_f1": 0.8047,
+    "macro_precision": 0.4087,
+    "macro_recall": 0.3511
+  }
+}

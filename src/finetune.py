@@ -46,6 +46,11 @@ class WeightedTrainer(Trainer):
     def __init__(self, *args, class_weights: torch.Tensor | None = None, **kwargs):
         super().__init__(*args, **kwargs)
         self.class_weights = class_weights
+        # Our compute_loss returns a per-batch MEAN, so the Trainer must divide it by
+        # the gradient-accumulation steps. Because XLM-R's forward() takes **kwargs,
+        # the Trainer otherwise assumes the loss is already normalised and skips that
+        # division, which would double the gradients (bug found via train_loss ≈ 2×ln(10)).
+        self.model_accepts_loss_kwargs = False
 
     def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch=None):
         labels = inputs.pop("labels")
@@ -86,14 +91,16 @@ def run(model_name: str, seed: int, lr: float, epochs: int, max_len: int, bs: in
         return compute_metrics(p.label_ids, p.predictions.argmax(-1))
 
     out_dir = ROOT / "checkpoints" / f"{short(model_name)}-s{seed}"
+    accum = max(1, 16 // bs)                                   # effective batch size 16
+    total_steps = int(np.ceil(len(ds["train"]) / (bs * accum))) * epochs
     args = TrainingArguments(
         output_dir=str(out_dir),
         learning_rate=lr,
         per_device_train_batch_size=bs,
         per_device_eval_batch_size=16,
-        gradient_accumulation_steps=max(1, 16 // bs),   # effective batch size 16
+        gradient_accumulation_steps=accum,
         num_train_epochs=epochs,
-        warmup_ratio=0.1,
+        warmup_steps=int(0.1 * total_steps),                   # 10% linear warm-up
         weight_decay=0.01,
         eval_strategy="epoch",
         save_strategy="epoch",

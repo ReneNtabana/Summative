@@ -1,0 +1,5 @@
+torch
+transformers>=4.41
+sentencepiece
+protobuf
+gradio>=4.31

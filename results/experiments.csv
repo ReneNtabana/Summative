@@ -62,3 +62,6 @@ timestamp,family,model,config,seed,split,accuracy,macro_f1,weighted_f1,macro_pre
 2026-10-17T04:35:06,embeddings,avg-fasttext-kir,"{""C"": 0.1, ""dim"": 200, ""vocab"": 17097}",42,test,0.8206,0.6976,0.8339,0.6702,0.7798,0.5
 2026-10-17T04:35:10,embeddings,avg-fasttext-kir+kin,"{""C"": 0.3, ""dim"": 200, ""vocab"": 109513}",42,val,0.8276,0.7038,0.8321,0.6783,0.7452,3.2
 2026-10-17T04:35:10,embeddings,avg-fasttext-kir+kin,"{""C"": 0.3, ""dim"": 200, ""vocab"": 109513}",42,test,0.8511,0.714,0.8531,0.7204,0.7277,3.2
+2026-10-17T04:36:17,ood,baseline_svm,"{""dataset"": ""masakhanews-run"", ""n"": 1525}",42,ood,0.8013,0.7215,0.8047,0.4087,0.3511,
+2026-10-17T04:44:27,rnn,bilstm-maxmean-random,"{""emb_coverage"": null, ""epochs_run"": 12, ""init"": ""random"", ""lr"": 0.002, ""max_len"": 400, ""pooling"": ""maxmean"", ""vocab"": 17099}",42,val,0.7548,0.5358,0.746,0.6051,0.512,534.4
+2026-10-17T04:44:27,rnn,bilstm-maxmean-random,"{""emb_coverage"": null, ""epochs_run"": 12, ""init"": ""random"", ""lr"": 0.002, ""max_len"": 400, ""pooling"": ""maxmean"", ""vocab"": 17099}",42,test,0.7595,0.5178,0.7398,0.6007,0.5022,534.4
