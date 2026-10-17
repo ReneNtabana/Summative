@@ -61,9 +61,12 @@ def main() -> None:
     lines.append("OOD scores for Transformers are from the seed-42 model.")
     xl = df[df.family == "crosslingual"]
     if len(xl):
-        lines += ["", "| Cross-lingual (TF-IDF char SVM) | n train | Accuracy | Macro-F1 |", "|---|---|---|---|"]
-        for _, r in xl.iterrows():
-            lines.append(f"| {r.model.split(' ', 1)[1]} | {json.loads(r.config)['n_train']} | {r.accuracy:.3f} | {r.macro_f1:.3f} |")
+        lines += ["", "| Cross-lingual (TF-IDF char SVM) | n train | Test acc | Test macro-F1 | OOD acc | OOD macro-F1 |",
+                  "|---|---|---|---|---|---|"]
+        for model, g in xl.groupby("model", sort=False):
+            t, o = g[g.split == "test"].iloc[-1], g[g.split == "ood"].iloc[-1]
+            lines.append(f"| {model.split(' ', 1)[1]} | {json.loads(t.config)['n_train']} | {t.accuracy:.3f} | "
+                         f"{t.macro_f1:.3f} | {o.accuracy:.3f} | {o.macro_f1:.3f} |")
     (RESULTS_DIR / "summary_table.md").write_text("\n".join(lines) + "\n")
     print("\n".join(lines))
 

@@ -1,13 +1,13 @@
 | Family | Model | Config | Seeds | Accuracy | Macro-F1 | 5-fold CV F1 | OOD Acc | OOD Macro-F1 |
 |---|---|---|---|---|---|---|---|---|
 | baseline | majority |  | 1 | 0.351 | 0.052 |  |  |  |
-| baseline | tfidf-word|nb | C=0.003 | 1 | 0.866 | 0.679 | 0.700 |  |  |
-| baseline | tfidf-word|logreg | C=0.3 | 1 | 0.897 | 0.807 | 0.760 |  |  |
-| baseline | tfidf-word+char|logreg | C=0.3 | 1 | 0.901 | 0.819 | 0.776 |  |  |
-| baseline | tfidf-word+char|svm | C=0.1 | 1 | 0.908 | 0.833 | 0.805 |  |  |
-| baseline | tfidf-word|svm | C=0.1 | 1 | 0.905 | 0.833 | 0.773 |  |  |
-| baseline | tfidf-char|logreg | C=0.3 | 1 | 0.901 | 0.852 | 0.789 |  |  |
-| baseline | tfidf-char|svm | C=0.3 | 1 | 0.912 | 0.866 | 0.806 |  |  |
+| baseline | tfidf-word|nb | C=0.003 | 1 | 0.866 | 0.679 | 0.700 | 0.790 | 0.675 |
+| baseline | tfidf-word|logreg | C=0.3 | 1 | 0.897 | 0.807 | 0.760 | 0.741 | 0.652 |
+| baseline | tfidf-word+char|logreg | C=0.3 | 1 | 0.901 | 0.819 | 0.776 | 0.771 | 0.684 |
+| baseline | tfidf-word+char|svm | C=0.1 | 1 | 0.908 | 0.833 | 0.805 | 0.800 | 0.721 |
+| baseline | tfidf-word|svm | C=0.1 | 1 | 0.905 | 0.833 | 0.773 | 0.772 | 0.673 |
+| baseline | tfidf-char|logreg | C=0.3 | 1 | 0.901 | 0.852 | 0.789 | 0.757 | 0.696 |
+| baseline | tfidf-char|svm | C=0.3 | 1 | 0.912 | 0.866 | 0.806 | 0.803 | 0.729 |
 | embeddings | avg-fasttext-kir | C=0.1 | 1 | 0.821 | 0.698 |  |  |  |
 | embeddings | avg-w2v-kir | C=0.1 | 1 | 0.844 | 0.704 |  |  |  |
 | embeddings | avg-fasttext-kir+kin | C=0.3 | 1 | 0.851 | 0.714 |  |  |  |
@@ -21,8 +21,15 @@
 | rnn | bilstm-maxmean-fasttext-kir+kin | lr=0.002, max_len=400 | 3 | 0.859 ± 0.019 | 0.736 ± 0.021 |  |  |  |
 | transformer | xlm-roberta-base_lr5e-5-ep15 | lr=5e-05, max_len=512 | 1 | 0.252 | 0.099 |  |  |  |
 | transformer | xlm-roberta-base | lr=3e-05, max_len=512 | 1 | 0.569 | 0.299 |  | 0.466 | 0.350 |
+| transformer | xlm-roberta-base_fullFT | lr=3e-05, max_len=512 | 1 | 0.687 | 0.316 |  |  |  |
 | transformer | afriberta_base-fullFT | lr=3e-05, max_len=512 | 1 | 0.893 | 0.774 |  | 0.830 | 0.755 |
 | transformer | afriberta_base | lr=3e-05, max_len=512 | 3 | 0.893 ± 0.014 | 0.804 ± 0.025 |  | 0.830 | 0.753 |
 | transformer | afro-xlmr-base | lr=3e-05, max_len=512 | 3 | 0.910 ± 0.012 | 0.829 ± 0.034 |  | 0.872 | 0.799 |
 
 OOD scores for Transformers are from the seed-42 model.
+
+| Cross-lingual (TF-IDF char SVM) | n train | Test acc | Test macro-F1 | OOD acc | OOD macro-F1 |
+|---|---|---|---|---|---|
+| zero-shot (train: Kinyarwanda only) | 9904 | 0.824 | 0.730 | 0.800 | 0.745 |
+| augmented (train: Kirundi + Kinyarwanda) | 11123 | 0.912 | 0.888 | 0.815 | 0.758 |
+| monolingual (train: Kirundi only) | 1219 | 0.912 | 0.866 | 0.803 | 0.729 |

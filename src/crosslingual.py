@@ -52,6 +52,17 @@ def main() -> None:
     # 2. Kinyarwanda -> Kirundi
     kin = pd.read_csv(PROC_DIR / "kinnews_unique.csv")
     kin = kin[kin.label_name.isin(labels)]
+
+    # Leakage check: a Kinyarwanda version of the same story as a Kirundi test article
+    # would not be caught by exact de-duplication. Measure the max char-n-gram cosine
+    # similarity of each Kirundi test article to any KINNEWS article.
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    vec = TfidfVectorizer(analyzer="char_wb", ngram_range=(3, 5), min_df=2, sublinear_tf=True).fit(
+        pd.concat([kin.text, Xte]))
+    sim = (vec.transform(Xte) @ vec.transform(kin.text).T).max(axis=1).toarray().ravel()
+    out["kin_to_test_max_similarity"] = round(float(sim.max()), 3)
+    out["test_articles_with_kin_neighbour_above_0.6"] = int((sim > 0.6).sum())
+    print(f"Leakage check: max similarity of a Kirundi test article to KINNEWS = {sim.max():.3f}")
     cfg = "char|svm"  # best TF-IDF family on 5-fold CV
     for name, (X, y) in {
         "zero-shot (train: Kinyarwanda only)": (kin.text, kin.label_name),
@@ -61,8 +72,14 @@ def main() -> None:
         pipe = build(cfg, Cs[cfg]).fit(X, y)
         m = compute_metrics(yte, pipe.predict(Xte))
         log_experiment("crosslingual", f"tfidf-{cfg} {name}", {"C": Cs[cfg], "n_train": len(X)}, "test", m)
-        out["crosslingual"][name] = {**m, "n_train": len(X)}
-        print(f"XLING {name:42s} n={len(X):6d} acc={m['accuracy']:.3f} macro-F1={m['macro_f1']:.3f}")
+        po = pipe.predict(ood.text)
+        m_ood = compute_metrics(ood.label_name, po)
+        m_ood["macro_f1"] = round(f1_score(ood.label_name, po, labels=ood_labels, average="macro", zero_division=0), 4)
+        log_experiment("crosslingual", f"tfidf-{cfg} {name}", {"C": Cs[cfg], "n_train": len(X)}, "ood", m_ood)
+        out["crosslingual"][name] = {**m, "n_train": len(X), "ood_accuracy": m_ood["accuracy"],
+                                     "ood_macro_f1": m_ood["macro_f1"]}
+        print(f"XLING {name:42s} n={len(X):6d} acc={m['accuracy']:.3f} macro-F1={m['macro_f1']:.3f} "
+              f"| OOD acc={m_ood['accuracy']:.3f} macro-F1={m_ood['macro_f1']:.3f}")
 
     with open(RESULTS_DIR / "crosslingual_and_ood_baselines.json", "w") as f:
         json.dump(out, f, indent=2)

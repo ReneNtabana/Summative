@@ -1,0 +1,87 @@
+{
+  "ood": {
+    "word|nb": {
+      "accuracy": 0.7902,
+      "macro_f1": 0.675,
+      "weighted_f1": 0.7775,
+      "macro_precision": 0.4649,
+      "macro_recall": 0.3637
+    },
+    "word|logreg": {
+      "accuracy": 0.741,
+      "macro_f1": 0.6518,
+      "weighted_f1": 0.7544,
+      "macro_precision": 0.4241,
+      "macro_recall": 0.3685
+    },
+    "word|svm": {
+      "accuracy": 0.7718,
+      "macro_f1": 0.6732,
+      "weighted_f1": 0.7747,
+      "macro_precision": 0.3916,
+      "macro_recall": 0.3306
+    },
+    "char|logreg": {
+      "accuracy": 0.7567,
+      "macro_f1": 0.6963,
+      "weighted_f1": 0.7767,
+      "macro_precision": 0.4017,
+      "macro_recall": 0.3354
+    },
+    "char|svm": {
+      "accuracy": 0.8033,
+      "macro_f1": 0.7292,
+      "weighted_f1": 0.8089,
+      "macro_precision": 0.4164,
+      "macro_recall": 0.3491
+    },
+    "word+char|logreg": {
+      "accuracy": 0.7711,
+      "macro_f1": 0.6842,
+      "weighted_f1": 0.7753,
+      "macro_precision": 0.4357,
+      "macro_recall": 0.3817
+    },
+    "word+char|svm": {
+      "accuracy": 0.8,
+      "macro_f1": 0.7212,
+      "weighted_f1": 0.8044,
+      "macro_precision": 0.4089,
+      "macro_recall": 0.3499
+    }
+  },
+  "crosslingual": {
+    "zero-shot (train: Kinyarwanda only)": {
+      "accuracy": 0.8244,
+      "macro_f1": 0.7303,
+      "weighted_f1": 0.8296,
+      "macro_precision": 0.7491,
+      "macro_recall": 0.7605,
+      "n_train": 9904,
+      "ood_accuracy": 0.8,
+      "ood_macro_f1": 0.7448
+    },
+    "augmented (train: Kirundi + Kinyarwanda)": {
+      "accuracy": 0.9122,
+      "macro_f1": 0.8879,
+      "weighted_f1": 0.9116,
+      "macro_precision": 0.9038,
+      "macro_recall": 0.8912,
+      "n_train": 11123,
+      "ood_accuracy": 0.8151,
+      "ood_macro_f1": 0.7585
+    },
+    "monolingual (train: Kirundi only)": {
+      "accuracy": 0.9122,
+      "macro_f1": 0.8657,
+      "weighted_f1": 0.9119,
+      "macro_precision": 0.9003,
+      "macro_recall": 0.8685,
+      "n_train": 1219,
+      "ood_accuracy": 0.8033,
+      "ood_macro_f1": 0.7292
+    }
+  },
+  "kin_to_test_max_similarity": 0.39,
+  "test_articles_with_kin_neighbour_above_0.6": 0
+}

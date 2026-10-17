@@ -128,3 +128,18 @@ timestamp,family,model,config,seed,split,accuracy,macro_f1,weighted_f1,macro_pre
 2026-10-17T16:32:51,transformer,afro-xlmr-base,"{""best_epoch"": 7.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": true, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 86.0}",44,test,0.9198,0.8623,0.9207,0.8572,0.8897,1746.7
 2026-10-17T18:27:59,transformer,xlm-roberta-base_lr5e-5-ep15,"{""best_epoch"": 1.0, ""eff_bs"": 16, ""epochs"": 15, ""freeze_emb"": true, ""lr"": 5e-05, ""max_len"": 512, ""trainable_M"": 86.0}",42,val,0.2644,0.1034,0.2292,0.091,0.1971,3413.2
 2026-10-17T18:27:59,transformer,xlm-roberta-base_lr5e-5-ep15,"{""best_epoch"": 1.0, ""eff_bs"": 16, ""epochs"": 15, ""freeze_emb"": true, ""lr"": 5e-05, ""max_len"": 512, ""trainable_M"": 86.0}",42,test,0.2519,0.0988,0.2418,0.0958,0.1698,3413.2
+2026-10-17T19:09:55,transformer,xlm-roberta-base_fullFT,"{""best_epoch"": 7.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": false, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 278.1}",42,val,0.6705,0.3093,0.6232,0.334,0.33,2081.9
+2026-10-17T19:09:55,transformer,xlm-roberta-base_fullFT,"{""best_epoch"": 7.0, ""eff_bs"": 16, ""epochs"": 8, ""freeze_emb"": false, ""lr"": 3e-05, ""max_len"": 512, ""trainable_M"": 278.1}",42,test,0.687,0.3155,0.6478,0.3689,0.3439,2081.9
+2026-10-17T19:14:53,ood,tfidf-word|nb,"{""C"": 0.003, ""dataset"": ""masakhanews-run""}",42,ood,0.7902,0.675,0.7775,0.4649,0.3637,
+2026-10-17T19:14:54,ood,tfidf-word|logreg,"{""C"": 0.3, ""dataset"": ""masakhanews-run""}",42,ood,0.741,0.6518,0.7544,0.4241,0.3685,
+2026-10-17T19:14:56,ood,tfidf-word|svm,"{""C"": 0.1, ""dataset"": ""masakhanews-run""}",42,ood,0.7718,0.6732,0.7747,0.3916,0.3306,
+2026-10-17T19:15:04,ood,tfidf-char|logreg,"{""C"": 0.3, ""dataset"": ""masakhanews-run""}",42,ood,0.7567,0.6963,0.7767,0.4017,0.3354,
+2026-10-17T19:15:11,ood,tfidf-char|svm,"{""C"": 0.3, ""dataset"": ""masakhanews-run""}",42,ood,0.8033,0.7292,0.8089,0.4164,0.3491,
+2026-10-17T19:15:22,ood,tfidf-word+char|logreg,"{""C"": 0.3, ""dataset"": ""masakhanews-run""}",42,ood,0.7711,0.6842,0.7753,0.4357,0.3817,
+2026-10-17T19:15:31,ood,tfidf-word+char|svm,"{""C"": 0.1, ""dataset"": ""masakhanews-run""}",42,ood,0.8,0.7212,0.8044,0.4089,0.3499,
+2026-10-17T19:16:40,crosslingual,tfidf-char|svm zero-shot (train: Kinyarwanda only),"{""C"": 0.3, ""n_train"": 9904}",42,test,0.8244,0.7303,0.8296,0.7491,0.7605,
+2026-10-17T19:16:45,crosslingual,tfidf-char|svm zero-shot (train: Kinyarwanda only),"{""C"": 0.3, ""n_train"": 9904}",42,ood,0.8,0.7448,0.817,0.3947,0.3584,
+2026-10-17T19:17:22,crosslingual,tfidf-char|svm augmented (train: Kirundi + Kinyarwanda),"{""C"": 0.3, ""n_train"": 11123}",42,test,0.9122,0.8879,0.9116,0.9038,0.8912,
+2026-10-17T19:17:26,crosslingual,tfidf-char|svm augmented (train: Kirundi + Kinyarwanda),"{""C"": 0.3, ""n_train"": 11123}",42,ood,0.8151,0.7585,0.8303,0.41,0.361,
+2026-10-17T19:17:30,crosslingual,tfidf-char|svm monolingual (train: Kirundi only),"{""C"": 0.3, ""n_train"": 1219}",42,test,0.9122,0.8657,0.9119,0.9003,0.8685,
+2026-10-17T19:17:35,crosslingual,tfidf-char|svm monolingual (train: Kirundi only),"{""C"": 0.3, ""n_train"": 1219}",42,ood,0.8033,0.7292,0.8089,0.4164,0.3491,
