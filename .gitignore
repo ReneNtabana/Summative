@@ -6,7 +6,7 @@ __pycache__/
 
 # Data and large artefacts (rebuilt by scripts / hosted on HF Hub)
 data/raw/
-data/processed/
+data/processed/kinnews_unique.csv
 models/
 checkpoints/
 *.bin
