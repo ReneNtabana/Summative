@@ -8,11 +8,11 @@
   "duplicate_rows": 2801,
   "conflicting_label_articles": 35,
   "exact_unique_articles": 1776,
-  "near_duplicates_removed": 11,
-  "unique_articles": 1765,
+  "near_duplicates_removed": 8,
+  "unique_articles": 1768,
   "unique_by_label": {
     "politics": 610,
-    "sport": 560,
+    "sport": 563,
     "economy": 179,
     "health": 105,
     "entertainment": 65,
@@ -28,9 +28,9 @@
     "history": 9,
     "religion": 17
   },
-  "final_articles": 1739,
+  "final_articles": 1742,
   "final_classes": 10,
-  "train_size": 1217,
+  "train_size": 1219,
   "train_by_label": {
     "culture": 18,
     "economy": 125,
@@ -40,14 +40,14 @@
     "health": 73,
     "politics": 427,
     "relationship": 40,
-    "sport": 392,
+    "sport": 394,
     "technology": 24
   },
   "val_size": 261,
   "val_by_label": {
-    "culture": 3,
+    "culture": 4,
     "economy": 27,
-    "education": 12,
+    "education": 11,
     "entertainment": 10,
     "environment": 4,
     "health": 16,
@@ -56,17 +56,17 @@
     "sport": 84,
     "technology": 5
   },
-  "test_size": 261,
+  "test_size": 262,
   "test_by_label": {
-    "culture": 4,
+    "culture": 3,
     "economy": 27,
-    "education": 11,
+    "education": 12,
     "entertainment": 10,
     "environment": 4,
     "health": 16,
     "politics": 92,
     "relationship": 8,
-    "sport": 84,
+    "sport": 85,
     "technology": 5
   },
   "kinnews_unique_articles": 11070

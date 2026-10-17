@@ -70,6 +70,16 @@ _WS_RE = re.compile(r"\s+")
 # Kirundi orthography uses the apostrophe for elision (e.g. "rw’abatavuga").
 # Sources mix the typographic ’ ‘ and the ASCII ', so we unify them.
 _APOS_RE = re.compile(r"[’‘`´]")
+# Web-page boilerplate found during EDA (share widgets in French, contact
+# details). It is rare (<1% of articles) but site-specific, so a model could use
+# it as a shortcut to the news source instead of learning the topic.
+_BOILER_RE = re.compile(
+    r"(cliquez pour [^()]*|imprimer)\(ouvre dans une nouvelle fen[eê]tre\)"
+    r"|sur le m[eê]me th[eè]me"
+    r"|\S+@\S+\.\w+"                      # e-mail addresses
+    r"|tel\s*:\s*\+?[\d\s-]{7,}",         # phone numbers
+    flags=re.IGNORECASE,
+)
 
 
 def normalise(text: str) -> str:
@@ -82,6 +92,7 @@ def normalise(text: str) -> str:
     text = _APOS_RE.sub("'", text)
     text = text.replace("“", '"').replace("”", '"')
     text = _URL_RE.sub(" ", text)
+    text = _BOILER_RE.sub(" ", text)
     text = _WS_RE.sub(" ", text).strip().lower()
     return text
 
