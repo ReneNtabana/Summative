@@ -5,5 +5,33 @@
     "weighted_f1": 0.8047,
     "macro_precision": 0.4087,
     "macro_recall": 0.3511
+  },
+  "ft-afriberta_base": {
+    "accuracy": 0.8302,
+    "macro_f1": 0.7529,
+    "weighted_f1": 0.8463,
+    "macro_precision": 0.4218,
+    "macro_recall": 0.3614
+  },
+  "ft-afriberta_base-fullFT": {
+    "accuracy": 0.8302,
+    "macro_f1": 0.7554,
+    "weighted_f1": 0.8496,
+    "macro_precision": 0.4287,
+    "macro_recall": 0.3602
+  },
+  "ft-afro-xlmr-base": {
+    "accuracy": 0.8715,
+    "macro_f1": 0.7987,
+    "weighted_f1": 0.8777,
+    "macro_precision": 0.4309,
+    "macro_recall": 0.3815
+  },
+  "ft-xlm-roberta-base": {
+    "accuracy": 0.4662,
+    "macro_f1": 0.3504,
+    "weighted_f1": 0.4591,
+    "macro_precision": 0.2322,
+    "macro_recall": 0.2298
   }
 }

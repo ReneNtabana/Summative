@@ -1,14 +1,14 @@
 {
   "culture": {
-    "precision": 0.3333333333333333,
+    "precision": 0.5,
     "recall": 1.0,
-    "f1-score": 0.5,
+    "f1-score": 0.6666666666666666,
     "support": 3.0
   },
   "economy": {
-    "precision": 0.8461538461538461,
+    "precision": 0.8148148148148148,
     "recall": 0.8148148148148148,
-    "f1-score": 0.8301886792452831,
+    "f1-score": 0.8148148148148148,
     "support": 27.0
   },
   "education": {
@@ -18,9 +18,9 @@
     "support": 12.0
   },
   "entertainment": {
-    "precision": 0.8,
-    "recall": 0.4,
-    "f1-score": 0.5333333333333333,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
     "support": 10.0
   },
   "environment": {
@@ -30,15 +30,15 @@
     "support": 4.0
   },
   "health": {
-    "precision": 0.8333333333333334,
+    "precision": 0.75,
     "recall": 0.9375,
-    "f1-score": 0.8823529411764706,
+    "f1-score": 0.8333333333333334,
     "support": 16.0
   },
   "politics": {
-    "precision": 0.9239130434782609,
-    "recall": 0.9239130434782609,
-    "f1-score": 0.9239130434782609,
+    "precision": 0.9010989010989011,
+    "recall": 0.8913043478260869,
+    "f1-score": 0.8961748633879781,
     "support": 92.0
   },
   "relationship": {
@@ -48,9 +48,9 @@
     "support": 8.0
   },
   "sport": {
-    "precision": 0.9878048780487805,
-    "recall": 0.9529411764705882,
-    "f1-score": 0.9700598802395209,
+    "precision": 0.9879518072289156,
+    "recall": 0.9647058823529412,
+    "f1-score": 0.9761904761904762,
     "support": 85.0
   },
   "technology": {
@@ -59,17 +59,17 @@
     "f1-score": 0.7272727272727273,
     "support": 5.0
   },
-  "accuracy": 0.8931297709923665,
+  "accuracy": 0.8893129770992366,
   "macro avg": {
-    "precision": 0.7827102536911658,
-    "recall": 0.8162502368096998,
-    "f1-score": 0.7738549176174169,
+    "precision": 0.8056429625706734,
+    "recall": 0.8241658378327177,
+    "f1-score": 0.7952548119761235,
     "support": 262.0
   },
   "weighted avg": {
-    "precision": 0.9060063780320717,
-    "recall": 0.8931297709923665,
-    "f1-score": 0.8944398567718195,
+    "precision": 0.8992663043752901,
+    "recall": 0.8893129770992366,
+    "f1-score": 0.889108228358635,
     "support": 262.0
   }
 }

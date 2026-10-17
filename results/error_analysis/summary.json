@@ -1,0 +1,244 @@
+{
+  "test_accuracy": 0.8969,
+  "n_errors": 27,
+  "confused_pairs_top5": [
+    "economy->politics: 8",
+    "education->culture: 2",
+    "politics->economy: 2",
+    "politics->health: 2",
+    "entertainment->politics: 2"
+  ],
+  "agreement": {
+    "both_correct": 229,
+    "only_transformer_correct": 6,
+    "only_baseline_correct": 9,
+    "both_wrong": 18,
+    "both_wrong_same_label": 14
+  },
+  "mean_conf_correct": "0.977",
+  "mean_conf_wrong": "0.86",
+  "by_length": [
+    {
+      "bucket": "<120",
+      "n": 47,
+      "accuracy": 0.936
+    },
+    {
+      "bucket": "120-200",
+      "n": 102,
+      "accuracy": 0.892
+    },
+    {
+      "bucket": "200-300",
+      "n": 43,
+      "accuracy": 0.86
+    },
+    {
+      "bucket": "300-450",
+      "n": 47,
+      "accuracy": 0.915
+    },
+    {
+      "bucket": ">450",
+      "n": 23,
+      "accuracy": 0.87
+    }
+  ],
+  "by_oov": [
+    {
+      "bucket": "<6%",
+      "n": 62,
+      "accuracy": 0.935
+    },
+    {
+      "bucket": "6-9%",
+      "n": 61,
+      "accuracy": 0.902
+    },
+    {
+      "bucket": "9-12%",
+      "n": 46,
+      "accuracy": 0.87
+    },
+    {
+      "bucket": "12-16%",
+      "n": 61,
+      "accuracy": 0.918
+    },
+    {
+      "bucket": ">16%",
+      "n": 32,
+      "accuracy": 0.812
+    }
+  ],
+  "by_source": [
+    {
+      "source": "ejoheza.org",
+      "n": 21,
+      "accuracy": 0.905,
+      "baseline_accuracy": 1.0
+    },
+    {
+      "source": "igihe.bi",
+      "n": 15,
+      "accuracy": 0.733,
+      "baseline_accuracy": 0.667
+    },
+    {
+      "source": "itaraburundi.com",
+      "n": 29,
+      "accuracy": 0.862,
+      "baseline_accuracy": 0.828
+    },
+    {
+      "source": "jimbere.org",
+      "n": 19,
+      "accuracy": 0.842,
+      "baseline_accuracy": 0.947
+    },
+    {
+      "source": "magaratimes.com",
+      "n": 57,
+      "accuracy": 0.982,
+      "baseline_accuracy": 1.0
+    },
+    {
+      "source": "mashariki.tv",
+      "n": 4,
+      "accuracy": 1.0,
+      "baseline_accuracy": 1.0
+    },
+    {
+      "source": "nawe.bi",
+      "n": 92,
+      "accuracy": 0.88,
+      "baseline_accuracy": 0.88
+    },
+    {
+      "source": "ubmnews.com",
+      "n": 25,
+      "accuracy": 0.92,
+      "baseline_accuracy": 0.92
+    }
+  ],
+  "selective_val": [
+    {
+      "threshold": 0.0,
+      "coverage": 1.0,
+      "accuracy_on_kept": 0.9,
+      "share_of_errors_flagged": 0.0
+    },
+    {
+      "threshold": 0.3,
+      "coverage": 0.996,
+      "accuracy_on_kept": 0.9,
+      "share_of_errors_flagged": 0.0
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 0.989,
+      "accuracy_on_kept": 0.907,
+      "share_of_errors_flagged": 0.077
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.985,
+      "accuracy_on_kept": 0.907,
+      "share_of_errors_flagged": 0.077
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.966,
+      "accuracy_on_kept": 0.925,
+      "share_of_errors_flagged": 0.269
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.966,
+      "accuracy_on_kept": 0.925,
+      "share_of_errors_flagged": 0.269
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.966,
+      "accuracy_on_kept": 0.925,
+      "share_of_errors_flagged": 0.269
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.935,
+      "accuracy_on_kept": 0.939,
+      "share_of_errors_flagged": 0.423
+    }
+  ],
+  "unseen_summary": [
+    {
+      "kind": "foreign",
+      "n": 5,
+      "mean_conf": 0.9660000205039978,
+      "flagged_below_0_5": 0.0
+    },
+    {
+      "kind": "kinyarwanda-known-topic",
+      "n": 30,
+      "mean_conf": 0.9430000185966492,
+      "flagged_below_0_5": 0.06700000166893005
+    },
+    {
+      "kind": "kinyarwanda-unseen-topic",
+      "n": 30,
+      "mean_conf": 0.8610000014305115,
+      "flagged_below_0_5": 0.06700000166893005
+    },
+    {
+      "kind": "kirundi-unseen-topic",
+      "n": 26,
+      "mean_conf": 0.8230000138282776,
+      "flagged_below_0_5": 0.15399999916553497
+    }
+  ],
+  "unseen_pred_dist": {
+    "foreign:english": {
+      "economy": 1,
+      "sport": 1
+    },
+    "foreign:french": {
+      "politics": 1,
+      "education": 1
+    },
+    "foreign:swahili": {
+      "sport": 1
+    },
+    "kinyarwanda-known-topic:health": {
+      "health": 8,
+      "politics": 1,
+      "economy": 1
+    },
+    "kinyarwanda-known-topic:politics": {
+      "politics": 10
+    },
+    "kinyarwanda-known-topic:sport": {
+      "sport": 10
+    },
+    "kinyarwanda-unseen-topic:fashion": {
+      "entertainment": 11,
+      "sport": 1,
+      "politics": 1
+    },
+    "kinyarwanda-unseen-topic:tourism": {
+      "politics": 6,
+      "economy": 6,
+      "environment": 1
+    },
+    "kirundi-unseen-topic:history": {
+      "politics": 5,
+      "economy": 2,
+      "culture": 1
+    },
+    "kirundi-unseen-topic:religion": {
+      "politics": 12,
+      "culture": 4,
+      "entertainment": 1
+    }
+  }
+}

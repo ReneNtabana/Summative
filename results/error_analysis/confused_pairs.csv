@@ -1,0 +1,17 @@
+true,pred,count
+economy,politics,8
+education,culture,2
+politics,economy,2
+politics,health,2
+entertainment,politics,2
+sport,entertainment,1
+culture,politics,1
+health,entertainment,1
+technology,politics,1
+sport,politics,1
+culture,economy,1
+entertainment,culture,1
+entertainment,sport,1
+economy,technology,1
+environment,education,1
+education,health,1

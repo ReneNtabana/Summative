@@ -15,9 +15,28 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 MODEL_ID = os.environ.get("MODEL_ID", "ReneNtabana/kirundi-news-classifier")
 MAX_LEN = 512
-# Below this top-1 probability we warn that the prediction is uncertain
-# (e.g. text outside the news domain or not in Kirundi). Chosen on the validation set.
-CONFIDENCE_THRESHOLD = float(os.environ.get("CONFIDENCE_THRESHOLD", 0.5))
+# Below this top-1 probability we warn that the prediction is uncertain.
+# The fine-tuned model is over-confident (wrong test predictions still average 0.86),
+# so a high threshold is needed. On the VALIDATION set, 0.9 flags 42% of errors while
+# keeping 93.5% of predictions (see results/error_analysis/selective.csv).
+CONFIDENCE_THRESHOLD = float(os.environ.get("CONFIDENCE_THRESHOLD", 0.9))
+
+# Very frequent function words, used to spot input that is clearly English or French.
+# The model itself cannot tell: it is multilingual and confidently classifies English/French
+# text too (see error analysis). Kirundi news contains French/English names and quotes,
+# so we only warn when foreign function words clearly dominate.
+KIRUNDI_FUNCTION_WORDS = set("""na mu ku kuri ko ya wa ba ca za rya twa ka bwa kwa ry vy kandi ariko
+    canke ivyo iyo uwo aho ngo nkuko uko kubera ico ici aba ubu ibi iki muri hari ari kugira hamwe
+    rero cane mbere""".split())
+FOREIGN_FUNCTION_WORDS = set("""the of and to in is that for on with was are by from le la les des et
+    de du pour est une un dans sur qui que avec""".split())
+
+
+def looks_foreign(text: str) -> bool:
+    words = re.findall(r"[^\W\d_]+", text)
+    k = sum(w in KIRUNDI_FUNCTION_WORDS for w in words)
+    f = sum(w in FOREIGN_FUNCTION_WORDS for w in words)
+    return f >= 2 and f > k
 
 # Kirundi / English names of the 10 categories
 KIRUNDI = {
@@ -66,7 +85,10 @@ def classify(title: str, body: str):
     top = float(probs.max())
     n_tokens = len(enc["input_ids"][0])
     msg = f"Top-1 confidence: {top:.0%}"
-    if top < CONFIDENCE_THRESHOLD:
+    if looks_foreign(text):
+        msg = ("⚠️ This text looks like English or French. The model was trained on Kirundi news; "
+               "it may still guess the topic, but results are not validated for other languages.")
+    elif top < CONFIDENCE_THRESHOLD:
         msg = (f"⚠️ Low confidence ({top:.0%}). The text may be outside the 10 news topics, "
                "not in Kirundi, or about several topics at once. Treat the prediction with caution.")
     if n_tokens >= MAX_LEN:

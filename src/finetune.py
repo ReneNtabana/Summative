@@ -87,7 +87,7 @@ def short(name: str) -> str:
 
 
 def run(model_name: str, seed: int, lr: float, epochs: int, max_len: int, bs: int,
-        save_dir: str | None = None, freeze_embeddings: bool = True) -> dict:
+        save_dir: str | None = None, freeze_embeddings: bool = True, tag: str = "") -> dict:
     set_seed(seed)
     s = load_splits()
     labels = label_list()
@@ -165,8 +165,8 @@ def run(model_name: str, seed: int, lr: float, epochs: int, max_len: int, bs: in
            "freeze_emb": freeze_embeddings, "trainable_M": round(n_train / 1e6, 1),
            "best_epoch": _best_epoch(trainer)}
     for split in ("val", "test"):
-        log_experiment("transformer", short(model_name), cfg, split, res[split], seed=seed, train_seconds=secs)
-    print(f"{short(model_name)} seed={seed} lr={lr} val F1={res['val']['macro_f1']:.3f} "
+        log_experiment("transformer", short(model_name) + tag, cfg, split, res[split], seed=seed, train_seconds=secs)
+    print(f"{short(model_name) + tag} seed={seed} lr={lr} val F1={res['val']['macro_f1']:.3f} "
           f"test acc={res['test']['accuracy']:.3f} F1={res['test']['macro_f1']:.3f} ({secs / 60:.1f} min)", flush=True)
 
     if save_dir:
@@ -206,10 +206,11 @@ def main() -> None:
     ap.add_argument("--save_dir", default=None, help="save the model of the FIRST seed here")
     ap.add_argument("--no_freeze_embeddings", action="store_true",
                     help="also fine-tune the word-embedding matrix (needs much more memory)")
+    ap.add_argument("--tag", default="", help="suffix for the model name in results (e.g. -lr5e-5)")
     a = ap.parse_args()
     for i, seed in enumerate(a.seeds):
         run(a.model, seed, a.lr, a.epochs, a.max_len, a.bs, save_dir=a.save_dir if i == 0 else None,
-            freeze_embeddings=not a.no_freeze_embeddings)
+            freeze_embeddings=not a.no_freeze_embeddings, tag=a.tag)
 
 
 if __name__ == "__main__":

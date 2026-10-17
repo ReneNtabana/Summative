@@ -17,8 +17,9 @@ import numpy as np
 from src.data import ROOT, normalise
 
 # Below this top-1 probability we tell the user the prediction is uncertain.
-# The value is chosen on the validation set in src/error_analysis.py.
-CONFIDENCE_THRESHOLD = 0.5
+# Chosen on the validation set (results/error_analysis/selective.csv): 0.9 flags 42%
+# of validation errors while keeping 93.5% of predictions.
+CONFIDENCE_THRESHOLD = 0.9
 
 
 class TransformerPredictor:

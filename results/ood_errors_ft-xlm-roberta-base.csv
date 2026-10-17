@@ -1,0 +1,815 @@
+headline,label_name,pred,conf,url
+Joseph Shabalala wo muri Ladysmith Black Mambazo yari muntu ki?,entertainment,sport,0.7874211,https://www.bbc.com/gahuza/amakuru-51463918
+Russia: Yerekanye ikirwanisho gishasha co mu bwoko bwa Sarmat,politics,sport,0.8114629,https://www.bbc.com/gahuza/amakuru-61260897
+Africa muri ino ndwi mu mafoto: 30 z'ukwa cumi - 5 z'ukwa cumi na rimwe 2020,entertainment,sport,0.7752985,https://www.bbc.com/gahuza/amakuru-54841891
+Amatora mu Burundi: CNC ishima igikorwa c’abamenyeshakamuru,politics,economy,0.14814526,https://www.bbc.com/gahuza/amakuru-52894403
+Burundi - Ingoma: Reta yahagaritse abavuzi b'ingama b'umugwi Amagaba mu kiringo c'amezi atandatu,entertainment,environment,0.17242783,https://www.bbc.com/gahuza/amakuru-60338942
+Ethiopia: Onu irasaba gushikira abakeneye imfashanyo muri Tigray,politics,health,0.2407304,https://www.bbc.com/gahuza/amakuru-57666330
+Intambara ya Ukraine: Amwe mu makuru yo ku murango wo kuri uno wa mbere,politics,health,0.28465688,https://www.bbc.com/gahuza/amakuru-60818263
+'Igituririre ni cinshi muri Afrika y'Epfo' - Akanama ka Zondo,economy,education,0.3953908,https://www.bbc.com/gahuza/articles/cn0r2l1ymxxo
+Gufungura neza: Imfungurwa ntungamagara 90% y'abantu batarya bihagije,health,economy,0.20216574,https://www.bbc.com/gahuza/amakuru-59458304
+Kanye West yahinduye icese izina ryiwe yiyita Ye,entertainment,politics,0.26778057,https://www.bbc.com/gahuza/amakuru-58966054
+Bob Marley: Kwibuka imyaka 40 iheze iyo mboneza ipfuye,entertainment,sport,0.6675775,https://www.bbc.com/gahuza/amakuru-57071855
+Covid: Bolsanaro wa Brazil yise abakuru b'intara 'abanyagitugu' kubera ingingo za guma mu rugo,health,politics,0.26260483,https://www.bbc.com/gahuza/amakuru-56484226
+Tanzania-Dr Philip Mpango:Video y'umushikiranganji abeshuza ko yapfuye yaneguwe cane,entertainment,politics,0.25509384,https://www.bbc.com/gahuza/56184483
+Uruzuba muri Somalia: 'Gira ico mukoze ubu nyene canke abana 350.000 bapfe',health,relationship,0.20326813,https://www.bbc.com/gahuza/amakuru-61069495
+Amerika ikeza Abarundi ku ntambwe yo guhanahana ubutegetsi mu mahoro,politics,economy,0.20316893,https://www.bbc.com/gahuza/amakuru-52949340
+Coronavirus: Bane bakize mu Rwanda,health,politics,0.2552736,https://www.bbc.com/gahuza/amakuru-52171201
+Amafoto yaranze Afrika : kuva itariki 23-29 z'ukwa kane 2021,entertainment,sport,0.73450863,https://www.bbc.com/gahuza/amakuru-57009737
+European Super League: FIFA iragabisha abatanguje iri higanwa,sport,politics,0.25753656,https://www.bbc.com/gahuza/imikino-56817008
+Kerala: Menya uyu muhindikazi atereka ubwanwa,entertainment,health,0.18088613,https://www.bbc.com/gahuza/articles/cq598z38z0eo
+Mu Burundi leta ivuga ko agateka ka muntu kubahirijwe - abatavuga rumwe nayo babibona ukundi,politics,health,0.18342398,https://www.bbc.com/gahuza/amakuru-50727247
+"Ukraine: Mbega OTAN/NATO ni iki, kubera iki Russia itayizeye?",politics,sport,0.27995908,https://www.bbc.com/gahuza/amakuru-60443905
+Coronavirus: Ubuhindi bwahagaritse ibikoresho vyo gupima ‘bidakora’ vyaguzwe mu Bushinwa,health,environment,0.18812203,https://www.bbc.com/gahuza/amakuru-52456222
+Afghanistan: Aba Taliban bahagaritse imyiyerekano y'abagore basaba uburenganzira bwabo,politics,environment,0.20748277,https://www.bbc.com/gahuza/amakuru-58452628
+"Sri Lanka: Abari mu myiyerekano batereye ikirimba c'umukuru w’igihugu, nawe agiye gutanga imihoho",politics,sport,0.39285156,https://www.bbc.com/gahuza/articles/c3gd0dr2ldvo
+China: Umufotozi yasavye imbabazi kubera ifoto ya Dior y''amaso mato',entertainment,politics,0.2149798,https://www.bbc.com/gahuza/amakuru-59401549
+OMS/WHO igabisha ko Africa ihanzwe n'igihuhusi kigira gatatu ca Covid,health,politics,0.22931643,https://www.bbc.com/gahuza/57523476
+"Indyane hagati ya Britney Spears na murumunawe zigeze kure, aho baryanira ku mbuga hwaniro",entertainment,sport,0.6374131,https://www.bbc.com/gahuza/amakuru-60002569
+Covid: Vladimir Putin avuga ko 'incanco za Sputnik zizewe nka Kalashnikov,health,sport,0.34209475,https://www.bbc.com/gahuza/amakuru-57019535
+Biden: 'Trump afatiye imbugita kw'izosi rya demokrasi ya Amerika',politics,education,0.5309013,https://www.bbc.com/gahuza/amakuru-59896573
+Cristiano Ronaldo avuga ko yumva yahemukiwe na Manchester United,sport,politics,0.25275922,https://www.bbc.com/gahuza/articles/cw0j5666j1jo
+Kubera iki abagabo n'abagore batokinana umupira w'amaguru?,sport,politics,0.25327072,https://www.bbc.com/gahuza/amakuru-48620350
+Japan yabonye uducafu twirabura mu rucanco rwa Moderna,health,politics,0.2477381,https://www.bbc.com/gahuza/amakuru-58411121
+Ethiopia: Igisirikare cishe abantu 40 inyuma y'igitero cahitanye hafi 100,politics,health,0.20177706,https://www.bbc.com/gahuza/amakuru-55437753
+Burundi-Covid: Prezida yasavye abanyeshure bose kwipimisha imbere yo gusubira mu mashure,health,education,0.64077073,https://www.bbc.com/gahuza/56683040
+Amahano yo kuribwa n'imfyisi: Aba bahungu bari mu nzira yo gukira,health,politics,0.19637829,https://www.bbc.com/gahuza/58727083
+U﻿kraine ibandanya gushora intete n'aho Uburusiya bwikuye mu masezerano,economy,politics,0.24361207,https://www.bbc.com/gahuza/articles/c88jezj1v8do
+Ibirenge vya kiremwa muntu vyariyongereye ubunini mu myaya 40 iheze,health,politics,0.2507313,https://www.bbc.com/gahuza/amakuru-48971267
+Tanzania: Prezida Samia Suluhu yemeje ko hariho igihuhusi ca gatatu ca Corona,health,politics,0.26098907,https://www.bbc.com/gahuza/amakuru-57610860
+"Umunywanyi w'umugambwe CNL mu Burundi yishwe, batandatu barakomereka",politics,economy,0.17397317,https://www.bbc.com/gahuza/amakuru-49400272
+Russia: abarenga 3000 bahagaritswe mu myiyerekano yo gushigikira Navalny yabaye mu gihugu cose,politics,economy,0.19403403,https://www.bbc.com/gahuza/amakuru-55784907
+Spice Diana ati 'Nsaba Imana ko twosubirana Uganda yacu nziza',entertainment,politics,0.1944763,https://www.bbc.com/gahuza/amakuru-55693658
+US: Impungenge z’uko abakobwa bomubenga ziri mu vyatumye asaba kwongererezwa uburebure,health,environment,0.19894171,https://www.bbc.com/gahuza/amakuru-55204929
+"UK mw'itohoza kw'ishure ryapfiriyeko abana batewe imiti ifise imigera, harimwo n'uwa SIDA",health,education,0.5554007,https://www.bbc.com/gahuza/amakuru-57563966
+Russia Vs US: aba 'hackers' bakoze ikindi gitero c'imigera ku nyabwonko z'abagiraneza - Microsoft,economy,politics,0.2518612,https://www.bbc.com/gahuza/amakuru-57291559
+"Covid-19: Hydroxychloroquine ifise kuba isongera isibe hagukiza, ubushakashatsi",health,economy,0.19151773,https://www.bbc.com/gahuza/amakuru-52783008
+Jose Mourinho muri Tottenham: Uwusubiriye Mauricio Pochettino yoba ari we abereye?,sport,health,0.23816603,https://www.bbc.com/gahuza/imikino-50492760
+Coronavirus: Umuti wa Remdesivir wariko urageragezwa kuyivura warananiwe,health,economy,0.22779809,https://www.bbc.com/gahuza/amakuru-52409607
+Urukingo rwa coronavirus: Ibipimo ku nkende bitanga icizere,health,politics,0.25517398,https://www.bbc.com/gahuza/amakuru-52678954
+Incanco za Covid: Unicef isaba ibihugu vya G7 gutanga incanco kugira ntizizopfe ubusa,health,economy,0.21028057,https://www.bbc.com/gahuza/amakuru-57400661
+"Jane n'umugabo wiwe Donah Omondi bamaze imyaka 12 bubakanye, nta mwana bararonka",health,relationship,0.20522119,https://www.bbc.com/gahuza/amakuru-53998171
+Kenya: Imisi 13 niyo yahawe abakozi ba reta bataricandagisha Covid-19,health,politics,0.2464112,https://www.bbc.com/gahuza/amakuru-58160301
+Ukraine: 'ntihagire ikindi mugurira muri Russia kiretse umwavu n’ingano' - niko US igabisha Africa,economy,environment,0.1740389,https://www.bbc.com/gahuza/articles/c4npqng4rgeo
+New York 'yubatswe n'ukuboko kw'Imana' - indirimbo nshasha ya Cinjire,entertainment,politics,0.23509018,https://www.bbc.com/gahuza/amakuru-61270112
+Espérance Mukashema uzwi kuri Radio Ubumwe yapfuye azize uburwayi mu Buholande,entertainment,health,0.24910153,https://www.bbc.com/gahuza/amakuru-57960752
+Amwe mu mafoto meza yaranze Afrika: Hagati y'itariki 17-23 ukwezi kw'icenda mu 2021,entertainment,sport,0.7697204,https://www.bbc.com/gahuza/amakuru-58680659
+"Amakuru avugwa ku bakinyi Lionel Messi, Luis Suarez, na Alexis Sanchez",sport,politics,0.2570469,https://www.bbc.com/gahuza/imikino-54033118
+Kenya: Abasoromyi b'icayi bajanye urubanza muri sentare ya Scotland,economy,politics,0.23632966,https://www.bbc.com/gahuza/amakuru-56296021
+Mu Burundi havugwa umunyu mubi mu masoko. Bisigura iki?,health,relationship,0.35587442,https://www.bbc.com/gahuza/amakuru-49669529
+Burundi: Révérien Ndikuriyo yatowe kuba umunyamabanga mukuru wa CNDD-FDD,politics,sport,0.2586522,https://www.bbc.com/gahuza/amakuru-55785549
+Mesut Ozil avuga ko azoguma muri Arsenal gushika amasezerano arangiye mu 2021,sport,politics,0.2654155,https://www.bbc.com/gahuza/amakuru-53765586
+Inkino mpuzamakungu z’ibihe vy’imbeho 2022: ibintu bitanu bizoziranga,sport,politics,0.25419256,https://www.bbc.com/gahuza/imikino-60187736
+"Prince Philip yari samurarwa wa Edinburgh, umugabo w’umwamikazi Elizabeth II w’Ubwongereza, yaryamiye ukuboko kw'abagabo",entertainment,sport,0.78931874,https://www.bbc.com/gahuza/amakuru-56692424
+"Kubera iki Esther Nish yaririmvye indirimwo ""Kavorivori""?",entertainment,politics,0.21430856,https://www.bbc.com/gahuza/amakuru-53588580
+Umuntu ashaje gusumba abandi i Buraya yarokotse Covid imbere y'isabukuru y'imyaka 117,health,politics,0.2532716,https://www.bbc.com/gahuza/amakuru-56006370
+Kwigisha karate biciye kuri internet kubera coronavirus,sport,politics,0.23364383,https://www.bbc.com/gahuza/51839297
+Covid-19: Prezida Museveni avuga ko Uganda ishaka gukora urucanco,health,sport,0.47404498,https://www.bbc.com/gahuza/amakuru-56564788
+Tiwa Savage na Burna Boy ntibazoja muri Afrika y’Epfo kubera ubwicanyi ku banyamahanga,entertainment,economy,0.21060729,https://www.bbc.com/gahuza/49576957
+DR Congo: Umuririmvyikazi rurangiranwa Tshiala Muana  yasandavye ku myaka 64,entertainment,sport,0.61209047,https://www.bbc.com/gahuza/articles/cjq741z2nl7o
+Aba-Taliban n'abagore: Umunyeshure wa kaminuza ya Kabul mu bwoba bwa kazoza,politics,education,0.6130551,https://www.bbc.com/gahuza/amakuru-58281727
+Ethiopia : Indyane z’amoko zahitanye abantu barenga 200 mu ntara ya Oromia,politics,health,0.24523625,https://www.bbc.com/gahuza/amakuru-58352897
+"Israel - Palestina: Abapfa biyongereye, Israel yishe intwazangabo ikomeye muri Gaza",politics,sport,0.28695944,https://www.bbc.com/gahuza/articles/c51vpl0jkr0o
+China: Uwakoze urukino rwa video 'Game of Thrones' yishwe ahawe ishano,entertainment,politics,0.2554109,https://www.bbc.com/gahuza/amakuru-55466759
+Mastodynie: Menya ivy'iki kibazo gitera kubabara kw'amabere,health,economy,0.16606419,https://www.bbc.com/gahuza/amakuru-60956939
+Afghanistan: Igituma aba Taliban bariko barafata igihugu ku muvuduko udasanzwe,politics,economy,0.19976674,https://www.bbc.com/gahuza/amakuru-58200399
+ONU ivuga ko abantu 117 bishwe mu ndyane hagati y’aba Lendu n’aba Hema muri Kongo,politics,health,0.18363239,https://www.bbc.com/gahuza/48815908
+Umugwizatunga Rujugiro ashima icemezo ca sentare kuri UTC ngo ariko ntibikwiye,economy,health,0.2396224,https://www.bbc.com/gahuza/amakuru-55136514
+Boeing na Airbus zigabisha US ku ngorane zishobora guterwa na 5G,economy,politics,0.24888615,https://www.bbc.com/gahuza/amakuru-59744794
+Umukinyi w'amareresi rurangiranwa Chadwick Boseman yapfuye yishwe na kanseri,entertainment,politics,0.22959746,https://www.bbc.com/gahuza/amakuru-53956545
+Iragi rya Bob Marley ryatewe iteka n’umwuzukuru wiwe mu giteramo i Birmingham,entertainment,sport,0.802066,https://www.bbc.com/gahuza/articles/cqvggq8zeq2o
+Zambia yahagaritse urukino rwa kivandimwe na Afrika y’Epfo kubera ibitero ku banyamahanga,sport,politics,0.26160708,https://www.bbc.com/gahuza/49577732
+Covid-19: 'Natakaje akazi kanje kubera nticandagishije',health,education,0.6002384,https://www.bbc.com/gahuza/amakuru-60123334
+Uganda - Covid19: Ibiro vy'inama nshingamateka vyugawe indwi zibiri kugira bipompwe,health,economy,0.19271302,https://www.bbc.com/gahuza/amakuru-57581414
+Umupira w'amaguru muri Ghana wahagaritswe vy'imfatakibanza kubera coronavirus,sport,politics,0.22377309,https://www.bbc.com/gahuza/imikino-51912436
+East Africa: Miriyoni 28 bashobora kugeramirwa n'inzara ikabije - Oxfam,economy,health,0.192291,https://www.bbc.com/gahuza/60837292
+China irahakana kwinjirira poritike ya UK inyuma y'aho igisata c'igendereza MI5 kigabishirije reta,politics,health,0.1695787,https://www.bbc.com/gahuza/amakuru-60002566
+George Simbachawene avuga ko ari ukutubaha Tanzania kuvuga ko ihohotera impunzi,politics,economy,0.198531,https://www.bbc.com/gahuza/amakuru-56756738
+Harry Kane: Jose Morinho ati Tottenham 'ntishobora gukina neza ata musatirizi',sport,politics,0.24068542,https://www.bbc.com/gahuza/imikino-51075422
+Kenya – Covid-19: Umushikiranganji Kagwe avuga ko hari ikibazo c'ibura rya 'oxygen',health,education,0.523218,https://www.bbc.com/gahuza/amakuru-56577164
+Mary Jackson: NASA igiye kwitirira icicaro cayo umuhinga w’umwiraburekazi,entertainment,politics,0.273532,https://www.bbc.com/gahuza/amakuru-53185365
+PSG Vs Istanbul: UEFA igiye gukora amatohoza ku macakubiri y'urukoba yatumye iyi mirwi iva mu kibuga,sport,politics,0.24675146,https://www.bbc.com/gahuza/amakuru-55244409
+Lil Uzi Vert: Umuririmvyi wo muri Amerika yihomye mu gahanga diyama ya miliyoni 24 $,entertainment,sport,0.6147778,https://www.bbc.com/gahuza/amakuru-55952232
+Gloria Estefan avuga ko yakorewe ihohoterwa rishingiye ku gitsina afise imyaka icenda,entertainment,sport,0.28963336,https://www.bbc.com/gahuza/amakuru-58758896
+Omicron: Ubwongereza bwisubiyeko bwemerera ingenzi zo muri Afrika kwinjira,health,politics,0.22765887,https://www.bbc.com/gahuza/amakuru-59654535
+Covid-19: Amerika ihanura kwirinda kuja muri 80% vy'ibihugu,health,politics,0.23977827,https://www.bbc.com/gahuza/amakuru-56816468
+Madagascar: umuti Covid-Organics w'umukuru w'ico gihugu nturashobora guhagarika Covid-19,health,environment,0.19149464,https://www.bbc.com/gahuza/amakuru-53789599
+Ishirahamwe rya Africa rimaze kuronka miliyoni 300 z'inkingo za Covid-19,health,politics,0.25426537,https://www.bbc.com/gahuza/55646789
+Ubwoko bushasha bw'umugera wa Covid-19 mu bindi bihugu bine vya Africa,health,politics,0.2734955,https://www.bbc.com/gahuza/amakuru-55764583
+Umushakashatsi Mireille Kamariza yabwiye BBC ko yamye akunda kubaza ku bumenyi,health,sport,0.58320564,https://www.bbc.com/gahuza/amakuru-58123107
+"Megan Thee Stallion 'yakomeretse arashwe', bigasa nk'uko yakomeretse ku kirenge",entertainment,politics,0.24387264,https://www.bbc.com/gahuza/amakuru-53435363
+"Burundi: Umuririmvyi Délégué Général arafunzwe kubera indirimbo yiwe ""idahuje n'umuco""",entertainment,health,0.21891497,https://www.bbc.com/gahuza/amakuru-49930503
+Leta y'u Burundi ubwo ikemura neza ikibazo c'ibura ry'amadolari? Umva insiguro z'umuhinga mu butunzi.,economy,politics,0.2484538,https://www.bbc.com/gahuza/amakuru-50607626
+Ibitigiri vy'abandura Covid vyiyongereye mw'ikambi ya gisirikare y'Abongereza muri Kenya,health,economy,0.18624203,https://www.bbc.com/gahuza/amakuru-55993127
+Ukraine: Biden avuga ko ivyago vya  nikleyeri ari vyinshi gusumba igihe ca misire za Cuba mu 1962,politics,sport,0.54496473,https://www.bbc.com/gahuza/articles/c84e79kl9d4o
+Ibibazo vyanyu kuri coronavirus: Urukingo pfizer rukingira n'ubundi bwoko,health,sport,0.46087387,https://www.bbc.com/gahuza/amakuru-56353773
+Burundi - Amatora2020: Umurwi wa ONU ujejwe amatohoza utewe amakenga n’icuka kibi,politics,economy,0.18748875,https://www.bbc.com/gahuza/amakuru-52674444
+Tokyo Paralympics: Abanonotsi bagendana ubumuga ba Afghanistan bahungishijwe,sport,politics,0.2572227,https://www.bbc.com/gahuza/amakuru-58330132
+"Hari ubwoko bwa Covid bungana gute, incanco zihasanzwe zizokora?",health,relationship,0.442016,https://www.bbc.com/gahuza/amakuru-59464518
+Burundi: Francine Niyonsaba yakiriwe nk’intwari i Bujumbura ashikanye umuhigo w'isi,sport,economy,0.20220195,https://www.bbc.com/gahuza/amakuru-58648941
+Dar es Salaam: Kwinonora imitsi birabujijwe ku misi yo gusenga,sport,health,0.26429412,https://www.bbc.com/gahuza/amakuru-55918346
+Rwanda-UK: 'A﻿badatinya gupfa ntibazotinya kurungikwa mu Rwanda' -uwurungika abantu mu kinyegero,politics,health,0.2647482,https://www.bbc.com/gahuza/articles/cpeyxgzp49wo
+Ikigo kijejwe kurwanya indwara CDC kirashima ingene Africa yarwanije coronavirus,health,politics,0.22228429,https://www.bbc.com/gahuza/amakuru-54270715
+Ibihugu bitunze biriko vyikwegerako incanco za Covid,health,economy,0.21077913,https://www.bbc.com/gahuza/amakuru-55246676
+Afghanistan: Impunzi zizotahira he inyuma y'aho aba Taliban bafatiye ubutegetsi?,politics,economy,0.18504788,https://www.bbc.com/gahuza/amakuru-58314006
+Burundi: Kwugara ububare 21h 'birababaje kubura ico ukeneye mu mwanya wipfuza',economy,politics,0.25354958,https://www.bbc.com/gahuza/amakuru-50591751
+"Africa yahomvye miriyoni z'ama dorari kubera ihagarara rya Facebook, Instagram na Whatsapp",economy,politics,0.23891719,https://www.bbc.com/gahuza/58806374
+Coronavirus: Afrika y'Epfo yavanyeho ingingo ibuza inzoga mu kworosha ingingo za Covid,health,politics,0.2553385,https://www.bbc.com/gahuza/amakuru-55898878
+Olempike Tokyo 2020: Abanonotsi b'Abanyafrika bo kurabira hafi,sport,politics,0.23650028,https://www.bbc.com/gahuza/imikino-57931741
+Uganda: Bituye sentare kubera bahawe udukingirizo tudakomeye tugatabuka mu mibonano,health,politics,0.24007256,https://www.bbc.com/gahuza/amakuru-53679569
+Kenya-Covid-19: Amerika yahanuye kureka ingendo zo muri ico gihugu,health,economy,0.21178354,https://www.bbc.com/gahuza/amakuru-56676205
+Ivyo tuzi gushika ubu kw'igandagurwa ry'umukuru w'igihugu wa Haiti,politics,sport,0.3282425,https://www.bbc.com/gahuza/amakuru-57787579
+US: Biden yateye igikumu ku mategeko asubiza hamwe imiryango y'abimukira,politics,sport,0.4393497,https://www.bbc.com/gahuza/amakuru-55914363
+Amananiza abafise ubumuga bwa 'albinism' babamwo,health,politics,0.19739474,https://www.bbc.com/gahuza/61234211
+South Africa: Hoba hagire haze umupfunda wa 5 wa Covid-19?,health,education,0.56280917,https://www.bbc.com/gahuza/amakuru-61354204
+Kardinali Fridolin Ambongo wa Kinshasa agabisha ko hari umugambi wo kwikebera agace ka DR Congo,politics,economy,0.17014623,https://www.bbc.com/gahuza/amakuru-51017789
+Incanco za Covid: Ikinyoma 'kiranyaruka gusumba umugera',health,environment,0.17575775,https://www.bbc.com/gahuza/amakuru-57627506
+"Burundi: Rusansuma y’abashomeri, bamwe barizeye akazi abandi bati ‘nta gishasha’",economy,politics,0.19781889,https://www.bbc.com/gahuza/amakuru-54167691
+"MISS KAYANZA: Neilla Mutoniwimana niwe yatsinze, imbonekarimwe ku Batwa mu Burundi",entertainment,economy,0.22425514,https://www.bbc.com/gahuza/amakuru-50980865
+"Burundi: Isabukuru Buja Sans Tabou yahagaritswe kubera ""abatimbo bambaye ikoti""",entertainment,environment,0.20060973,https://www.bbc.com/gahuza/amakuru-60308158
+"Mali: Umugore yavyaye abana icenda, Dr Rurangwa ati: 'Ntabwo bintangaje'",health,politics,0.2631597,https://www.bbc.com/gahuza/amakuru-56991387
+Covid: India yagize igitigiri ca mbere kinini kw'isi c'abanduye mu gihe oxygene nayo ikenye,health,economy,0.19182053,https://www.bbc.com/gahuza/amakuru-56844691
+"Ntahokatarondererwa: Josiane Kwizera yahisemwo gufotora, abavyeyi bashaka ko yiga kuvura",entertainment,environment,0.17795147,https://www.bbc.com/gahuza/amakuru-60822139
+Burundi: Umugambwe CNL uvuga ko abawo bariko barapfungwa ikivunga ku karenganyo,politics,economy,0.1719073,https://www.bbc.com/gahuza/amakuru-54245884
+Russia nayo yirukanye abakora mu buserukizi bwa US mu kuyisubiriza mu ndumane,politics,sport,0.63686097,https://www.bbc.com/gahuza/amakuru-56783233
+Aurlus Mabele: Rurangiranwa mu muziki wa Congo (Brazzaville) 'yahitanywe na coronavirus',entertainment,sport,0.45929566,https://www.bbc.com/gahuza/amakuru-51981470
+"Kuki abasaba ubuhingiro bariko barungikwa mu Rwanda, hagenda bangahe?",politics,health,0.19253434,https://www.bbc.com/gahuza/articles/cd1xxxw0dpeo
+Covid-19: umushikiranganji wa mbere wa France avuga ko Omicron igenda nk'umuravyo,health,economy,0.21334471,https://www.bbc.com/gahuza/amakuru-59716539
+Ibibazo vyanyu kuri Covid-19: Kuki bakoze urucanco aho gukora umuti?,health,economy,0.20147048,https://www.bbc.com/gahuza/amakuru-56327441
+Tigray: Urwikekwe no kwitanga mu gihe intambara iriko irakwiragira hose muri Ethiopia,politics,health,0.20909145,https://www.bbc.com/gahuza/amakuru-59463755
+Patrice Motsepe kuva kuri uyu wa gatanu niwe aramutswa Caf,sport,politics,0.261116,https://www.bbc.com/gahuza/amakuru-56371250
+Commonwealth ituma turaba imbere - Kagame,politics,environment,0.19043665,https://www.bbc.com/gahuza/articles/c80w402kn7ko
+"Britney Spears yagiriza nyina ""gutabagaza ubuzima bwiwe""mu kubushira mu minwe y'uwundi muntu",entertainment,economy,0.17906123,https://www.bbc.com/gahuza/amakuru-59153334
+Tanzania: Basaba ko Diamond Platnumz akurwa mw'ihiganwa rya BET kubera avugira Magufuli,entertainment,politics,0.2525395,https://www.bbc.com/gahuza/amakuru-57396562
+Misophonia: Abarwaye iyo ndwara bamererwa nabi n'amajwi asohorwa n'abantu,health,relationship,0.48822734,https://www.bbc.com/gahuza/50441167
+South Africa: Kwivuza uri umunyamahanga ntivyoroshe,health,economy,0.19423991,https://www.bbc.com/gahuza/articles/cj5qr9z5106o
+Rwanda: FLN irahakana gukora ibitero iva ku butaka bw'u Burundi,politics,sport,0.57628894,https://www.bbc.com/gahuza/amakuru-57245610
+South Africa: ingene abanyagihugu bashavuriye abanyamahanga,politics,environment,0.18573259,https://www.bbc.com/gahuza/amakuru-60726097
+Covid-Kenya: Umugore yanse gutsindwa n'uwo mugera,health,education,0.5607253,https://www.bbc.com/gahuza/amakuru-56640625
+Intambara yo muri Ethiopia : Abaganga mu basaba ivyo kurya,politics,health,0.20922019,https://www.bbc.com/gahuza/amakuru-60171927
+Liberia: Indirimbo 'Mr Liar Man' ya George Weah yateye ibibazo vyinshi abanyagihugu,entertainment,sport,0.2872256,https://www.bbc.com/gahuza/amakuru-55376025
+U﻿mushikiranganji wa mbere mushasha Gen Gervais Ndirakobuca ni nde?,politics,sport,0.59804094,https://www.bbc.com/gahuza/articles/clj4wxr3847o
+Barcelona yemeje ko Xavi Hernandez yagarutse nk'umumenyereza,sport,politics,0.26415274,https://www.bbc.com/gahuza/imikino-59188771
+"Menya umushakashatsi Mireille Kamariza, yatoye DMN-Tre.",health,politics,0.2391806,https://www.bbc.com/gahuza/amakuru-58117364
+Amahasa canke impanga: Bigenda gute ngo basamwe?,health,politics,0.30027404,https://www.bbc.com/gahuza/amakuru-58545818
+Ronaldo na Messi babaye abagenzi inyuma y'aho Van Dijk abakubitiye hasi,sport,politics,0.24318741,https://www.bbc.com/gahuza/imikino-49524849
+Amafoto yaranze indwi muri Afrika: 1-7 Ndamukiza 2022,entertainment,sport,0.40150437,https://www.bbc.com/gahuza/amakuru-61039446
+Ethiopia: Ibitaro vyo muri Tigray vyaheranywe n'indya z'abana bishwe n'inzara,politics,economy,0.20711659,https://www.bbc.com/gahuza/amakuru-59903062
+AUKUS: France yakuye akarenge mu biganiro na UK kubera ivyo batumvikanako,politics,sport,0.41725808,https://www.bbc.com/gahuza/amakuru-58621469
+Africa-Ukraine: Ingaruka z'intambara ziguma zigaragaza uko bukeye uko bwije,economy,politics,0.23829028,https://www.bbc.com/gahuza/60647319
+"Coronavirus: Boris Johnson, Umushikiranganji wa mbere w'Ubwongereza, araremvye cane",health,politics,0.26183906,https://www.bbc.com/gahuza/amakuru-52193134
+Gukorera mu bushuhe bw'ikirenga birananiza umwana ari mu nda,health,economy,0.21048625,https://www.bbc.com/gahuza/articles/c51qvp7yx55o
+Burundi-Amatora y'abakenguzamateka: CNL ivuga ko abantu bayo babandanya batotezwa,politics,economy,0.17177798,https://www.bbc.com/gahuza/amakuru-53455797
+Qatar 2022: Umubabaro muri Maroc kubera indege zasivye kujana abafana,sport,politics,0.2664614,https://www.bbc.com/gahuza/articles/cq57xljwe2no
+T﻿anzania: Reta isaba amakungu kuyifasha kugira ihungure impunzi z'Abarundi,politics,economy,0.22662936,https://www.bbc.com/gahuza/articles/c84g7wp9jg2o
+Lionel Messi: kubera iki uyu kizigenza avuga ko yarambiwe na Barcelona?,sport,politics,0.25177237,https://www.bbc.com/gahuza/amakuru-53299375
+Abanyagihugu ba Bujumbura bazindukiye mu myiyerekano biyamiriza umurwi w'abatimbo bari mu Rwanda,entertainment,health,0.20637333,https://www.bbc.com/gahuza/49459179
+"Francine Niyonsaba, umwe mu bagore 30 b'ibihangange muri Afrika",sport,politics,0.25882122,https://www.bbc.com/gahuza/49503227
+Coronavirus: Igituma gukaraba intoke bigoye mu bihugu bimwe bimwe,health,environment,0.1744441,https://www.bbc.com/gahuza/51946134
+Afghanistan: Aba Taliban bagiye kugarukana ibihano vyo kunyonga no guca ibihimba vy'umubiri,politics,economy,0.18528435,https://www.bbc.com/gahuza/amakuru-58689268
+Burundi: Abantu 40 bashasha banduye coronavirus,health,economy,0.19237752,https://www.bbc.com/gahuza/amakuru-53125847
+China: Shanghai yakajije ingingo za guma-muhira kubera Covid,health,economy,0.19932885,https://www.bbc.com/gahuza/amakuru-61186037
+"U Burundi bugiye guhura na Nigeria muri CAN2019, abakinyi ngo baratekanye",sport,politics,0.23586491,https://www.bbc.com/gahuza/imikino-48722877
+Africa-Covid: Amerika yemeye kwongera miriyoni 17 z'incanco,health,politics,0.2517894,https://www.bbc.com/gahuza/58922924
+AstraZeneca: Ubugenduzi bw'Uwongereza na EU ku kuvurirana kw'amaraso ryasanze ata ngorane,health,economy,0.20256607,https://www.bbc.com/gahuza/amakuru-56448576
+DRC: Delcato Idengo yafatiwe i Butembo n'abajejwe umutekano,entertainment,politics,0.26799777,https://www.bbc.com/gahuza/amakuru-58871185
+Africa mu mafoto muri iyi ndwi: 20-26 Ukwezi kw'umunani 2021,entertainment,politics,0.325711,https://www.bbc.com/gahuza/amakuru-58356342
+Red Flo Bio ya John Chris yamuronkeje ikidari c'inzahabu k'inzoga iryoshe cane ya 2021,economy,education,0.49318644,https://www.bbc.com/gahuza/amakuru-56763971
+France bari kwibaza abashaka gutyoza Pfizer,health,politics,0.25977945,https://www.bbc.com/gahuza/amakuru-57254906
+USA itegura kugabanya ikiringo ca viza gushika ku myaka ibi ku banyeshure bava muri Africa,politics,education,0.60351396,https://www.bbc.com/gahuza/amakuru-54307218
+Umutegetsi wa Arabia Saoudite yaronse ubudahangarwa bwa US kw'iyicwa ry'umumenyeshamakuru,politics,sport,0.35288957,https://www.bbc.com/gahuza/articles/c881qngp2qdo
+Umviriza Domitien Ndayizeye ingene avuga ku matora yo ku wa 20 z'ukwa gatanu 2020,politics,sport,0.7592044,https://www.bbc.com/gahuza/amakuru-52819788
+Umunsi wahariwe isi: Umurundi Yves Kami mu bakoze indirimbo iwuhimbaza,entertainment,health,0.26699117,https://www.bbc.com/gahuza/amakuru-61196163
+BBC Gahuzamiryango yabateguriye amwe mu makuru makuru makuru yavuzwe cane mu Rwanda,entertainment,sport,0.2962158,https://www.bbc.com/gahuza/50955205
+Covid: DR Congo iriko yiruka n'umwanya mu kwihutira gucandaga abanyagihugu,health,politics,0.20913869,https://www.bbc.com/gahuza/amakuru-57071615
+LONG WAY yaririmbwe na Rist Shimwa Muyizere: umuhungu wa Victoire Ingabira,entertainment,sport,0.8299076,https://www.bbc.com/gahuza/amakuru-60365405
+Umunonotsi Olivia Breen yashavuriye umutegetsi yamubwiye ko yambara udukariso tugufi cane,sport,politics,0.26042268,https://www.bbc.com/gahuza/imikino-57898343
+UK: Abanye-Kenya bariko barashaka kwitwara kubera amabi bakorewe ku bukoloni,politics,education,0.6024885,https://www.bbc.com/gahuza/articles/c72w2x16045o
+US: Inyabwonko z'ibisata vy'ikigegan'ubudandaji vyatewe n'imigera yo ku mbuga ngurukanabumenyi,politics,economy,0.22968648,https://www.bbc.com/gahuza/amakuru-55302436
+Intambara yo muri Ukraine: Putin asabwa kuja mu biganiro 'amaso mu yandi' na Zelensky,politics,sport,0.6234247,https://www.bbc.com/gahuza/amakuru-61622457
+UNICEF yatse DR Congo inkingo umuriyoni 1.3 za Covid kugira ntizite igihe,health,politics,0.272487,https://www.bbc.com/gahuza/amakuru-56911850
+Celine Dion yatangaje ko afise ingwara idakira,health,politics,0.25191286,https://www.bbc.com/gahuza/articles/c5154qzxv6po
+Ntahokatarondererwa: Ornella Uwimana yize ivyo kuvura kuri kaminuza ariko akora intebe mu mapine,economy,politics,0.21689543,https://www.bbc.com/gahuza/amakuru-60988470
+Burundi – Covid: Incanco z’iki niba leta itazihimiriza?...Impari ku ngingo ya reta,health,economy,0.20062916,https://www.bbc.com/gahuza/58025639
+"Ukraine - Russia: Abasirikare 10.000 ba Ukraine bamaze kwicwa, Kyiv niko ivuga",politics,sport,0.30811828,https://www.bbc.com/gahuza/articles/c517jkwnk8zo
+Africa mu mafoto meza y'indwi duhejeje: 8-14 Ndamukiza 2022,entertainment,sport,0.36386028,https://www.bbc.com/gahuza/amakuru-61119138
+Umuririmvyi w'Umurundi Kidum ngo yabwiwe ko atemerewe kuririmbira mu Rwanda,entertainment,health,0.22038957,https://www.bbc.com/gahuza/amakuru-49695320
+Ubushakashatsi bwerekana ko urugero rw'inda zikoroka rurenga 40% ku bagore b'abirabure kurusha abandi,health,environment,0.21232355,https://www.bbc.com/gahuza/amakuru-56954235
+"Igisirikare c’Ubushinwa cavogereye  Taiwan, niko reta yayo ivuga",politics,sport,0.49461868,https://www.bbc.com/gahuza/articles/c4ndzdzgy4jo
+Africa mu mafoto muri iyi ndwi: 7-13 Nzero 2022,entertainment,sport,0.7613948,https://www.bbc.com/gahuza/amakuru-59995802
+US - Covid: CNN yirukanye abakozi bagiye mu biro batacandazwe,health,politics,0.23163879,https://www.bbc.com/gahuza/amakuru-58134999
+Saudi Arabia: Abagore n'abagabo ubu bemerewe guca mu muryango umwe wa 'restaurants',politics,health,0.24566299,https://www.bbc.com/gahuza/imikino-50714203
+‘Kutavyara ni indwara ishobora kuvurwa’ - Dr. Innocente Irakoze,health,relationship,0.33044207,https://www.bbc.com/gahuza/amakuru-61022032
+Kenya: Hari amashirahamwe asaba ihagarikwa ry'amategeko yo gukumira Covid,health,politics,0.23442893,https://www.bbc.com/gahuza/amakuru-56591879
+"Ivana Trump, umugore wa mbere wa Donald Trump, yapfuye ku myaka 73",entertainment,sport,0.46157295,https://www.bbc.com/gahuza/articles/cjr9rdqz4rdo
+AUKUS: US na UK biranegurwa ku amasezerano yo kwivuna umwansi vyagiriraniye na Australia,politics,sport,0.5160692,https://www.bbc.com/gahuza/amakuru-58593289
+China: Ikirere kibi cahitanye abanonotsi 21 biruka ibirometero vyinshi,sport,politics,0.23312798,https://www.bbc.com/gahuza/amakuru-57228110
+Khadar Ahmed: Ingene uwabuze aho yiga gukora film ubu ariko aratahukana udushimwe no gukundwa na benshi,entertainment,politics,0.22657134,https://www.bbc.com/gahuza/amakuru-59117220
+Caster Semenya yise abarongozi ba 'athletisme' muri Africa ba 'niryo' ku ngingo ya sentare ya siporo.,sport,health,0.2686197,https://www.bbc.com/gahuza/articles/c0x1q208n77o
+Ashley ati: ‘Nari nzi ko SIDA ari indwara ifata abakiri bato’,health,relationship,0.19541712,https://www.bbc.com/gahuza/51646011
+"Intambara ya Tigray muri Ethiopia: Ubuzima muri Mekelle, igisagara cugaranywe",politics,economy,0.20941728,https://www.bbc.com/gahuza/amakuru-60971536
+"Covid-19: Ubufaransa, Ubudage n'Ubutaliyano vyahagarise urukingo rwa AstraZeneca",health,economy,0.1974306,https://www.bbc.com/gahuza/amakuru-56408711
+Ukraine-Russia: umuhanuzi wa Zelensky avuga ko intambara imaze kwica abashika 13.000,politics,sport,0.71153206,https://www.bbc.com/gahuza/articles/c90y14pxnkwo
+Kenya igiye kuronka miriyoni zafatiwe muri Jersey zifashe kugwanya Covid,economy,politics,0.25882038,https://www.bbc.com/gahuza/amakuru-60899240
+Habonetse umurwayi mushasha wa ebola muri Kongo vyagire bitangazwe ko yaheze,health,politics,0.27045104,https://www.bbc.com/gahuza/amakuru-52247714
+Abanduye coronavirus muri Afrika y’Epfo barenze igice c’umuliyoni,health,politics,0.21135218,https://www.bbc.com/gahuza/amakuru-53629183
+Burundi: BBC yemerewe gusubira gukorera mu ico gihugu,entertainment,economy,0.18431766,https://www.bbc.com/gahuza/amakuru-60931140
+Ethiopia: Inyeshamba za Tigray ziti 'emera ubutegetsi bwacu canke tubandanya intambara',politics,economy,0.17458317,https://www.bbc.com/gahuza/amakuru-57718022
+"Habonetse uwundi muntu yanduye coronavirus mu Burundi, 22 bandi bapimwe ntayo bafise",health,economy,0.18014863,https://www.bbc.com/gahuza/amakuru-52141738
+DRC: Van Damme atera akamo ba rurangiranwa gutemberera ico gihugu,entertainment,politics,0.27365893,https://www.bbc.com/gahuza/amakuru-61027195
+Swiss bemeje kubuza kwamamaza itabi inyuma cane y'ibihugu bibanyi,health,politics,0.23022407,https://www.bbc.com/gahuza/amakuru-60373952
+Amakuru avugwa ahandi kw'isi kuri Covid-19,health,politics,0.2569344,https://www.bbc.com/gahuza/amakuru-53826949
+"Amashirahamwe mvamakungu asabwa kwerekara ingene ubwoko buserukiwe, Amnesty International ifise amakenga",politics,economy,0.20579751,https://www.bbc.com/gahuza/51672575
+Andy Mwag: Ivyo ndirimba muri 'Nisaidie Papa' vyambayeho,entertainment,politics,0.24120083,https://www.bbc.com/gahuza/amakuru-53868335
+Uyghurs: ONU ivuga ko Ubushiwa bushobora kuba bwarakoze ivyaha vyo guhohotera ikiremwa muntu i Xinjiang,politics,health,0.24318077,https://www.bbc.com/gahuza/articles/cz9754nyrxdo
+Eliud Kipchoge: Ashaka kuba uwa mbere yirutse marathon munsi y'amasaha 2,sport,politics,0.29372156,https://www.bbc.com/gahuza/amakuru-50018129
+"Ku bakunzi b’amavuta y’amamesa, ibikuru vyo kumenya",economy,relationship,0.27352878,https://www.bbc.com/gahuza/61312539
+Burundi: Impano zinyegeje za Prezida Evariste Ndayishimiye,entertainment,politics,0.21467459,https://www.bbc.com/gahuza/amakuru-60055895
+Korea ya Ruguru ivuga ko misire zarashwe kwari ukwigana igitero ca nikleyeri kuri Korea y’Epfo,politics,sport,0.47655106,https://www.bbc.com/gahuza/articles/c1wglppw2e1o
+Covid-19: Ubwoko bwayo bwo mu Buhinde bwashitse muri Uganda,health,politics,0.25765547,https://www.bbc.com/gahuza/amakuru-56935177
+Woba utewe impungenge n'urukingo rwa Covid-19? Izi ni inyishu ku bibazo woba ufise,health,sport,0.41701993,https://www.bbc.com/gahuza/amakuru-60028998
+Raheem Sterling asaba ko ubwoko bw'inkehwa buserukirwa mu bamenyereza n'abarongozi ba FA,sport,economy,0.17387684,https://www.bbc.com/gahuza/imikino-52983138
+Tokyo Olympics: Umunonotsi w'umunya-Namibia avuga ati 'Ntushobora kumbwira ngo ubu sindi umugore',sport,politics,0.23332371,https://www.bbc.com/gahuza/amakuru-58057121
+Ingabo za Ukraine zateye intambwe mu bumanuko zitera zisugereza Kherson,politics,sport,0.32614473,https://www.bbc.com/gahuza/articles/c72980g3r80o
+Lalibela- Ethiopia: Inyeshamba za Tigray ntizumva akamo ko kuva mu gisagara zafashe muri Amhara,politics,economy,0.19467452,https://www.bbc.com/gahuza/amakuru-58105571
+Newcastle 2-0 Arsenal: Nta kibanza dukwiye muri Champions League ku rukino nk'uru - Granit Xhaka,sport,health,0.27778837,https://www.bbc.com/gahuza/imikino-61475611
+Umunyamabanga mukuru wa FIFA aje kuyobora ibikorwa vyose vya CAF,sport,politics,0.24458908,https://www.bbc.com/gahuza/48704166
+Afghanistan: Aba-Taliban bisubiyeko ntibugurura amashue ku bakobwa,politics,education,0.5959269,https://www.bbc.com/gahuza/amakuru-60848442
+Menya umushakashatsi wa Kaminuza ya Harvard yahagurukiye indwara zibonwa 'nk'izo abakene',health,sport,0.29185662,https://www.bbc.com/gahuza/amakuru-57867331
+Kenya: Bimwe mu vyaranze Dr Stephen Karanja yarwanya incanco za Covid ikaza kumwica,health,politics,0.2668042,https://www.bbc.com/gahuza/56954570
+Ingaruka y’ibitero vy’abitwaje ibirwanisho kuri Ebola muri Kongo,health,economy,0.18683344,https://www.bbc.com/gahuza/amakuru-48815914
+Big Fizzo yoba yariganye indirimbo ya Diamond Platnumz?,entertainment,politics,0.24880683,https://www.bbc.com/gahuza/amakuru-49568177
+R﻿eta y'Uburundi iragabisha abatimbo bari muri Nyege Nyege,entertainment,health,0.21650104,https://www.bbc.com/gahuza/articles/c728kmy2x6eo
+Coronavirus: Umunyeshure w’umunyakameruni asigura ingene yakize uwo mugera,health,politics,0.27012196,https://www.bbc.com/gahuza/51528291
+FAO: Ata mafaranga abonetse indege zo kurwanya inzige zirahagarara,economy,politics,0.23198394,https://www.bbc.com/gahuza/amakuru-55811058
+"Abantu bakomakomeye Africa yabuze mu mwaka urangiye: abaperezida, abahoze ari abaperezira n'abandi",entertainment,politics,0.2493912,https://www.bbc.com/gahuza/amakuru-59829167
+"Finland, igihugu gitwawe n'abagore",politics,sport,0.67047805,https://www.bbc.com/gahuza/amakuru-50735030
+Kwibaruka umuvyeyi abanje gukorwa 'akenshi ni yo nzira nziza' ku bakozwe muri kahise,health,relationship,0.527564,https://www.bbc.com/gahuza/amakuru-49862287
+Kenya igiye guhererwa n'inkingo za Covid-19,health,education,0.5901289,https://www.bbc.com/gahuza/amakuru-57164497
+Australia - Djokovic: Abimukira nabo barasaba kurekurwa,sport,politics,0.29986492,https://www.bbc.com/gahuza/amakuru-59958894
+I﻿gikombe c'isi 2022: Abakinyi ba Pologne baherekejwe n'indege z'intambara,sport,politics,0.2672259,https://www.bbc.com/gahuza/articles/cd125q7vnyno
+Afghanistan -Taliban: Urwamo rw'amasasu rwo kwigina itaha ry'Abanyamerika,politics,sport,0.26070055,https://www.bbc.com/gahuza/58395748
+Yoshiro Mori: Umukuru wa Olympic za Tokyo aratanga imihoho kubera kuvuga 'ibitabereye' ku bagore,sport,politics,0.26653954,https://www.bbc.com/gahuza/amakuru-56026887
+Ubuhindi bwategetse Google kuriha irindi hadabu ry’imiliyoni $113,economy,sport,0.46517485,https://www.bbc.com/gahuza/articles/cn018w41r4xo
+Jus za pomme zikorwa na Ceres zisabwa kuvanwa mw'icuruzwa,health,sport,0.5081096,https://www.bbc.com/gahuza/58910324
+Yabazwe ikivyimba mu bwonko ariko aravuza violon,health,sport,0.265361,https://www.bbc.com/gahuza/amakuru-51578110
+Tanzania yashizeho ingingo zo kurwanya Covid-19,health,politics,0.24836949,https://www.bbc.com/gahuza/amakuru-57067873
+Ukraine - Russia: Abategetsi b'Uburengero baremera ko Putin afise amahirwe yo gutsinda intambara,politics,relationship,0.21877965,https://www.bbc.com/gahuza/amakuru-61186033
+Icegeranyo kivuga ko Diego Maradona yapfuye kubera ugusamara kw'abaganga,sport,politics,0.26444808,https://www.bbc.com/gahuza/amakuru-56961508
+Umwamikazi Elizabeth II na Africa: Ibihe bikomeye vy'ingoma yiwe,entertainment,politics,0.25137207,https://www.bbc.com/gahuza/amakuru-62837788
+"Sengazi, umuhinga wa mbere mu gutwenza w'i Burundi n'i Rwanda' aronse 'RFI Talent du Rire'",entertainment,politics,0.25898623,https://www.bbc.com/gahuza/50523202
+Umunyapolitike Jérémie Ngendakumana araguma Kampala gushika Bujumbura yemeye ko ataha,politics,economy,0.20186032,https://www.bbc.com/gahuza/amakuru-51536018
+Umurundikazi Francine Niyonsaba yaciye umuhigo ku metero 2000 mu mahiganwa ya Zagreb,sport,politics,0.24768373,https://www.bbc.com/gahuza/imikino-58568165
+Uwagandaguye John Lennon yasavye imbabazi ku 'caha c’agahomerabunwa' yakoze haciye imyaka 40,entertainment,health,0.2621108,https://www.bbc.com/gahuza/amakuru-54249317
+Intamba mu Rugamba zifise urukino ruhambaye kurusha izindi zose zimaze gukina,sport,politics,0.23424093,https://www.bbc.com/gahuza/imikino-48787397
+Burkina Faso: Abacangero b’Abarusiya biteguye gufasha abatembagaje ubutegetsi,politics,sport,0.5010769,https://www.bbc.com/gahuza/60150974
+"Intamba mu Rugamba zikeneye intsinzi kuri Guinea vyanka bikunda, ariko none yova hehe?",sport,politics,0.23375727,https://www.bbc.com/gahuza/imikino-48817684
+Africa – Covid-19: Menya ibihugu bimaze gutangura gutanga incanco,health,sport,0.75726134,https://www.bbc.com/gahuza/amakuru-56299276
+"Umunyamuziki Neil Young, yitwariye Trump kubera akoresha umuziki wiwe atabimusavye",entertainment,sport,0.28589773,https://www.bbc.com/gahuza/amakuru-53667563
+Africa mu mafoto muri iyi ndwi: Kuva 27 z'ukwa munani gushika 2 z'ukwa cenda 2021,entertainment,sport,0.5168506,https://www.bbc.com/gahuza/amakuru-58432506
+Kenya -Covid: Abasanze ubuzima bubaye bwiza aho bahungiye igisagara,health,economy,0.18619713,https://www.bbc.com/gahuza/amakuru-59687157
+Uganda: Abanye-Kongo bari bahungutse basubiye i Bunagana nyuma y'iminsi ibiri,politics,education,0.5523049,https://www.bbc.com/gahuza/amakuru-61001726
+OMS - COVAX: Birakenewe ko incanco zishika mu minwe y'abari muri Afrika,health,politics,0.27267072,https://www.bbc.com/gahuza/amakuru-58641498
+Coronavirus -Burundi: Bavuze ivyavuye mu gupima abantu benshi,health,politics,0.24355514,https://www.bbc.com/gahuza/amakuru-53335504
+Burundi -Kenya: Jules Ndayishimiye yakora ijoro n'umutaga mu kurondera umutahe wiwe,economy,environment,0.19778799,https://www.bbc.com/gahuza/amakuru-61222370
+Ubwo koko Ukraine irashobora gutsinda iyi ntambara? iki be n’ibindi bibazo bine ku gitero ca Russia,politics,economy,0.20099361,https://www.bbc.com/gahuza/amakuru-60971533
+Covid: France yategetse ko urucanco rwa AstraZeneca ruhabwa abari musi y'imyaka 65 gusa,health,sport,0.7411797,https://www.bbc.com/gahuza/amakuru-55914367
+Tanzania-Covid : Prezida mushasha wa Tanzania asabwa na OMS kurwanya coronavirus,health,education,0.5093266,https://www.bbc.com/gahuza/amakuru-56456297
+Malawi: Ishavu kubera ikigongwe ku bategetsi bariye ibiturire,politics,health,0.18461627,https://www.bbc.com/gahuza/59958693
+UN / ONU : Inama nkuru ijejwe umutekano isaba ihagarikwa ry’ivyegeranyo vyihariye ku Burundi,politics,economy,0.19453011,https://www.bbc.com/gahuza/amakuru-55198120
+"R. Kelly ‘yarahohoteye Aaliyah afise imyaka 13 canke 14’, vyavugiwe muri sentare",entertainment,politics,0.25652787,https://www.bbc.com/gahuza/amakuru-58558870
+Russia yasubiye kwemerera North Korea incanco za Covid-19 mu gihe ibintu bimeze nabi,health,politics,0.262949,https://www.bbc.com/gahuza/amakuru-57760401
+New York: Urubanza rwa R Kelly kw'ihohotera rifatiye ku gitsina rwatanguye,entertainment,politics,0.29055488,https://www.bbc.com/gahuza/amakuru-58261054
+Igikombe c’isi Qatar 2022: Twigire kuri kahise ibishobora gushika,sport,politics,0.25160947,https://www.bbc.com/gahuza/articles/c4n7j10z8xqo
+"Ndayishimiye: ‘Karashize ingani, abakozi ba Reta bitwe abatishoboye?’",economy,relationship,0.17450427,https://www.bbc.com/gahuza/amakuru-56958068
+Burundi - AMB: Umukuru mushasha Bright Ndayishimiye avuga ko guterana amajambo bigiye guhagarara,entertainment,economy,0.21660721,https://www.bbc.com/gahuza/amakuru-60292507
+"Sentare ntahinyuzwa mu Burundi yanse ibisabwa n'abaregwa kwica Ndadaye, ariko ngo bazunguruza",politics,relationship,0.27471772,https://www.bbc.com/gahuza/amakuru-50576154
+Intambara ya Russia na Ukraine: Umukuru w'umutumba n'umuryango wiwe wose barishwe n'Abarusiya,politics,economy,0.2123058,https://www.bbc.com/gahuza/amakuru-60992984
+Inama ya G7 yemeje integuro yo gusohora amafaranga kugira ihangane na China,economy,politics,0.23270237,https://www.bbc.com/gahuza/amakuru-57458451
+Ihiganwa rya mbere rya Basketball Africa League ryasibijwe muri Senegal kubera coronavirus,sport,politics,0.2775799,https://www.bbc.com/gahuza/imikino-51742734
+Ibibazo vyanyu kuri Coronavirus: Inkingo batanga zikingira ubwoko bwose bwayo?,health,sport,0.2901144,https://www.bbc.com/gahuza/amakuru-58105475
+DR Congo: abantu 33 bishwe mu gitero c’inyeshama mu karere ka Beni,politics,health,0.19476183,https://www.bbc.com/gahuza/50798839
+Gutwaririza: Mbe ni kubera iki abagore bibungenze bifuza cane ivyo kurya bimwe bimwe?,health,relationship,0.57856035,https://www.bbc.com/gahuza/amakuru-53487801
+Jérémie Ngendakumana yahoze arongoye CNDD-FDD yashinze umugambwe mushasha PDG-Girubuntu,politics,economy,0.19479148,https://www.bbc.com/gahuza/amakuru-51047664
+Covid: Biden avuga igitigiri ca 500.000 bamaze gupfa ari ''intambwe ivuna umutima'',health,politics,0.25321418,https://www.bbc.com/gahuza/amakuru-56167905
+India: Amashusho asobanura ikibazo ca coronavirus,health,environment,0.19788001,https://www.bbc.com/gahuza/amakuru-56911848
+"Coronavirus: Dr Tedros wa OMS ati: ""reka kugira Covid-19 ikibazo ca politike""",health,politics,0.20736098,https://www.bbc.com/gahuza/amakuru-52226958
+Amafoto meza ya Afrika muri iyi ndwi:12-18 Munyonyo 2021,entertainment,sport,0.7638243,https://www.bbc.com/gahuza/amakuru-59348281
+Amakenga ajanye n'ubuhinga bwo kwigiza inyuma guca imvyaro (menopause),health,relationship,0.5472937,https://www.bbc.com/gahuza/amakuru-51288447
+Austria: Umuganga yaciwe ihadabu kubera ukwihenda agaca umurwayi ukuguru kutariko,health,politics,0.22386795,https://www.bbc.com/gahuza/amakuru-59505985
+"Covid-19: Tanzania ivuga ko idakeneye incanco za corona ubu, ihimiriza imiti kama",health,politics,0.23830867,https://www.bbc.com/gahuza/amakuru-55898798
+Burundi: CVR yatahuye ibinogo rusangi birenga 4000 vyahambwemwo abantu,politics,economy,0.20525256,https://www.bbc.com/gahuza/amakuru-51103092
+Imvo n'imvano ku Barundi baba mu karere ka Kwale muri Kenya bamaze imyaka irenga 60,politics,economy,0.17743397,https://www.bbc.com/gahuza/amakuru-60964974
+"Kenya: Umukenguzamateka wa US yabonanye na Ruto na Raila, 'nta kijanye n'amatora cavuzwe'",politics,sport,0.43069413,https://www.bbc.com/gahuza/articles/cxwm7nnm8vlo
+Pierre Nkurunziza: Umutambukanyi wiwe yashimye ibikorwa vyiwe n'iherezo ryiza,politics,health,0.25102174,https://www.bbc.com/gahuza/amakuru-53194158
+Yoshiro Mori: Umukuru wa Olympic za Tokyo yatanze imihoho kubera kuvuga 'ibitabereye' ku bagore,sport,politics,0.2941176,https://www.bbc.com/gahuza/amakuru-56039860
+Prince Philip: Ubuzima bwiwe mu mafoto,entertainment,sport,0.2747922,https://www.bbc.com/gahuza/amakuru-56689262
+"Africa na internet: ni ibihe bihugu vyayiciye,vyabikoze gute?",entertainment,politics,0.24790671,https://www.bbc.com/gahuza/amakuru-55646793
+"""Ndimbati"" wo muri ""PAPA SAVA"" ari gufasha abatishoboye mu bihe bya coronavirus mu Rwanda",entertainment,politics,0.23184182,https://www.bbc.com/gahuza/amakuru-52126748
+France: François Fillon yari umushikiranganji wa mbere yaciriwe umunyororo,politics,sport,0.32634884,https://www.bbc.com/gahuza/amakuru-53224071
+Izinga rya Man ryahaye u Burundi imiriyoni £1.3 nk'imfashayo yo kurwanya ihindagukira ry'ibihe,economy,politics,0.2568624,https://www.bbc.com/gahuza/amakuru-58134973
+Covid: WHO/OMS igabisha ko ikiza kizobandanya gushika kure mu 2022,health,politics,0.2255822,https://www.bbc.com/gahuza/amakuru-58996154
+Kurt Zouma: West Ham iriyamiriza uyu mukinyi wayo inyuma y'ireresi imwerekana akubita inyabu,sport,politics,0.25297406,https://www.bbc.com/gahuza/imikino-60303969
+"US iriko izibira Ngozi Okonjo-Iweala, umunyafrika wa mbere kurongora WTO",economy,politics,0.23242773,https://www.bbc.com/gahuza/amakuru-54731882
+Ubugumba: Ingorane zo kutavyara ziterwa n'iki ku mugabo canke umugore?,health,relationship,0.4041301,https://www.bbc.com/gahuza/amakuru-61165079
+France: Abapolisi batatu bahagaritswe mu kazi i Paris bazira gukubita umwirabure,politics,sport,0.30984774,https://www.bbc.com/gahuza/amakuru-55098776
+Obiang: P﻿rezida amaze imyaka 43 ku butegetsi agira asubire kwitoza muri Guinee Equatoriale,politics,economy,0.20219837,https://www.bbc.com/gahuza/articles/czkdrv841rpo
+Gambia: Uwahoze arongoye igendereza yaciriwe urwo gupfa,politics,sport,0.5934793,https://www.bbc.com/gahuza/articles/ce7nr6z527go
+Igikombe c'isi 2022: Qatar ifashe gute abakozi ikoresha mu kwubaka ibibuga vy'umupira?,sport,economy,0.21292005,https://www.bbc.com/gahuza/amakuru-60992990
+Uburusiya na Ukraine: Intambara irashobora gusubira kwaduka,politics,sport,0.4146463,https://www.bbc.com/gahuza/amakuru-57016498
+WHO 'ibabajwe cane' nuko abakozi bayo bwankiwe kwinjira mu Ubushinwa,health,politics,0.2601629,https://www.bbc.com/gahuza/amakuru-55556641
+Mu Burundi malaria yoba yabaye ikiza?,health,economy,0.21653378,https://www.bbc.com/gahuza/amakuru-49257885
+North Korea yagirizwa kwiba ubuhinga bwo gukora urucanco rwa Pfizer rwa Covid-19,health,sport,0.5678354,https://www.bbc.com/gahuza/amakuru-56093949
+Covid-19: Uganda yatumyeko incanco imiliyoni zibiri,health,politics,0.26343283,https://www.bbc.com/gahuza/amakuru-55274642
+Covid-19: US yemeje Moderna nk’urucanco rugira kabiri,health,politics,0.23985137,https://www.bbc.com/gahuza/amakuru-55374903
+Charles agiye kuba Umwami bwoko ki?,entertainment,health,0.2672856,https://www.bbc.com/gahuza/amakuru-62860484
+South Africa yemeje ikoreshwa ry'umuringa ukingira abagore umugera wa SIDA,health,sport,0.49616066,https://www.bbc.com/gahuza/amakuru-60761866
+CAN 1996: Intsinzi ya South Afrika n'uruhara yagize mu mpinduka z'inyuma ya apartheid,sport,politics,0.25631204,https://www.bbc.com/gahuza/imikino-60256023
+Amatora mu Burundi 2020: Menya abakandida bitoza hamwe n'ivyo bashira imbere,politics,education,0.5703563,https://www.bbc.com/gahuza/amakuru-52567928
+US: Babona ko ihinduka ry’itegeko rijanye no gukorora inda 'rizorokora ubuzima bwa benshi muri Africa',health,politics,0.26553175,https://www.bbc.com/gahuza/amakuru-55868692
+Reggae: Ivyo kumenya kuri The Wailers ubwo uwanyuma muri bo yashengeye,entertainment,sport,0.7839601,https://www.bbc.com/gahuza/amakuru-56266944
+Aliko Dangote na Mohammed Dewji bari mu batunzi ba mbere muri Afrika mu 2021,entertainment,politics,0.29254434,https://www.bbc.com/gahuza/amakuru-55907332
+Impunzi z’Abarundi muri Tanzania ‘zibwirwa ko zishobora guhungurwa ku nguvu’,politics,economy,0.199506,https://www.bbc.com/gahuza/amakuru-48949372
+"Urucanco Ervebo rwa Ebola rwemewe muri RD Congo, mu Burundi, muri Ghana no muri Zambia",health,politics,0.25227994,https://www.bbc.com/gahuza/51529167
+DR Congo: Umunyamuziki General Defao yapfuye,entertainment,sport,0.40795034,https://www.bbc.com/gahuza/amakuru-59807541
+"Thérèse Miburo, umwe mu Barundikazi bake bakora ivyo gutwenza aba muri Australia",entertainment,economy,0.18819942,https://www.bbc.com/gahuza/amakuru-56201048
+South Africa: Perezida Ramaphosa yatangaje ingingo ruhasha kubera Covid yasubiriye kugangura,health,politics,0.24571788,https://www.bbc.com/gahuza/amakuru-55472073
+Ibibazo vyanyu kuri Coronavirus: Yoba ifitanye isano n'ihindagurika ry'ikirere?,health,politics,0.21531795,https://www.bbc.com/gahuza/amakuru-57064586
+Burundi: Evariste Ndayishimiye avuga ko ata muntu n'umwe aburirwa irengero mu gihugu,politics,health,0.21264347,https://www.bbc.com/gahuza/amakuru-57846102
+Evariste Ndayishimiye yizeza Abarundi ko azoshinga leta yumviriza bose,politics,education,0.5948929,https://www.bbc.com/gahuza/amakuru-53091734
+"Dolly Parton: ‘Nivyo, ubuzima bw’abirabure ni kirumara”",entertainment,politics,0.23447119,https://www.bbc.com/gahuza/amakuru-53789598
+Tigray: umushikiranganji wa mbere wa Ethiopia yashitseyo kuva haduka intambara,politics,sport,0.3414437,https://www.bbc.com/gahuza/amakuru-55298632
+"Korea ya Ruguru: war’uzi Kim Yo-jong, mushiki wa Perezida Kim Jung-un",politics,sport,0.6913149,https://www.bbc.com/gahuza/amakuru-61035287
+Papa Bouba Diop yahoze akinira Senegal n'imirwi yo mu Bwongereza yapfuye ku myaka 42,sport,politics,0.28195095,https://www.bbc.com/gahuza/imikino-55126913
+Burundi: Vyinshi kuri kahise ka Pierre Buyoya yashengeye ku myaka 71,politics,sport,0.50237066,https://www.bbc.com/gahuza/amakuru-55359752
+Africa mu mafoto muri iyi ndwi: Itariki 1-7 z'ukwa cumi 2021,entertainment,sport,0.6378283,https://www.bbc.com/gahuza/amakuru-58844084
+Syllart Records: Kuki uno mugore yegeranije umuziki ny’Africa wa kera?,entertainment,sport,0.56670254,https://www.bbc.com/gahuza/amakuru-59815810
+Burundi: Umugambwe CNL waronse amakuru ko Ngomirakiza Elie yagandaguwe,politics,economy,0.1844501,https://www.bbc.com/gahuza/amakuru-57833426
+Uyu muririmvyi wo muri Afrika y'epfo yahuye n'ikibazo co guhohoterwa,entertainment,politics,0.2691948,https://www.bbc.com/gahuza/amakuru-55091360
+Umwamkazi Elizabeth: Abaganwa William na Harry bahujwe n’urupfu rwa inakuru wabo,entertainment,health,0.16673392,https://www.bbc.com/gahuza/articles/crg2vgv3z00o
+Leta y'u Burundi ihanura abashaka kuza mu gihugu gutenyenya kubera coronavirus,health,economy,0.20153536,https://www.bbc.com/gahuza/amakuru-51966788
+"Ukraine ni nzima kandi ihagaze neza, niko Zelensky abwira Abanyamerika",politics,sport,0.25486803,https://www.bbc.com/gahuza/articles/cg38jnz79p7o
+Ebola - Uganda: uturere tubiri turataramuwe mu kiringo c’indwi zitatu,health,economy,0.2013953,https://www.bbc.com/gahuza/articles/cpwzz485de5o
+"Lady Gaga n'umufana bituye hasi bavuye hejuru ku butambiro i Las Vegas, batanguza imitwe",entertainment,politics,0.25354227,https://www.bbc.com/gahuza/amakuru-50100308
+Coronavirus: Putin avuga ko urucanco rwemejwe ko rushobora gukoreshwa,health,politics,0.23803395,https://www.bbc.com/gahuza/amakuru-53739253
+Umugambwe CNL mu Burundi urongowe na Agathon Rwasa usaba ko amabi uvuga ko ukorerwa ahagarara,politics,relationship,0.23726891,https://www.bbc.com/gahuza/amakuru-48810203
+OMS ivuga ko ikiza ruhonyanganda ca Ebola atari akaga gahanze isi yose,health,relationship,0.2270231,https://www.bbc.com/gahuza/amakuru-48647182
+Covid: South Africa yakoze ubwoko bwayo bw'urucanco Moderna,health,politics,0.2540442,https://www.bbc.com/gahuza/amakuru-60261999
+Michelle Obama yumviye impuhwe Meghan ku macakubiri afatiye ku rukoba,entertainment,politics,0.26014566,https://www.bbc.com/gahuza/amakuru-56416653
+"Sylvana Ntiyibagira, azwi ku ndirimbo yiwe izwi cane WIBUKE USHIME yitavye Imana",entertainment,politics,0.25179562,https://www.bbc.com/gahuza/50876699
+Caster Semenya agiye kwungururiza muri sentare ya Bulaya urubanza rw'abanonotsi b'igitsinagore bafise testosterone irenze urugero,sport,politics,0.25839585,https://www.bbc.com/gahuza/amakuru-56200259
+"RD Congo: Intambara zasubiye kwaduka muri Minembwe, abantu bataye izabo",politics,health,0.19422379,https://www.bbc.com/gahuza/amakuru-49836877
+Prezida Donald Trump wa Amerika yatangaje iduzwa ry’amakori mu kwihora Ubushinwa,economy,politics,0.23733099,https://www.bbc.com/gahuza/amakuru-49457632
+Abagore babiri barwaye kanseri y’ibere batanguje ishirahamwe ry’ugufasha abandi barwayi nkabo,health,relationship,0.25884166,https://www.bbc.com/gahuza/amakuru-49975817
+"Stella Tushabe, umwe mu bakobwa bake bavuze saxophone mu Rwanda",entertainment,politics,0.23465693,https://www.bbc.com/gahuza/48638102
+Ukraine: Kyiv iriyamiriza ivyo yagirizwa na Russia ko igomba gutera ‘ibombe y’umwanda’,politics,sport,0.4055814,https://www.bbc.com/gahuza/articles/cx8wpexr03ro
+Coronavirus: Afrika y’Epfo yatezuye ingingo za guma mu rugo,health,politics,0.2486313,https://www.bbc.com/gahuza/amakuru-53796957
+Ibibazo vyanyu kuri Covid-19: Gufungura ibikwiye vyoba birinda kuyandura?,health,politics,0.26954576,https://www.bbc.com/gahuza/56448571
+Funke Abimbola: ‘Izina ryanje ry’ikinyafrika ryambujije kuronka akazi’,economy,environment,0.19872548,https://www.bbc.com/gahuza/51386974
+Afghanistan: Inkuru y'uwakorotse ku ndege ya Amerika ahunga aba-Taliban,politics,sport,0.73117656,https://www.bbc.com/gahuza/articles/cy675d710nqo
+Premier League: Imirwi igiye kuvugana uko ihiganwa ryorangira ku wa 30/06,sport,politics,0.24662541,https://www.bbc.com/gahuza/amakuru-52309871
+Ikibumbano ca Cristiano Ronaldo ntikivurwako rumwe mu Buhindi,sport,politics,0.26362556,https://www.bbc.com/gahuza/amakuru-59818731
+Abayabaga bari barihebuye ko batazokwigera basubira gutambuka,health,economy,0.20380902,https://www.bbc.com/gahuza/articles/c2lqg0ven4qo
+"CVR Burundi: ""Inzego za leta zagize uruhara runini mu bwicanyi bwo mu 1972""",politics,education,0.590401,https://www.bbc.com/gahuza/amakuru-55580121
+Iran: Fifa isabwa kuvana ico gihugu mu gikombe c'isi kubera uburenganzira bw'abagore,sport,politics,0.23536901,https://www.bbc.com/gahuza/articles/c4np1pz3el0o
+Umugore w'Umutalianokazi yikanguye amaze amezi 10 muri coma,health,politics,0.2519468,https://www.bbc.com/gahuza/amakuru-57431974
+Tokyo 2020: Ornella Havyarimana yipfuza guha u Burundi umudari olempike wa gatatu,sport,politics,0.26772493,https://www.bbc.com/gahuza/amakuru-57622698
+'Umukuru wa Twitter Elon Musk 'ntari hejuru y’amategeko'' - Umugenzuzi wa US,entertainment,politics,0.25055835,https://www.bbc.com/gahuza/articles/c6pgp7zzr81o
+Burundi: CNL ivuga ko integuro y'amatora irangwamwo utunenge,politics,economy,0.16583009,https://www.bbc.com/gahuza/amakuru-52522130
+Abasirikare ba Mali bishwe inyuma y'aho France itangarije ko igomba itahukane ingabo zayo,politics,economy,0.21590264,https://www.bbc.com/gahuza/amakuru-60451060
+338 barishwe muri Ethiopia mu ndyane z'amoko kuno kwezi,politics,economy,0.20518854,https://www.bbc.com/gahuza/articles/c2q5gd5kdrxo
+Maroc iri mu bihugu vya mbere bishora cannabis i Buraya,economy,politics,0.2601551,https://www.bbc.com/gahuza/amakuru-58821726
+Zimwe mw'ifoto z'indwi muri Africa: Itariki 14-20 ukwezi kwa gatanu 2021,entertainment,sport,0.7705888,https://www.bbc.com/gahuza/amakuru-57202835
+Coronavirus: Ibintu bitanu ukwiye kumenya,health,relationship,0.36550793,https://www.bbc.com/gahuza/amakuru-51399185
+Argentine: Inama nkenguzamateka yemeje gukorora inda mu ngingo y'akataraboneka,health,politics,0.21591134,https://www.bbc.com/gahuza/amakuru-55484759
+Kenya iragabisha ko hadutse ikiza ca cholera muri ico gihugu,health,environment,0.20217972,https://www.bbc.com/gahuza/articles/c72jnyev1p3o
+"Astro azwi mu ndirimbo nka Kingston Town, Red Red Wine ari muri UB40 yashengeye",entertainment,sport,0.76405543,https://www.bbc.com/gahuza/amakuru-59195926
+Leta y'Ubwongereza iti 'abafise ubumenyi buto ntibazohabwa viza',politics,health,0.20988344,https://www.bbc.com/gahuza/51559956
+"Uko abahinga babaze umwana akiri mu mbanyi, nyina wiwe yamwise 'Igitangaro'",health,politics,0.24557036,https://www.bbc.com/gahuza/amakuru-56991393
+Abahinga bavuga ko kunywa itabi bitonona amahaha gusa ahubwo n'amaso,health,relationship,0.23677717,https://www.bbc.com/gahuza/48838418
+China yanse umugambi wa OMS/WHO wo gukora ayandi matohoza ku mamuko ya Covid,health,economy,0.2278411,https://www.bbc.com/gahuza/amakuru-57928068
+HRW isaba UN kubandanya ishinze ijisho ku Burundi ku gateka ka zina muntu,politics,environment,0.19021702,https://www.bbc.com/gahuza/amakuru-55242529
+'Bavuga ko ngiye kwiga ububoyi' - Nzitonda Steve Berger,entertainment,economy,0.20994769,https://www.bbc.com/gahuza/amakuru-59495101
+Amahasa yavutse afatanye imitwe yatandukanijwe vy'imbonekarimwe muri Israel,health,politics,0.19097254,https://www.bbc.com/gahuza/amakuru-58463957
+Burundi: Hilaire Manirakiza afasha abafise imbuga hwaniro kuduza ama 'vyuzi',economy,relationship,0.1720156,https://www.bbc.com/gahuza/amakuru-61470687
+"Burundi-Rwanda: Nta ""mugwi w'inkozi z'ikibi wavuye mu Burundi uja mu Rwanda""",politics,sport,0.6651597,https://www.bbc.com/gahuza/57241718
+Uganda: Udukingirizo imiliyoni 4 tudakwije ibisabwa bagomba ko tuvanwa mu bantu,health,environment,0.1930613,https://www.bbc.com/gahuza/50476444
+Umuntu yokura iki mu rukino rw’Intamba na Nigeria?,sport,health,0.21424778,https://www.bbc.com/gahuza/imikino-48736770
+"US - Russia: Mu kiganiro ca mbere na Putin, Biden yagarutse ku vyo kwivanga mu matora",politics,sport,0.47773582,https://www.bbc.com/gahuza/amakuru-55821652
+Urucanco rwa coronavirus rugeze hehe ?,health,education,0.6005788,https://www.bbc.com/gahuza/51708707
+Wagner: Ivyakozwe n'abacangero ba Russia muri Libya vyashizwe ahabona,sport,politics,0.25151578,https://www.bbc.com/gahuza/amakuru-58172352
+Coronavirus: Ubushinwa buhimiriza imiti kama mu kuvura ako karanda,health,environment,0.20455214,https://www.bbc.com/gahuza/amakuru-53224066
+"Ivyo Manchester city yaraye ikoze, ni ubutumwa bukomeye",sport,politics,0.24260302,https://www.bbc.com/gahuza/imikino-49786224
+Russia igiye gukura ingabo zayo hafi ya Ukraine,politics,sport,0.692132,https://www.bbc.com/gahuza/amakuru-56855883
+Bazamuganga: Kanseri y'ibere... n'abagabo irabafata,health,politics,0.26984668,https://www.bbc.com/gahuza/amakuru-59268315
+"Benjamin Acheampong: 'Ntibashobora kudufata nk'ibikoko',bivugwa n'umukinyi 'yahenzwe' agatakaza $1m",sport,politics,0.19592266,https://www.bbc.com/gahuza/amakuru-56184479
+Burundi na Covid-19:Abarenga 70 batowe umugera mu ntara ya Makamba,health,education,0.50568235,https://www.bbc.com/gahuza/amakuru-55676058
+Akazi: Woshika gute ku bintu vyinshi ukoresheje umwanya muto?,economy,relationship,0.20793915,https://www.bbc.com/gahuza/amakuru-61651078
+Wafcon: 'Sinari nzi ko hariho imigwi y'abagore y'umupira w'amaguru' - Esperance Habonimana,sport,politics,0.21905226,https://www.bbc.com/gahuza/articles/c80wn0njz29o
+Umuganga atagira imiti yo kuvura abarwayi biwe,health,politics,0.26791558,https://www.bbc.com/gahuza/articles/c4n72d2rz32o
+B﻿urundi: Umwami yashingurwa gute?,politics,economy,0.18602885,https://www.bbc.com/gahuza/articles/cmjd1yg0z63o
+"Ayavugwa mu mupira w'amaguru: Haaland, Lukaku, Grealish, Kane, Pogba, Mbappe, Camavinga",sport,politics,0.22687684,https://www.bbc.com/gahuza/imikino-57953568
+Perezida Petero Nkurunziza agiye kwitwa 'Imboneza yamaho yo kuzirikana gukunda no gukundisha igihugu',politics,health,0.24329454,https://www.bbc.com/gahuza/51573725
+South Africa: Intango yo kurondera kurekurwa vy'agateganyo kwa Oscar Pistorius,entertainment,politics,0.22063866,https://www.bbc.com/gahuza/amakuru-59211049
+Afghanistan: US ifise ubwoba ko IS ishobora gutera ikibuga c'indege i Kabul,politics,health,0.20681146,https://www.bbc.com/gahuza/amakuru-58296386
+"SA: Jonas Gwangwa, umunyamuziki wa jazz yahanganye n'intwaro karyanishamiryango, apartheid",entertainment,politics,0.26112515,https://www.bbc.com/gahuza/amakuru-55869882
+Lithuania isaba abanyagihugu guta amaterefone yo muri China,politics,economy,0.19501889,https://www.bbc.com/gahuza/amakuru-58661433
+Burundi: Girumuco Téline atambukira inzu y'imideli Yves St Laurent ati: 'Nakunze umudeli kubera dawe',entertainment,health,0.2515349,https://www.bbc.com/gahuza/amakuru-59222728
+Basketball - Kenya: Umukinyi avuga ko ihohoterwa rifatiye ku gitsina rimaze imyaka myinshi,sport,economy,0.193789,https://www.bbc.com/gahuza/imikino-58679311
+Adama Traore muri Barcelona avuye muri Wolves,sport,politics,0.24794397,https://www.bbc.com/gahuza/imikino-60187732
+Afrika mu mafoto yaranze iyi ndwi: 6-12 Rusama (5) 2022,entertainment,sport,0.56920695,https://www.bbc.com/gahuza/amakuru-61438529
+Coronavirus: Oxford igiye gusubira gutangura rwa rucanco rwari rwabangiriwe,health,politics,0.2508741,https://www.bbc.com/gahuza/amakuru-54136602
+Ku myaka 99 yaronse umudari w'ifeza w'isi mu kunyonga ikinga,sport,economy,0.21480021,https://www.bbc.com/gahuza/amakuru-59376756
+Amwe mu mafoto yaranze akarere n'ayavuye ahandi muri ino ndwi ya 13 gushika 20 z'ukwa kabiri 2022,entertainment,sport,0.72089636,https://www.bbc.com/gahuza/amakuru-60452556
+I﻿tiro: Kubera iki ari ngombwa gusinzira n'imiburiburi amasaha atanu buri joro?,health,education,0.3119938,https://www.bbc.com/gahuza/articles/cl41d86mp2do
+Yataye ibiro 89 mu myaka ibiri... akiza amagara yiwe,health,politics,0.26252118,https://www.bbc.com/gahuza/amakuru-49414843
+"Umwamikazi Elizabeth atanguye urugendo rwa nyuma, abanyagihugu baramwunamira",entertainment,politics,0.23917921,https://www.bbc.com/gahuza/articles/c1wnjpnx3veo
+Akaririmbo k'uyu mu Somaliakazi karakunzwe cane ku mbuga...,entertainment,economy,0.1932039,https://www.bbc.com/gahuza/59436729
+Tanzania: Sentare ivuga ko inyandiko zo kuraga itunga ryose Jackline Ntuyabaliwe zitakurikije amategeko,entertainment,politics,0.26969397,https://www.bbc.com/gahuza/amakuru-57202830
+Abarundi barenga 200 bari i Dubai babuze epfo na ruguru kubera coronavirus,health,economy,0.17312922,https://www.bbc.com/gahuza/amakuru-53627635
+Tanzania yakiriye incanco za mbere za Covid-19 zitanzwe na US,health,sport,0.6924224,https://www.bbc.com/gahuza/amakuru-57959503
+"Russia yahaye amasaha indwi ingabo za Ukraine ziri i Mariupol ngo zikishikane, zanse",politics,sport,0.6622379,https://www.bbc.com/gahuza/amakuru-61132465
+Diego Maradona: Menya ubuhinga bw'uyu mukinyi n'intege nke ziwe,sport,politics,0.23968627,https://www.bbc.com/gahuza/amakuru-55084136
+Africa-Urudandazwa ku buryo bwa none: Abagore bahevye iduka bakaja kuri terefone zigezweho,economy,sport,0.27869633,https://www.bbc.com/gahuza/amakuru-61331398
+Ubutunzi bwa Afghanistani buteye ahatemba,economy,sport,0.7141541,https://www.bbc.com/gahuza/amakuru-59419705
+Abaganga b'abanyamahanga 'bavunishwa akazi' bafitiye impungenge abarwayi mu Bwongereza,health,politics,0.23960197,https://www.bbc.com/gahuza/articles/cje729j8183o
+Ubuserukizi bwa US muri Tanzania bugabisha ko abandura Covid-19 bariko biyongera,health,politics,0.2166504,https://www.bbc.com/gahuza/amakuru-56021179
+US: B﻿iden arashima ivyavuye mu matora yo hagati muri manda,politics,economy,0.19314833,https://www.bbc.com/gahuza/articles/c3gjgld0mmgo
+Maradona: Igipolisi ca Argentine mu matohoza ku muganga wiwe ku ruhara mu urupfu rwiwe,sport,politics,0.2586075,https://www.bbc.com/gahuza/amakuru-55127438
+"OMS: urukingo rwa malaria Mosquirix (RTS,S/AS01) rwemejwe gukoreshwa muri Africa",health,sport,0.32135484,https://www.bbc.com/gahuza/amakuru-58821722
+Coronavirus: New York ifise ibitigiri bibini vy’abanduye gusumba ibihugu vyose kw’isi,health,politics,0.24706067,https://www.bbc.com/gahuza/amakuru-52242403
+Ebola yongeye kwaduka muri DR Congo,health,politics,0.2395825,https://www.bbc.com/gahuza/articles/c6pey21gvlko
+Yamato: Ibanga ry'abavuzi b'ingoma bo mu Buyapani,entertainment,politics,0.23642829,https://www.bbc.com/gahuza/amakuru-48911807
+Tokyo 2020: CNO- Burundi ivuga ko Francine Niyonsaba adafashwa kuko hari ivyo atakwije,sport,politics,0.23334536,https://www.bbc.com/gahuza/amakuru-57753035
+Cyril Ramaphosa wa Afrika y’Epfo ashobora kubogozwa ku busuma bwabereye mw’itongo ryiwe,politics,sport,0.28676894,https://www.bbc.com/gahuza/articles/c9e1gyjvv03o
+Argentine irigina igarukanwa rya 'maillot' Maradona yari yambaye mu rukino rwa nyuma rw'igikombe c'isi,sport,education,0.5481696,https://www.bbc.com/gahuza/articles/cqq60n356evo
+Minembwe: FARDC ivuga ko ata mutwe n'umwe uzotunga ibirwanisho,politics,sport,0.61233985,https://www.bbc.com/gahuza/amakuru-58988046
+Prince Philip: Ivyaranze ubuzima bwiwe n'icubahiro yagize hose,entertainment,sport,0.30780715,https://www.bbc.com/gahuza/amakuru-43883308
+Kuba uwahoze ari Prezida wa USA bimera gute?,entertainment,sport,0.832211,https://www.bbc.com/gahuza/amakuru-55722512
+Novak Djokovic yemeye ko yarenze ku mategeko yo kuguma ukwa wenyene kandi yaranduye Covid,sport,politics,0.23894179,https://www.bbc.com/gahuza/amakuru-59968979
+"Bazamuganga: Kanseri y'ibere ifata gute, ivurwa gute?",health,politics,0.23595153,https://www.bbc.com/gahuza/amakuru-59268313
+Iran: 'Abanyabulaya icenda' bahagaritswe mu myiyerekano ibandanya,politics,economy,0.19755055,https://www.bbc.com/gahuza/articles/cv21xl11p24o
+"Coronavirus: OMS iti ‘Afrika ntizoba urubuga rwo kugerageza urucanco urwo ari rwo rwose"".",health,sport,0.3872905,https://www.bbc.com/gahuza/amakuru-52196577
+Intambara hagati ya Ethiopia na Tigray: Kubera iki isi yose ifise impungenge,politics,health,0.22351083,https://www.bbc.com/gahuza/amakuru-59287254
+DR Congo: WHO mw'itohoza ku bakozi bayo baregwa amabi ku bagore mu gihe barwanya Ebola,health,economy,0.19744803,https://www.bbc.com/gahuza/amakuru-54355643
+Coronavirus: Prezida Jair Bolsonaro wa Brazil yayanduye - amakuru avugwa n'ahandi,health,politics,0.24899223,https://www.bbc.com/gahuza/amakuru-53327568
+Umugabo acuraranga urumbete akoresheje amano,entertainment,politics,0.24241735,https://www.bbc.com/gahuza/59431870
+Abantu bashika 30 bahitanywe n'ibisasu hirya no hino muri Afuganisitani,politics,economy,0.21578023,https://www.bbc.com/gahuza/amakuru-49112957
+Kidum nawe yasohoye indirimbo ihimiriza kwirinda coronavirus,entertainment,politics,0.24338317,https://www.bbc.com/gahuza/amakuru-52203593
+US: Uko abategetsi bamwe barimo n'uw'u Burundi bakiriye intsinzi ya Joe Biden,politics,sport,0.51904064,https://www.bbc.com/gahuza/amakuru-54861758
+Paris St-Germain: Mauricio Pochettino yasubiriye Thomas Tuchel nk'umumenyereza,sport,politics,0.26479927,https://www.bbc.com/gahuza/imikino-55520802
+12 bahagaritswe bagirizwa kubomora imva ya DJ Arafat muri Côte d'Ivoire,entertainment,politics,0.28361177,https://www.bbc.com/gahuza/49550935
+Umushikiranji w'amagara muri Kongo yasezeye kubera ukutumvikana mu kurwanya Ebola,health,sport,0.36364242,https://www.bbc.com/gahuza/amakuru-49072839
+Coronavirus: OMS itangaza ko habonetse igitigiri c’abanduye kitari bwigere kibaho mu munsi umwe,health,politics,0.21511458,https://www.bbc.com/gahuza/amakuru-53457069
+Guhiganirwa kuja mu gikombe c'isi n'ica Afrika vyahinduwe amatariki,sport,politics,0.2757782,https://www.bbc.com/gahuza/amakuru-51139834
+Margaret Wambui: Umunya-Kenya afise umudari wa olympic asaba ko haba umugwi wa gatatu w'abanonotsi,sport,politics,0.25642398,https://www.bbc.com/gahuza/amakuru-57344114
+Kenya: Evariste Ndayishimiye asaba abagwizatunga ba Kenya kujana imitahe mu Burundi,economy,politics,0.233881,https://www.bbc.com/gahuza/amakuru-57306790
+Hannah Alateju ni rurangiranwa kuri Instagram naho yacitse ibihimba,entertainment,sport,0.6603263,https://www.bbc.com/gahuza/amakuru-51316520
+Umushikiranganji wa mbere w’ Ubuyapani aragabisha Afrika ku madeni y’umurengera,economy,politics,0.26297265,https://www.bbc.com/gahuza/49512963
+"Ikiganiro ca Meghan na Oprah: Impungenge ku ""bwirabure"" bw'umwana wa Meghan",entertainment,sport,0.7799664,https://www.bbc.com/gahuza/56363742
+"Ukraine: Kurwanira Mariupol, 'umutima w'iyi ngwano'",politics,economy,0.210162,https://www.bbc.com/gahuza/amakuru-61094837
+'Tanzania ntiyirukira urucanco rwa Corona' - Prezida Magufuli,health,sport,0.7265628,https://www.bbc.com/gahuza/amakuru-55826062
+Gabon: Igihugu ca mbere co muri Africa gihawe amafaranga yo gukingira amashamba yaco,politics,sport,0.62007225,https://www.bbc.com/gahuza/amakuru-57567484
+Mu mafoto: Umwami Charles ku musi wa mbere atanguye amabanga,entertainment,sport,0.7398539,https://www.bbc.com/gahuza/amakuru-62860482
+Urucanco rwa malaria 'ruzohindura ubuzima bw'Abanya-Africa ubudasubirwamwo',health,economy,0.18152858,https://www.bbc.com/gahuza/amakuru-58867297
+Kenneth Kaunda: Habaye ibirori vyo gusezera uwabaye prezida wa mbere wa Zambia,politics,sport,0.5538992,https://www.bbc.com/gahuza/amakuru-57695544
+Abakuru ba US na China bavuganye kuri terefone ubwa mbere mu mezi indwi,politics,sport,0.52959555,https://www.bbc.com/gahuza/amakuru-58511457
+Kenya: Reta yahevye amakori yari yatumye ikena ry'imiti yo gupfupfahaza Sida,health,politics,0.23441447,https://www.bbc.com/gahuza/56652223
+Sentare mu Burundi yanse ibisabwa n'abaregwa kwica Ndadaye,politics,relationship,0.19632126,https://www.bbc.com/gahuza/amakuru-50576150
+Omicron: Ni ibihe bimenyetso bizwi vy'ubu bwoko bushasha bwa Covid-19?,health,economy,0.1991754,https://www.bbc.com/gahuza/amakuru-60038501
+Coronavirus: Dexamethasone niwo muti wa mbere umaze kuboneka ko ushobora gukiza,health,relationship,0.20429604,https://www.bbc.com/gahuza/amakuru-53070851
+South Africa yoba yarinubwe ku bumenyi bwayo ko Omicron idakaze cane?,health,politics,0.24071224,https://www.bbc.com/gahuza/amakuru-60072921
+Umuyobozi wa Bujumbura agabisha ko CHOLERA yateye igisagara ca Bujumbura,health,economy,0.1854259,https://www.bbc.com/gahuza/amakuru-49256153
+DRC: Abantu 25 nibo bagandaguwe buca ari ubunani,politics,economy,0.2166694,https://www.bbc.com/gahuza/amakuru-55514256
+"Iran: Igisirikare ca Amerika cemeza ko cishe umukuru w’ingabo zidasanzwe za Quds, Qasem Soleimani",politics,health,0.20348845,https://www.bbc.com/gahuza/amakuru-50980469
+Afghanistan: Abana bashonje bahabwa imiti yo gutora itiro hakanagurishwa ingingo z'umubiri,health,relationship,0.2566898,https://www.bbc.com/gahuza/articles/cw4n0z9gz33o
+Ibibazo vyanyu kuri Covid-19 birishurwa na Muganga,health,politics,0.23423557,https://www.bbc.com/gahuza/amakuru-55652613
+Roman Abramovich: Ivyemezo bishasha vyerekana amasezerano y'ubuguzi yaranzwe na ruswa,sport,politics,0.2922441,https://www.bbc.com/gahuza/amakuru-60747040
+Ukraine: amabi y’Uburusiya yatumye ibihugu vya OTAN vyegerana gusumba,politics,economy,0.19437674,https://www.bbc.com/gahuza/articles/cxerr8zp11eo
+Africa y'Epfo na Covid-19:Inkingo za mbere zirashika ku wa mbere,health,sport,0.42177245,https://www.bbc.com/gahuza/55840967
+Korea ya Ruguru yagerageje misire incuro zitandatu mu ndwi zibiri,politics,sport,0.6502625,https://www.bbc.com/gahuza/articles/cd1jyxjnzl5o
+Benjamin Mendy: Uyu mukinyi wa Manchester City yagirijwe ibindi vyaha vyo gufata ku nguvu,sport,politics,0.26437074,https://www.bbc.com/gahuza/amakuru-59315867
+Omicron: US igiye kuvanaho kubuza ingendo ziva muri Africa y'ubumanuko,health,politics,0.23532261,https://www.bbc.com/gahuza/59784397
+Rwanda: Abatavuga rumwe n'ubutegetsi basaba leta guhagarika ingingo y'ugukata umushahara w'abakozi,economy,health,0.2446516,https://www.bbc.com/gahuza/amakuru-51719154
+DR Congo: FARDC yahaye igisirikare c' u Rwanda inyeshamba 71 zirwanya ubutegetsi bw'ico gihugu,politics,sport,0.781069,https://www.bbc.com/gahuza/amakuru-50889806
+Ifoto nziza z'indwi muri Afrika: Kuva kw'itariki 8-14 z'ukwezi kwa cumi 2021,entertainment,sport,0.79333955,https://www.bbc.com/gahuza/amakuru-58929271
+DR Congo: Ebola 'yarangiye' mu buraruko bushira ubuseruko,health,politics,0.27861127,https://www.bbc.com/gahuza/amakuru-53180678
+Xueli Abbing: Umwana w'umwema yatawe n'abavyeyi ubu yabaye umunyamideli wa Vogue,entertainment,health,0.24664162,https://www.bbc.com/gahuza/amakuru-56997321
+Coronavirus: Ubuhamya bw'umuganga yayirwaye akayikira,health,politics,0.24336074,https://www.bbc.com/gahuza/amakuru-56047402
+Umunsi ntarengwa ku bihugu vyifuza gusaba kwakira Can 2025,sport,politics,0.26495254,https://www.bbc.com/gahuza/articles/c6pg3pjx64vo
+Mason Greenwood: Umusatiziri wa Manchetser United yarekuwe vy’agateganyo,sport,politics,0.2944207,https://www.bbc.com/gahuza/amakuru-60232301
+Ukraine: Russia yatanze agahengwe mu bisagara bibiri kugira abahunga bahunge ariko ntikubahirijwe,politics,economy,0.21692213,https://www.bbc.com/gahuza/amakuru-60629336
+Korea ya Ruguru igabisha Amerika ko izofata ‘ingingo ruhasha’ ku myimenyerezo rusangi itanguye,politics,sport,0.57464385,https://www.bbc.com/gahuza/articles/cy7v1w08494o
+Whoopi Goldberg yahagaritswe na ABC kubera amajambo yavutse kw’ihonyabwoko ryakorewe Abayahudi,entertainment,politics,0.277167,https://www.bbc.com/gahuza/amakuru-60231461
+Ubwo OMS izoshobora guhangana n’ingorane z’uburyo Amerika niyiyonkora?,health,politics,0.2501232,https://www.bbc.com/gahuza/amakuru-53335506
+Xi Jinping w’Ubushinwa ari mu rugendo muri Koreya ya Ruguru mu ntumbero y’ugukomeza ubucuti,politics,sport,0.6098871,https://www.bbc.com/gahuza/amakuru-48702560
+Cristiano Ronaldo: indege yakoze imyiyerekano ku vyaha vyo gufata ku nguvu yagirizwa,sport,politics,0.27748743,https://www.bbc.com/gahuza/amakuru-58534655
+Imvo n'imvano iganira na bamwe mu barundi ku matora yo ku wa 20.05.2020 mu Burundi,politics,sport,0.56718135,https://www.bbc.com/gahuza/amakuru-52783988
+"Diego Maradona yaraye ashinguwe, Argentine isigaye mu marira",sport,politics,0.266646,https://www.bbc.com/gahuza/amakuru-55097545
+Covid-19: Afrika y’Epfo yatoye ubwoko bushasha bwa coronavirus,health,politics,0.25591716,https://www.bbc.com/gahuza/amakuru-58394225
+"Amatora ya 2020 muri America: Russia, China, Iran, vyipfuza ko ari nde atsinda ?",politics,economy,0.21173981,https://www.bbc.com/gahuza/amakuru-54465208
+Malaria-Malawi: Ubwa mbere kw'isi  urucanco rutanzwe mu gihugu cose,health,politics,0.23162472,https://www.bbc.com/gahuza/articles/c03n61934p8o
+Umunyamabanga w'ubudandaji wa Amerika Wilbur Ross avuga ko coronavirus izotuma ubuzi bwiyongera,economy,politics,0.26463908,https://www.bbc.com/gahuza/51324702
+Ikiganiro n'umukuru mushasha wa CNDD FDD Gen Evariste Ndayishimiye,politics,sport,0.7366989,https://www.bbc.com/gahuza/amakuru-37201549
+Ikipe y’Intamba mu Rugamba ngo yiteguriye kwitanga ku rukino rwa kabiri,sport,politics,0.25880644,https://www.bbc.com/gahuza/imikino-48761841
+'Nobwira abigeme ko buri muntu afise ico ashoboye n'ico ashobora gushikako - Sada Nahimana,sport,politics,0.24684574,https://www.bbc.com/gahuza/amakuru-56901113
+Ukraine: Umusirikare w'Uburusiya yaciriwe uwo guherayo ku caha co mu ntambara,politics,sport,0.3569774,https://www.bbc.com/gahuza/amakuru-61551436
+"Kurondera amamuko nyafrika y''intambo y'intambara ya Brazil, capoeira",entertainment,education,0.5848612,https://www.bbc.com/gahuza/amakuru-57746774
+Umusoda ari muzabukuru yarangije urugendo rudasanzwe muri Afrika yigisha ingwara itamenyerewe,health,politics,0.22874415,https://www.bbc.com/gahuza/articles/cz58n3v1ze8o
+Iran: Abantu bashika 50 baguye mu birori vyo kwunamira Soleimani,politics,health,0.31826064,https://www.bbc.com/gahuza/amakuru-51017796
+Twitter itegura kubonana na Manchester United kw’ityozwa rya Pogba,sport,economy,0.21866521,https://www.bbc.com/gahuza/49436607
+UK: umushikiranganji yasavye imbabazi inyuma y'amashusho amwerekana asomana n'umufasha,entertainment,economy,0.1928584,https://www.bbc.com/gahuza/amakuru-57621032
+South Korea: Kompanyi y'amata yasavye imbazi kubera yerekanye abagore nk'inka,economy,environment,0.19297127,https://www.bbc.com/gahuza/amakuru-59665915
+Iran-USA: Igitigiri c’Abanyamerika bagize ibibazo vyo mu bwonko mu gitero ca Iran congerekanye,health,sport,0.47537574,https://www.bbc.com/gahuza/amakuru-51460917
+Ukraine: Uburusiya bwarekuye drone 30 mu minsi ibiri – Zelensky,politics,sport,0.27464986,https://www.bbc.com/gahuza/articles/c2lv914lz13o
+Ubukoloni: Bemeye amabi ariko nta mpozamarira,politics,education,0.6080835,https://www.bbc.com/gahuza/articles/cn0x9pqqzego
+Ingabo zidasanzwe za Australia zagirizwa kwica abasivire muri Afghanistani,politics,economy,0.21357124,https://www.bbc.com/gahuza/amakuru-55005995
+Britney Spears: Se yasavye guhagarika guhagararira inyungu ziwe zose,entertainment,economy,0.20892896,https://www.bbc.com/gahuza/amakuru-58489109
+MINUSCA: ONU iriyamiriza iyicwa ry’umusirikare w’Umurundi muri,politics,sport,0.41391265,https://www.bbc.com/gahuza/amakuru-55693660
+Covid-19 mu 2021: Ivyo tumaze kumenya gushika ubu kuri uwo mugera,health,relationship,0.26009932,https://www.bbc.com/gahuza/amakuru-57086088
+FAO ivuga ko DR Congo ari co gihugu 'ca mbere cugarijwe n'ibura ry'ibifungurwa kw'isi',health,economy,0.22041531,https://www.bbc.com/gahuza/amakuru-55183832
+Leta ya Tanzania yasubije abagaya ingene iriko irahangana na coronavirus,health,education,0.5195818,https://www.bbc.com/gahuza/amakuru-52678950
+"OMS yihagazeko ku miti y'inkorora ""ibangamye"" ikorerwa muri India",health,economy,0.1793918,https://www.bbc.com/gahuza/articles/cq57kvv91pro
+"Igikombe ca Afrika Misiri 2019 - Imigwi, inkino n'uko batsindana",sport,politics,0.26456302,https://www.bbc.com/gahuza/imikino-48638099
+Coronavirus: WHO yemeje amategeko yo gupima imiti kama nyafrika,health,economy,0.22899035,https://www.bbc.com/gahuza/amakuru-54235354
+Coronavirus-Afrika: ibitigiri vy’abanduye bigenda vyiyongera muri Algeria na Senegal,health,politics,0.22479585,https://www.bbc.com/gahuza/51748762
+Burundi: Abatimbo ba Gishora baracishuza leta imiliyoni 12 kubera ikiraka batswe,entertainment,politics,0.23852965,https://www.bbc.com/gahuza/amakuru-61467559
+Burundi: Basaba ko ingingo yo gukata umushahara w'abigisha ibangira,politics,economy,0.20129286,https://www.bbc.com/gahuza/51194719
+Afrika y'Epfo-Covid: Prezida yatanze akarorero mu guterwa urucanco,health,sport,0.55348986,https://www.bbc.com/gahuza/56096076
+A﻿gathon Rwasa yareze leta y'u Burundi muri sentare ya EAC,politics,sport,0.44685698,https://www.bbc.com/gahuza/articles/c6pg3jd6dppo
+"""Babigize ikinyegezwa, bihungabanya ubuzima bwanje, ngiye kubigwanya""",sport,politics,0.2691304,https://www.bbc.com/gahuza/articles/crg2903zp5zo
+Covid -Omicron: Abagwayi biyongereye incuro zibiri muri South Africa mu masaha 24,health,environment,0.19720308,https://www.bbc.com/gahuza/amakuru-59508851
+Umushikiranganji w’ikigega wa Afrika y’Epfo asaba ko urucuruza rw’urumogi rwemerwa n’amategeko,economy,politics,0.25315487,https://www.bbc.com/gahuza/amakuru-51075414
+Abantu 148 bapfunzwe mu migumuko yadutse nijoro PSG itsinzwe na Bayern,sport,politics,0.2710258,https://www.bbc.com/gahuza/amakuru-53891940
+Amafoto ya Africa hagati ya 28 z'ukwa mbere na 3 z'ukwa kabiri mu 2022,entertainment,sport,0.5800077,https://www.bbc.com/gahuza/60263026
+Hassan Sheikh Mohamud: Prezida mushasha wa Somalia ni nde?,politics,sport,0.30212846,https://www.bbc.com/gahuza/amakuru-61467657
+"Coronavirus: Uwa kabiri yanduye muri Senegal, nayo Kenya yahagaritse ingendo z'indege mu Butaliyano",health,politics,0.23097265,https://www.bbc.com/gahuza/amakuru-51732682
+India: Umukoresha yanebaguwe ku ciyumviro co gukora amasaha 18 ku musi,economy,politics,0.28038463,https://www.bbc.com/gahuza/articles/c72e9xl2ylyo
+Icegera ca mbere c'umukuru wa Zanzibar n'umugore wiwe batowe Covid-19,health,politics,0.19836175,https://www.bbc.com/gahuza/amakuru-55890298
+"Ibibazo vyanyu kuri Coronavirus: Mbe bashize icuma aho bateye urukingo, kimatako?",health,economy,0.180258,https://www.bbc.com/gahuza/amakuru-57922553
+Euro 2020 - France 1-0 Germany: Benshi barakomeretse mu myiyerekano y'uwakoroka mu mutaka,sport,environment,0.16601217,https://www.bbc.com/gahuza/amakuru-57494510
+Helen Nkwocha - umumenyereza wa mbere w'umugore w'ikipe ikomeye y'abagabo i Buraya,sport,politics,0.24202408,https://www.bbc.com/gahuza/imikino-58871190
+Covid-19: Africa irasaba UN gutegura inama yo kwiga ingene incanco zotangwa ata bugunge,health,economy,0.1720626,https://www.bbc.com/gahuza/amakuru-55270462
+Uganda - DR Congo: Hatanguye ibitero vy'indege ku bagwanyi ba ADF,politics,sport,0.7033874,https://www.bbc.com/gahuza/amakuru-59475398
+Uganda – Afghanistan: Impunzi za mbere zashitse i Kampala,politics,education,0.5436697,https://www.bbc.com/gahuza/58330040
+Russia yirukanye abakora mu buserukizi bw'ibihugu vy'Ubulayi 'bagiye mu myiyerekano' ya Navalny,politics,health,0.26884282,https://www.bbc.com/gahuza/amakuru-55960919
+US: Umuganga w'umwirabure yishwe na Covid avuga azize ivangura rishingiye ku rukoba,health,politics,0.25795865,https://www.bbc.com/gahuza/amakuru-55451755
+Malawi irasaba Tyson kuyibera intumwa ku giterwa c'urumogi,entertainment,politics,0.26369426,https://www.bbc.com/gahuza/amakuru-59400803
+Umunyarwandakazi Isabelle Kamariza ku rutonde rwa Forbes,entertainment,politics,0.24372302,https://www.bbc.com/gahuza/amakuru-56380373
+Chris Brown yagirijwe ko yahaye ibiyayuramutwe umugore aca amusambanya ku nguvu mu bwato,entertainment,health,0.29049754,https://www.bbc.com/gahuza/amakuru-60186922
+Abarundi babiri bakomeretse mu gitero ca grenade mw'ikambi y'impunzi muri Malawi,politics,health,0.24037655,https://www.bbc.com/gahuza/articles/c727gv4dy7vo
+Covid-19: 83% vy'abanye-Afrika ntibararonswa urukingo rwa mbere - OMS,health,education,0.55474955,https://www.bbc.com/gahuza/amakuru-60494062
+South Africa: WHO iti nta cerekana ko ubwoko bushasha bwa corona bushobora kurinda urukingo,health,politics,0.21383794,https://www.bbc.com/gahuza/55571169
+Nijeriya niyo isa n' isigaye mw'ihiganwa ry'umupira w'amaguru kw'isi rihuza imirwi nserukirabihugu y'abagore,sport,politics,0.24558224,https://www.bbc.com/gahuza/imikino-48652367
+Kurwara amano biturutse kuri Covid: Icigwa kirabisigura,health,relationship,0.30710858,https://www.bbc.com/gahuza/amakuru-58817638
+"Mu gihe Amerika iriko irungika izindi ngabo, Irani isaba ingabo mvamahanga kutegera ikigobe c’abarabu",politics,sport,0.6700358,https://www.bbc.com/gahuza/amakuru-49788030
+Gasape: Urubuga hwaniro rwa mbere rutangujwe n'Umurundi,entertainment,health,0.23950829,https://www.bbc.com/gahuza/amakuru-56431254
+"Mu kwahukana, Kanye West yategetswe guha Kim Kardashian ibirezo vya 200.000$ ku kwezi",entertainment,economy,0.18059896,https://www.bbc.com/gahuza/articles/c9xp721dkleo
+"Coronavirus: Uyu muganga yagerageje kugabisha abantu, igipolisi kiti 'numa'",health,economy,0.19566837,https://www.bbc.com/gahuza/amakuru-51371561
+Coronavirus: Umukuru w'igihugu ca Ghana yifatiye ingingo ya Guma mu rugo,health,politics,0.25444594,https://www.bbc.com/gahuza/amakuru-53297166
+Umunonotsi Francine Niyonsaba avuga ko atawuzomubuza guhiganwa,sport,economy,0.18273745,https://www.bbc.com/gahuza/amakuru-49513652
+Amakuru ku ntambara ya Russia na Ukraine: Uburusiya bugabisha Uburengero ku ngaruka zititezwe,politics,sport,0.28313395,https://www.bbc.com/gahuza/amakuru-61126345
+Amwe mu mafoto yaranze Africa muri ino ndwi,entertainment,sport,0.79407173,https://www.bbc.com/gahuza/amakuru-58029277
+Zinedine Zidane yavuye muri Real Madrid kubera uwo mugwi 'utari ukimufitiye icizere',sport,politics,0.23627406,https://www.bbc.com/gahuza/amakuru-57306798
+Pablo Escobar: hatowe amafaranga menshi yanyegejwe mu nzu y'uyu yahoze acuruza ibiyayuramutwe,entertainment,politics,0.24581967,https://www.bbc.com/gahuza/amakuru-54285849
+Africa mu mafoto: Aya ni amwe mu mafoto yaranze iyi ndwi 25/6- 01/7,entertainment,sport,0.7229314,https://www.bbc.com/gahuza/amakuru-57693285
+Aba-Maasai TikTok yazaniye aba-fana ba Bollywood,entertainment,economy,0.18370393,https://www.bbc.com/gahuza/amakuru-59755758
+Ibibazo vyanyu kuri Covid-19: Umuntu yayirwaye akingirwa ryari?,health,education,0.300488,https://www.bbc.com/gahuza/amakuru-56725778
+US - WHO: Nancy Pelosi abwira Trump ati ‘dutegerezwa kubwirwa ukuri’,politics,economy,0.19337144,https://www.bbc.com/gahuza/amakuru-52292485
+Ginette Karirekinyana yiyemeje kurwanya malaria akoresheje uburyo kama,health,politics,0.2249509,https://www.bbc.com/gahuza/amakuru-50792486
+Eto'o ashaka 'gusubiriza Afrika mu ndumane' yifashishije amashure,sport,politics,0.28161517,https://www.bbc.com/gahuza/imikino-50577083
+Uburyohe bw'umukate n'isoda nibwo bwatumye Phenny Awiti yemera kwipimisha umugera wa SIDA,health,education,0.59019506,https://www.bbc.com/gahuza/amakuru-50572638
+Ububiko bw'incanco za Covid-19: Miriyoni 241 z'incanco zirashobora gutabwa?,health,politics,0.24602678,https://www.bbc.com/gahuza/amakuru-58657960
+Muri Tigray 'abantu barasambanijwe ku nguvu''-reta ya Ethiopia,politics,health,0.18939815,https://www.bbc.com/gahuza/56039862
+Nkundabantu : umuririmvyi Ndoreyicimpa Bernard yari nde?,entertainment,sport,0.5854518,https://www.bbc.com/gahuza/51166404
+C﻿rimea: Ivyishimo n'ubwoba muri Ukraine inyuma y'iturika ry'ikiraro,politics,sport,0.31218472,https://www.bbc.com/gahuza/articles/c516g65d51xo
+Africa mu mafoto muri iyi ndwi: 24-30 Ukwezi kw'icenda 2021,entertainment,sport,0.5185603,https://www.bbc.com/gahuza/amakuru-58764281
+Intambara yo muri Ukraine: Gusangira icumba n'abapfuye – amahano mu micungararo ya Chernihiv,politics,economy,0.22876416,https://www.bbc.com/gahuza/amakuru-61031946
+China igabisha UK ku gico cayo c'ubwato bw'intambara ivuga ko buriko buravogera ico gihugu ca Asia,politics,economy,0.21480985,https://www.bbc.com/gahuza/amakuru-58024565
+‘Buri mukobwa aho ari hose akwiye gukoresha impano Imana yamuhaye’ – Emmanuella,sport,health,0.17727436,https://www.bbc.com/gahuza/imikino-61339111
+USA: Prezida Donald Trump na NFL ntibumvikana mu kwiyamiriza ivanguramoko,sport,health,0.22372714,https://www.bbc.com/gahuza/amakuru-52948796
+Coronavirus: Abandura mu Bubirigi bashobora kuba nka 'tsunami',health,economy,0.18326713,https://www.bbc.com/gahuza/amakuru-54599870
+Abaguzi b'ibinyobwa vya Brarudi mu Burundi basaba guhumurizwa,economy,politics,0.21806717,https://www.bbc.com/gahuza/amakuru-50397519
+Denmark: Intwari zashoboye kurokora Christian Eriksen inyuma y'aho agwiriye mu kibuga nijoro,sport,politics,0.25544152,https://www.bbc.com/gahuza/imikino-57458445
+"Inzara ku rugi rwa Somalia, ku bwa ONU",politics,economy,0.1990348,https://www.bbc.com/gahuza/articles/c2j44rknm7mo
+Kim Kardashian vyatangajwe ko ata mugabo agira inyuma yo kwahukana na Ye,entertainment,politics,0.23255302,https://www.bbc.com/gahuza/amakuru-60600149
+Bazamuganga: Uburwayi bwa Fibromes Uterins bumeze gute?,health,economy,0.18099819,https://www.bbc.com/gahuza/amakuru-56380371
+"Covid-19: urucanco Pfizer/BioNTech rwemejwe, rugiye gutangura gutangwa mu ndwi iza mu Bwongereza",health,economy,0.22328743,https://www.bbc.com/gahuza/amakuru-55158786
+Australia: 'Abanyamahanga batubahiriza amategeko ya Covid bazirukanwa',health,politics,0.26319626,https://www.bbc.com/gahuza/amakuru-55477588
+"Amagorwa yo kubaho ufise indwara idasanzwe ituma ""ashobora gutabwa nk'akanuka""",health,relationship,0.247807,https://www.bbc.com/gahuza/amakuru-54599863
+Italy: Amazi atwara imicafu yabonetsemwo umugera wa coronavirus imbere y'uko imenyekana,health,politics,0.2148078,https://www.bbc.com/gahuza/amakuru-53119305
+Ferdinand Omanyala: Uwambere mu kunyaruka muri Africa yamara agwana n'igitutu ca kahise,sport,politics,0.26507768,https://www.bbc.com/gahuza/amakuru-58645416
+UN iragiriza u Burundi na Tanzania gutoteza impunzi z'abarundi,politics,environment,0.21067029,https://www.bbc.com/gahuza/amakuru-56752471
+Covid-19: Prezida wa Uganda Yoweri Museveni yitwariye ikinyamakuru Daily Monitor,health,politics,0.25989833,https://www.bbc.com/gahuza/amakuru-56442892
+"Ronaldo ntazokurikiranwa ku caha co ""gufata ku nguvu""",sport,politics,0.27561283,https://www.bbc.com/gahuza/amakuru-49084462
+Motsepe agiye gutwara Caf ubwo asigaye ari wenyene mw'ihiganwa,sport,politics,0.25973976,https://www.bbc.com/gahuza/amakuru-56325551
+Iran 'iriko irasenyura' igipolisi kijejwe inyifato kubera imyiyerekano,politics,sport,0.60016143,https://www.bbc.com/gahuza/articles/c72699e3p7eo
+Coup d’Etat muri Burkina Faso : Lieutenant-Colonel Paul-Henry Sandaogo Damiba ni nde?,politics,sport,0.65965664,https://www.bbc.com/gahuza/amakuru-60126002
+Coronavirus: WHO isaba ibihugu vya Afrika kutajugunya incanco zataye igihe,health,politics,0.24898726,https://www.bbc.com/gahuza/amakuru-56855882
+Kuki Uburundi buza imbere mu bihugu  bikenye cane kw’isi?,economy,health,0.16531588,https://www.bbc.com/gahuza/articles/c2jn8ydl1vzo
+Tottenham 0-2 Chelsea: Rudiger wa Chelsea avuga ko yatyojwe kubera ari umwirabure,sport,politics,0.2582127,https://www.bbc.com/gahuza/50889815
+Covid: Akajagari mu ngendo karabandanya muri iyi ndwi,health,politics,0.2393617,https://www.bbc.com/gahuza/amakuru-59801708
+Burundi: Evariste Ndayishimiye yavuze iki mu butumwa bw’umunsi w’Ukwikukira?,politics,environment,0.20453203,https://www.bbc.com/gahuza/amakuru-53246285
+Ingaburo : hagati y'imboga n'inyama n'amata ni ikihe ciza ku muntu? Icigwa cakorewe ku mahasa,health,politics,0.23470804,https://www.bbc.com/gahuza/amakuru-59686032
+China: Rurangiranwa mu kuvuza piano Li Yundi yapfunzwe yagirizwa kugura imaraya,entertainment,health,0.26689667,https://www.bbc.com/gahuza/amakuru-59009840
+Wayne Rooney: Uyu yahoze ari umusatirizi wa England avuga ko yatinya ko inzoga zari kumwica,sport,health,0.28817922,https://www.bbc.com/gahuza/imikino-60329388
+"Burundi-CVR: 'Nimba ukuri ari ukuje gutera indyane mu gihugu, ntaco kwoba kumaze', Ndayishimiye",politics,economy,0.17383614,https://www.bbc.com/gahuza/amakuru-59815812
+Brazil: Abirabure bariyamiriza ivanguramoko n'ihohoterwa rikorwa n'igiporisi,politics,environment,0.18588915,https://www.bbc.com/gahuza/amakuru-57133482
+"Umunyamakuru akaba n'umwanditsi kuri Afrika akomeye, Pierre Pean, yapfuye",entertainment,politics,0.2751049,https://www.bbc.com/gahuza/amakuru-49128752
+Akon-Uganda : Rurangiranwa muri rap Aliaune Thiam muri Uganda kurondera aho ashora imitahe,entertainment,sport,0.8341708,https://www.bbc.com/gahuza/56619294
+"U Burundi ngo naho atawurwaye coronavirus arahaboneka ""buriteguye""",health,politics,0.19955942,https://www.bbc.com/gahuza/amakuru-52041880
+Mbali Sana: Steven Sogo aravuga ku rukurikirane rushasha rw'indirimbo ziwe,entertainment,sport,0.7085728,https://www.bbc.com/gahuza/59690230
+Iran: 'Nta gusubira inyuma' mu gihe imyiyerekano yujuje imisi 100,politics,economy,0.1979232,https://www.bbc.com/gahuza/articles/cz9wdz5ewqpo
+Diamond League Doha: Francine Niyonsaba ati 'Iyi ntsinzi ni iyo gutera intege abandi',sport,politics,0.26787674,https://www.bbc.com/gahuza/amakuru-61448725
+Ibanki nkuru y’u Burundi igabisha amashirahamwe acuruza amafaranga atisunze amategeko,economy,politics,0.24089418,https://www.bbc.com/gahuza/50444936
+CAN 2021: Igikombe ca Afrika kiratangura vuba muri Cameroun,sport,politics,0.2236949,https://www.bbc.com/gahuza/amakuru-59896571
+DR Congo: Umusirikare wa MONUSCO yishwe ku kirindiro cayo i Minembwe,politics,economy,0.18422672,https://www.bbc.com/gahuza/articles/cxwrwmk9148o
+Umupfasoni Claudette avuga ko arenza 200kg ari mu maganya kubera ubuvyibuhe,health,relationship,0.22556677,https://www.bbc.com/gahuza/amakuru-61132885
+Kovid-19: Urwaruka rwibaza iki ku rukingo rwayo?,health,relationship,0.34207377,https://www.bbc.com/gahuza/amakuru-58551871
+Malawi - Covid-19: Incanco 19.610 za AstraZeneca zataye igihe zaturiwe,health,education,0.473461,https://www.bbc.com/gahuza/amakuru-57172752
+Ingwano ya Ukraine: Nta ntambwe kw'ihagarikwa ry'intambara inyuma y'ibiganiro hagati ya Kiyv na Moscou,politics,economy,0.20294173,https://www.bbc.com/gahuza/amakuru-60691823
+Christine Ntahe: Menya uyu murundikazi yahawe agashimwe ka Kenn Allen Global Award,entertainment,politics,0.22521831,https://www.bbc.com/gahuza/amakuru-59905175
+Covax: Côte d'Ivoire na Ghana vyatanguye gutanga incanco zo gukinga Covid,health,economy,0.1952467,https://www.bbc.com/gahuza/amakuru-56245531
+Ibibazo vyanyu kuri Covid-19: Kuki basinyisha umuntu imbere y'urukingo?,health,education,0.26343906,https://www.bbc.com/gahuza/amakuru-56895625
+"Umwambaro wa ki Islamu w'umudeli, ushira imbere kwikwiza",economy,sport,0.35206005,https://www.bbc.com/gahuza/57587296
+Jeanne Gapiya - Covid niyahera tuzosanga hari benshi bahitanywe na Sida,health,relationship,0.1585023,https://www.bbc.com/gahuza/59518822
+Tigray: Ethiopia igabisha ko ishobora gukoresha inguvu zose za gisirikare mu kurwanya TPLF,politics,economy,0.1884825,https://www.bbc.com/gahuza/amakuru-58126359
+Patrice Lumumba: kubera iki iryinyo ari ryo gisigarira conyene c’iyi ncungu?,politics,economy,0.22340961,https://www.bbc.com/gahuza/articles/ce9e4n716jeo
+Abo umurongo ukaze mu bibanza bikomeye muri reta y'aba Taliban,politics,economy,0.17325577,https://www.bbc.com/gahuza/amakuru-58480583
+"Ikiganiro ca Harry na Oprah: Yavuze iki kuri se, igikomangoma Charles?",entertainment,sport,0.68616956,https://www.bbc.com/gahuza/amakuru-56363740
+"Slovenia: Igishusho ca Melania Trump, umugore wa perezida wa USA, caraturiwe",entertainment,politics,0.2444255,https://www.bbc.com/gahuza/amakuru-53347712
+Ukraine: Ingabo ziri i Severodonetsk zishobora guta zikomoka mu gihe iza Russia ziriko zisatira,politics,economy,0.20863107,https://www.bbc.com/gahuza/amakuru-61616086
+Abikorera ibyabo mu Rwanda bari mu rugo kubera Covid-19 ngo kubaho bigiye kubananira,economy,health,0.19430582,https://www.bbc.com/gahuza/amakuru-52098510
+Burundi: Ibiciro vy'igitoro no kwiyunguruza 'biraduga ariko igitoro ntitukibona',economy,health,0.16810158,https://www.bbc.com/gahuza/amakuru-61323295
+Perezida Nkurunziza avuga ko u Burundi bugiye gutangura kwimba Coltan kuva 2020,economy,politics,0.27363816,https://www.bbc.com/gahuza/50957437
+Ibihugu bikenye vya Afrika 'biriha incuro zirenga 30 ku giciro' c’imiti,economy,politics,0.22000366,https://www.bbc.com/gahuza/amakuru-48688836
+Kenya yahagaritse ibikorwa vy'utubare kubera coronavirus yabaye ndanse,economy,politics,0.2502117,https://www.bbc.com/gahuza/amakuru-53556399
+Nord Stream 1: Russia yugaye umuringoti munini ujana gaz i Buraya,economy,politics,0.2379538,https://www.bbc.com/gahuza/articles/c84yvkx348vo
+Afganistan: Abasirikare benshi bari banditswe bagahembawa batabaho - Uwahora ari umutegetsi,economy,politics,0.24602284,https://www.bbc.com/gahuza/amakuru-59235101
+"Tanzania igiye gusaba ideni kugira itereni ishike mu Burundi, Rwanda na Congo",economy,sport,0.7258718,https://www.bbc.com/gahuza/59813274
+Glencore yaciriwe ayarenga miriyoni $300 ku biturire yatanze muri Africa,economy,politics,0.24784891,https://www.bbc.com/gahuza/articles/c72zy41zrnwo
+Terres rares: umushakashatsi Steve de Cliff avuga ko reta y'u Burundi ikwiye gushumbushwa,economy,politics,0.24340865,https://www.bbc.com/gahuza/amakuru-57731306
+Gushona ibirato: Constence Ndayishimiye avuga ko uyu mwuga ubu ari wo umutunze,economy,politics,0.20242721,https://www.bbc.com/gahuza/amakuru-61100629
+Leta y’u Burundi iragabisha abacuruza imyunyu idakwije ibisabwa,economy,environment,0.16010712,https://www.bbc.com/gahuza/49659440
+US: MacKenzie Scott yatanze imfashanyo ya miriyaridi $4.2 mu mezi ane,economy,education,0.4970624,https://www.bbc.com/gahuza/amakuru-55329280
+Amerika yabujije igurishwa ry’ibihingurwa n'amakompanyi y'Ubushinwa ku mvo z’umutekano,economy,politics,0.25200927,https://www.bbc.com/gahuza/articles/c0jgg8n33qeo
+Video: Mu munota umwe... ubuzima bwa Queen Elizabeth II,entertainment,politics,0.2788824,https://www.bbc.com/gahuza/articles/c4nmr1y150eo
+Ivory Coast: umutumire wa televiziyo yateye uburakari mu kwerekana ingene yafata abagore ku nguvu,entertainment,politics,0.20346966,https://www.bbc.com/gahuza/amakuru-58405365
+Ibiteramo Koffi Olomide yategekanya muri Afrika y’Epfo vyahagaritswe,entertainment,sport,0.3368862,https://www.bbc.com/gahuza/amakuru-48722329
+"Africa muri iyi ndwi mu mafoto: 22-28 ukwezi kw'icumi, 2021",entertainment,sport,0.37276897,https://www.bbc.com/gahuza/amakuru-59089052
+Shakira agiye kurengutswa muri Espagne kubera kutariha amakori,entertainment,politics,0.23255329,https://www.bbc.com/gahuza/articles/c9rk5vg5egeo
+BBC Abagore 100: Menya abagore 100 bari ku rutonde rw'umwaka wa 2020,entertainment,sport,0.30783823,https://www.bbc.com/gahuza/amakuru-55074404
+Agashimwe kitiriwe Komla Dumor mu 2020: BBC irondera umunyamakuru w'icitegererezo mu mwuga wo kumenyesha amakuru ku mugabane wa Afrika,entertainment,politics,0.2641505,https://www.bbc.com/gahuza/51616788
+"Imvo n'Imvano na Israël Mbonyi, umuririmbyi wa 'Gospel' wo mu Rwanda",entertainment,sport,0.81252325,https://www.bbc.com/gahuza/amakuru-49534170
+Kim Kardashian 'yituye ubutungane ngo yahukane na Kanye West',entertainment,politics,0.2054803,https://www.bbc.com/gahuza/amakuru-56136575
+"Anne Heche : Uwo mukinyi wa film  muri US ntiyitezwe kurokoka, bivugwa n'umuryango",entertainment,politics,0.25136966,https://www.bbc.com/gahuza/articles/cq59dd4rx5wo
+"Kidum yasohoye indirimbo ya Matata, yamye ashaka kuririmba kuva kera",entertainment,politics,0.25615123,https://www.bbc.com/gahuza/50143071
+Elton John yahagaritse igiteramo muri Nouvelle-Zélande kubera umusonga,entertainment,politics,0.2506415,https://www.bbc.com/gahuza/51528297
+DRC – Ishingurwa rya Tshala Muana ryahatswe kubamwo induru,entertainment,sport,0.70856214,https://www.bbc.com/gahuza/articles/ce971l1z5gzo
+Kidum ati: 'Ingingo yo kutazosubira kuririmbira mu Burundi nayivuyeko',entertainment,economy,0.20922445,https://www.bbc.com/gahuza/amakuru-51362832
+"Kerry Gladys Ntirampeba, uwuzoserukira u Burundi mw'ihiganwa rya slam",entertainment,politics,0.19602175,https://www.bbc.com/gahuza/amakuru-56448569
+'N'ubwiyorobetsi': Elton John yanebaguye Katolika ku kwanka guhezagira abashaka kwubakana basangiye igitsina,entertainment,economy,0.21584098,https://www.bbc.com/gahuza/amakuru-56428948
+Uyu mumenyeshamakuru iryinyo ryamukorokanye ariko arasoma amakuru,entertainment,economy,0.21346575,https://www.bbc.com/gahuza/amakuru-53461996
+BBC Gahuzamiryango yibutse Johnny Clegg yaryamiye ukuboko kw'abagabo kuwa kabiri,entertainment,politics,0.25291792,https://www.bbc.com/gahuza/amakuru-49035315
+France: Joséphine Baker abaye umugore wa mbere w'umwirabure agiye gushirwa mu ntatemwa y'intwari,entertainment,politics,0.2483956,https://www.bbc.com/gahuza/amakuru-58314008
+"Rehema Muthamia, umwongerezakazi akomoka muri Kenya yatsinze ihiganwa rya Miss England",entertainment,sport,0.47103027,https://www.bbc.com/gahuza/amakuru-58418015
+"Trump yasinye ibwirizwa 'ribangamiye Twitter', yo yanyegeje ubutumwa bwiwe",entertainment,politics,0.272542,https://www.bbc.com/gahuza/amakuru-52847070
+Vladimir Putin: Imyaka 20 mu mafoto 20,entertainment,politics,0.26952684,https://www.bbc.com/gahuza/amakuru-50815428
+Harvey Weinstein yahamwe n'icaha c'uguhohotera mu gusambanya umuntu,entertainment,politics,0.25131124,https://www.bbc.com/gahuza/amakuru-51622978
+Wendy Kemunto: Umuziki umwibagiza amagorwa yabonye igihe afatwa ku nguvu n’abagabo babiri,entertainment,relationship,0.2456822,https://www.bbc.com/gahuza/51435053
+Imvo n'Imvano kuri films zikinirwa mu Burundi,entertainment,sport,0.4918458,https://www.bbc.com/gahuza/amakuru-57513354
+Faustin Twagiramungu ariyama abamwiyitirira kuri Twitter,entertainment,politics,0.2399041,https://www.bbc.com/gahuza/amakuru-54486359
+Australia: Indirimbo z'inyoni zasumbije ibihangange mu muziki,entertainment,sport,0.6517254,https://www.bbc.com/gahuza/amakuru-59679015
+Nta Mwuga Udakiza: BBC iganira n'umunyamideli Girumuco Téline Féerie,entertainment,sport,0.79320997,https://www.bbc.com/gahuza/amakuru-59436727
+"Mireille Kamikazi, umushakashatsi arwanya indwara zandukira nk'igituntu",entertainment,politics,0.24746774,https://www.bbc.com/gahuza/amakuru-57906272
+US: Umwishongozi Maya Angelou abaye umwiraburekazi wa mbere ashizwe kw'ifaranga,entertainment,sport,0.45118114,https://www.bbc.com/gahuza/amakuru-60006645
+Andrew Forrest: Umutunzi ruhebwa agiye kuburanya ikigo Facebook,entertainment,politics,0.2586952,https://www.bbc.com/gahuza/60243961
+Uwutembereza Bulldog za Lady Lady Gaga yarashwe nazo ziribwa,entertainment,politics,0.23690888,https://www.bbc.com/gahuza/amakuru-56203075
+UK: Umuganga yankiwe gutanga amaraso 'kubera umugore wiwe ari umunyafrika',health,economy,0.1962109,https://www.bbc.com/gahuza/amakuru-54315657
+Covid: Iran yatanguye kugerageza urucanco rwayo,health,education,0.5347646,https://www.bbc.com/gahuza/amakuru-55486692
+Amenyo yabo yarononekaye kubera ubutare bwa fluoride,health,politics,0.2841743,https://www.bbc.com/gahuza/amakuru-59995360
+Coronavirus: Ni iki kiriko kiraba ku banyafrika mu Bushinwa?,health,economy,0.1949669,https://www.bbc.com/gahuza/amakuru-52269348
+Africa - Covid: AU yatanguye gutanga miriyoni 400 z'incanco,health,sport,0.6134524,https://www.bbc.com/gahuza/58105562
+Uburusiya burahakana ivyo bwagirizwa vyo kwiba ubuhinga bw’urucanco rwa Coronavirus,health,sport,0.29948598,https://www.bbc.com/gahuza/amakuru-53461672
+Africa-Covid: OMS iragabisha ku bihugu biriko biratezura gucungera ico kiza,health,economy,0.1951898,https://www.bbc.com/gahuza/amakuru-60871897
+Inyishu ya Ministre Martin Nivyabandi ku mugwi wa ONU vya coronavirus,health,sport,0.8354403,https://www.bbc.com/gahuza/amakuru-52249526
+Abagabo muri Kenya binjiye mu rugamba rwo kurwanya ikebwa ry'abakobwa,health,relationship,0.23156813,https://www.bbc.com/gahuza/amakuru-58452635
+Afrika yoba yiteguriye kurwanya coronavirus?,health,politics,0.2923148,https://www.bbc.com/gahuza/amakuru-51802660
+UK: Ingene abana 175 bandujwe umugera wa SIDA,health,politics,0.25567353,https://www.bbc.com/gahuza/articles/cx8wey1x17wo
+Umushikiranganji wa Sri Lanka yahimiriza umuti kama wa Covid yasanze yanduye,health,politics,0.24310248,https://www.bbc.com/gahuza/amakuru-55785547
+Urukingo rwa Covi-19: Habonetse urikingo rwa mbere rurinda iyo ndwara gushika ku 90%,health,politics,0.22283116,https://www.bbc.com/gahuza/amakuru-54875091
+Covid-19: AU yahevye umugambi w'urukingo rwa AstraZeneca,health,sport,0.42086825,https://www.bbc.com/gahuza/amakuru-56683250
+James Hamblin ni muganga abona ko ata mpamvu y'uko abantu bama boga buri mwanya,health,environment,0.21183859,https://www.bbc.com/gahuza/amakuru-55331277
+Guhagarika gupima umugera wa SIDA ikivunga ngo si mu Burundi honyene,health,politics,0.27000645,https://www.bbc.com/gahuza/amakuru-49557833
+Covid-19: Abashikiranganji b'amagara y'abantu muri Africa baraganira na WHO ku ncanco,health,economy,0.1883541,https://www.bbc.com/gahuza/amakuru-55841959
+Covid-19: Uganda yatanguye igerageza ry'umuti yikoreye,health,politics,0.20333336,https://www.bbc.com/gahuza/amakuru-55837072
+North Korea: Kim Jong-un avuga ko ikiza karanda ca Covid ku gihugu ciwe ari akaga gakomeye,health,politics,0.23203795,https://www.bbc.com/gahuza/amakuru-61448724
+Africa - Covid: Abarwaye bakaremba bafise ivyago vyinshi vyo gupfa gusumba ahandi kw'isi,health,economy,0.20332845,https://www.bbc.com/gahuza/57202698
+Uganda: Abaganga bari muri yegereyegere bemeye gusubira ku kazi,health,politics,0.20310774,https://www.bbc.com/gahuza/59709149
+Kim Jong-un: Korea ya Ruguru 'iri mu ngorane zikomeye' kubera amakosa kuri Covid,health,politics,0.2440995,https://www.bbc.com/gahuza/amakuru-57662083
+AstraZeneca: EU ivuga ko ivyiza vy'urwo rucanco biruta inkurikizi mbi,health,economy,0.22619069,https://www.bbc.com/gahuza/amakuru-56416985
+Tanzania: Paul Makonda arongoye igisagara ca Dar es Salaam avuga ko coronavirus yaheze,health,politics,0.22434951,https://www.bbc.com/gahuza/amakuru-52783990
+Ikiganiro Bazamuganga ku menyo ya muzitsa.,health,politics,0.2682524,https://www.bbc.com/gahuza/amakuru-41617279
+DRC-Covid: Prezida Tshisekedi yiteje urukingo Moderna rwa Covid,health,politics,0.27793306,https://www.bbc.com/gahuza/58547527
+Kenya iracahanzwe n'umuti ubuza gusama uva mu Bushinwa n'ubwo umaze imyaka 10 warabujijwe,health,sport,0.495251,https://www.bbc.com/gahuza/articles/c84gqlg7p7ko
+Mu Buhunde niho kuri ubu ikiza ca covid-19 kimeze nabi kurusha ahandi kw'isi,health,politics,0.2657953,https://www.bbc.com/gahuza/56982321
+Uganda-Covid : Prezida Museveni yatanze akaruhuko ko gusengera igihugu cugarijwe na Covid,health,sport,0.60315895,https://www.bbc.com/gahuza/57597646
+WHO iragabisha ku miti y'inkorora ikorerwa mu Buhinde inyuma y'impfu z'abana muri Gambia,health,environment,0.18429035,https://www.bbc.com/gahuza/articles/cd125p3mjg3o
+Ubwo abagore bibungenze barashobora guhabwa urucanco rwa Covid-19? Biravana,health,economy,0.2048809,https://www.bbc.com/gahuza/amakuru-55411439
+Afrika ntikirangwamwo indwara y'ubukangwe/imbasa,health,politics,0.23839568,https://www.bbc.com/gahuza/amakuru-53907796
+Tanzania:Prezida Magufuli yemeye ko corona yasubiye kwinjira mu gihugu,health,politics,0.2580976,https://www.bbc.com/gahuza/amakuru-55829394
+Mbega umunyu udafise icunyunyu 'iode' ufise ingaruka izahe?,health,relationship,0.29656568,https://www.bbc.com/gahuza/amakuru-49672373
+Covid - UK: Abagore bibungenze basabwa kudateba kwiteza urucanco,health,relationship,0.22752966,https://www.bbc.com/gahuza/amakuru-59933564
+Covid: Abafungura binenaguza bashobora kuba batumva akamoto n'akanovera k'indya.,health,relationship,0.19835258,https://www.bbc.com/gahuza/60042995
+Igihugu ca Lesotho cahagurukiye umugera wa SIDA mu mabohero,health,politics,0.20461865,https://www.bbc.com/gahuza/48673671
+Covid: Wa murwi wa WHO wo gutohoza inkomoko ya coronavirus washitse muri China,health,politics,0.23184407,https://www.bbc.com/gahuza/amakuru-55657604
+Bazamuganga: Menya igishobora gutuma ugutwi kwawe kutumva,health,politics,0.22188309,https://www.bbc.com/gahuza/amakuru-60711205
+Japan yabaye irahagarika doze imiriyoni 1.6 za Moderna ku bwoba bw'uko zoba zirimwo imicafu,health,politics,0.24263656,https://www.bbc.com/gahuza/amakuru-58339162
+Umugore wo muri Nouvelle-Zélande yapfuye inyuma y'uko atewe urucanco rwa Pfizer,health,sport,0.2568244,https://www.bbc.com/gahuza/amakuru-58384473
+Covid-19: OMS/WHO isaba Tanzania gutanga ibitigiri vy'abandura coronavirus,health,economy,0.20191701,https://www.bbc.com/gahuza/amakuru-56144747
+OMS ivuga ko amahirwe yo kurwanya Coronavirus agenda agabanuka,health,economy,0.18715966,https://www.bbc.com/gahuza/51595961
+Uganda-Covid: Amashure n'iyindi mirimo vyongeye guhagarara,health,education,0.537189,https://www.bbc.com/gahuza/57385719
+"Coronavirus: ""Muri Afrika turakeneye urucanco rwo gukingira abageze mu zabukuru''",health,relationship,0.36917484,https://www.bbc.com/gahuza/amakuru-55856030
+Abahanganye na Ebola muri Kongo barenga 300 baramaze guterwa,health,politics,0.2713565,https://www.bbc.com/gahuza/amakuru-50295067
+Ibishobora gushikira umwana uvyaye urengeje imyaka 35,health,economy,0.19045664,https://www.bbc.com/gahuza/articles/cv282d32vd9o
+"Mu kugwanya ubugumba, intanga z'abagabo bapfuye zikwiye kwemerwa gutangwa",health,environment,0.22008392,https://www.bbc.com/gahuza/amakuru-51209486
+"Loise arasama, ariko inda ntikura",health,relationship,0.5414222,https://www.bbc.com/gahuza/amakuru-56376519
+G﻿usama inda ata gihe kinini giheze iyindi ikorotse nta ngaruka -icigwa,health,environment,0.20581791,https://www.bbc.com/gahuza/articles/cjlr7p006x7o
+Malaria imaze guhitana abantu 1800 uno mwaka mu Burundi,health,relationship,0.2678843,https://www.bbc.com/gahuza/amakuru-49251318
+Madagascar 'iratabaza ngo ifashwe kurwanya coronavirus',health,economy,0.19269276,https://www.bbc.com/gahuza/amakuru-53501218
+Ukraine: Ingwano ishobora kurangira gute? Inzira zitanu zishoboka,politics,health,0.24744958,https://www.bbc.com/gahuza/amakuru-60615738
+Ukraine: Ivyaha 21.000 vyo mu ntambara biriko bigirwako amatohoza - Umushikirizamanza,politics,economy,0.19796711,https://www.bbc.com/gahuza/articles/cy7q25qn9vyo
+"Ukraine: Mbega Putin ashaka iki, ubwo Russia izoteba ihagarika intambara?",politics,economy,0.21192786,https://www.bbc.com/gahuza/amakuru-60776100
+Misire ICBM ya Korea ya Ruguru yari ifise ubushobozi bwo gushika muri Amerika,politics,sport,0.7888103,https://www.bbc.com/gahuza/articles/c806k5jlnlko
+Intambara ya Ukraine na Russia: Ibombe y'umwuka ni iki?,politics,relationship,0.25729176,https://www.bbc.com/gahuza/amakuru-60585735
+Abanye Ethiopia bavuga igituma bashaka kuja muri Russia,politics,education,0.5908841,https://www.bbc.com/gahuza/amakuru-61214129
+Russia: aba nye Syria baja imbere mu bitero bemererwa $ 7 000,politics,relationship,0.16621332,https://www.bbc.com/gahuza/60946420
+Ethiopia: Igisirikare kivuga ko cisha ibihumbi vy'inyeshamba za TPLF muri Tigray,politics,economy,0.18803526,https://www.bbc.com/gahuza/amakuru-58452629
+France: 'Gufungwa imyaka itatu' kuri Mpozagara yari umushikiranganji mu Burundi,politics,health,0.23810552,https://www.bbc.com/gahuza/49645789
+Perezida Zelensky wa Ukraine ari mu nzira aja muri Amerika,politics,sport,0.80217576,https://www.bbc.com/gahuza/articles/c3gxgm2k1m0o
+AC-Génocide ivuga ko kuvuga ko habaye jenoside y'Abahutu mu Burundi ari 'ikinyoma',politics,economy,0.20787448,https://www.bbc.com/gahuza/amakuru-59726269
+P﻿rezida Ndayishimiye aranegura abaja gukora mu mahanga ivyo banse gukora iwabo,politics,economy,0.18809739,https://www.bbc.com/gahuza/articles/cevgyvrre02o
+Intambwe Ukraine iriko iratera zizohava zigira ingaruka kuri Putin?,politics,sport,0.3061818,https://www.bbc.com/gahuza/articles/cv2dq9kwzwyo
+Rishi Sunak agiye kuba umushikiranganji wa mbere wa UK wa mbere w'amamuko ya Asia,politics,sport,0.44371435,https://www.bbc.com/gahuza/articles/cjqwkv081vzo
+Sudan: Igisirikare kigiye gusubizaho umushikiranganji wa mbere Hamdok yaheruka kubogozwa,politics,economy,0.1959082,https://www.bbc.com/gahuza/amakuru-59363967
+Pelosi muri Taiwan: China ishobora kwerekana ko ikomeye kubera uru rugendo - US,politics,sport,0.70379287,https://www.bbc.com/gahuza/articles/cxxp4d5w8r5o
+"Wa mutegetsi wa Huawei yari yafashwe na US yarekuwe, China nayo ica irekura abanya Canada babiri",politics,sport,0.73041236,https://www.bbc.com/gahuza/amakuru-58690322
+EU – Burundi: Bateye intambwe ya mbere mu kunagura imigenderanire,politics,economy,0.21371374,https://www.bbc.com/gahuza/amakuru-55232778
+Amerika iriyamiriza Ubushinwa ku myimenyerezo yabwo ivugwa yo gutera Taiwan,politics,sport,0.74679667,https://www.bbc.com/gahuza/articles/cmm1een1g1eo
+Joe Biden-Pologne: Umukuru wa Amerika arabonana n'impunzi za Ukraine,politics,sport,0.70197225,https://www.bbc.com/gahuza/amakuru-60871902
+EU/UE yagirije Russia guteza ubukene bw’indya abaserukizi bayo baca barasohoka,politics,economy,0.20500198,https://www.bbc.com/gahuza/articles/cv2e2707195o
+US: Derek Chauvin yahamwe n'icaha co kwica George Floyd,politics,sport,0.46964255,https://www.bbc.com/gahuza/amakuru-56825250
+Abasirikare ba Ukraine bapfa buri musi bagera ku 200 - umuhanuzi wa Zelensky,politics,sport,0.4305243,https://www.bbc.com/gahuza/articles/c7283gnglz5o
+Afghanistan: Aba Taliban babujije abagore kwiga kaminuza,politics,economy,0.1779127,https://www.bbc.com/gahuza/articles/cw5v553v3k1o
+Ingwano muri Ukraine: Abanyeshure b'abanya-Africa batekewe n'ubwoba muri Kherson yifatiwe n'Abarusiya,politics,education,0.6331064,https://www.bbc.com/gahuza/amakuru-60831079
+"Joe Biden: ""Ivyiyumviro vya Trump birageramiye demokrasi ya Amerika""",politics,sport,0.75293225,https://www.bbc.com/gahuza/articles/c6p5zj6vyeeo
+Ethiopia - TPLF: Amakungu atewe impungenge n’indyane za Tigray zabaye ndanse,politics,economy,0.20440918,https://www.bbc.com/gahuza/articles/crgdd508d9eo
+Ethiopia – Tigray: Uko umushikiranganji wa mbere Abiy Ahmed yayoboye urugamba rwo gutuza inyeshamba,politics,sport,0.45967212,https://www.bbc.com/gahuza/amakuru-59663303
+Ingorane muri Ethiopia: Vyagenze gute ngo igihugu gishike aho kiri ubu?,politics,relationship,0.16898412,https://www.bbc.com/gahuza/amakuru-57587294
+Ayandi makuru ku ntambara muri Ukraine: Russia ntifata ko iri mu ntambara na OTAN/NATO – Lavrov,politics,economy,0.20492989,https://www.bbc.com/gahuza/61282593
+"South Africa: Jacob Zuma yatanguye ari intwari y'ubwigenge, aba Prezida, ubu ari mw'ibohero",politics,sport,0.5681562,https://www.bbc.com/gahuza/amakuru-57783227
+"Ibintu bihagaze gute muri Ukraine, Putin yoba ategura kurandura Kyiv?",politics,relationship,0.27070025,https://www.bbc.com/gahuza/amakuru-60719090
+William Ruto: Intsinzi yanje yuguruye imyango,politics,sport,0.51533085,https://www.bbc.com/gahuza/articles/cy677lwdn24o
+Burundi: Perezida Ndayishimiye yavuze ku bivugwa mu gihugu no ku gihugu,politics,relationship,0.3133212,https://www.bbc.com/gahuza/amakuru-54302736
+EAC: ONU isaba amakungu gufasha Afrika y’Ubuseruko guhangana n'inzige,politics,health,0.1995139,https://www.bbc.com/gahuza/amakuru-51247623
+RED Tabara ihakana ko ata murwanyi wayo yafashwe na FARDC,politics,sport,0.759876,https://www.bbc.com/gahuza/amakuru-58890803
+Umwamikazi azobanana na Prezida Joe Biden ku ndwi iza.,politics,sport,0.62795776,https://www.bbc.com/gahuza/amakuru-57344119
+US: Bemeje integuro y’itegeko rikingira abubakanye basangiye igitsina,politics,economy,0.21768543,https://www.bbc.com/gahuza/articles/cq57yplzwgko
+DR Congo: Ibihumbi vy'abasirikare bacungera inzego bagize urugendo rwo gushigikira Tshisekedi,politics,sport,0.3698555,https://www.bbc.com/gahuza/amakuru-60360580
+Iran yarahiye ko izokwihora ku gitero ca Israel ku ruganda rwa 'nucleaire' rwa Natanz,politics,sport,0.7546695,https://www.bbc.com/gahuza/amakuru-56720820
+Ethiopia - Tigray: Icegeranyo kivuga ko hashobora kuba harakozwe ivyaha vyo mu ntambara,politics,economy,0.15989333,https://www.bbc.com/gahuza/amakuru-59148835
+Sri Lanka: Imyiyerekano yatumye Rajapaksa atanga imihoho,politics,sport,0.6680957,https://www.bbc.com/gahuza/amakuru-61407206
+"Intambara ya Ukraine na Africa: Ingaruka ku bitoro, abanyeshure n'umukate",politics,education,0.59143037,https://www.bbc.com/gahuza/amakuru-60521398
+Burundi: OLUCOME isaba Perezida Evariste Ndayishimiye ‘gufatira akarorero kuri Tanzania’,politics,economy,0.19137433,https://www.bbc.com/gahuza/amakuru-58230982
+Parezida Donald Trump wa Amerika yahagaritse ibiganiro vy’amahoro n’aba Talibani,politics,sport,0.33529446,https://www.bbc.com/gahuza/imikino-49625510
+Intambara ya Ukraine: IAEA ivuga ko uraganda rw'inguvu za  nucléaire rwa Zaporizhzhia atawurwitayeho,politics,education,0.58690727,https://www.bbc.com/gahuza/articles/c6p7nypjzvro
+Iran yanse ibisabwa na Biden ku bijanye n'amasezerano yo guhingura ubutare bw'ubumara,politics,sport,0.4624827,https://www.bbc.com/gahuza/amakuru-55198119
+DR Congo: Leta yarungitse gushaka amahoro muri Ituri abahoze barongoye inyeshamba,politics,health,0.24614735,https://www.bbc.com/gahuza/amakuru-53321658
+ADF: Menya uyu murwi w'inyeshamba za Uganda ukorana na IS ukagirizwa ibitero vy'iterabwoba,politics,sport,0.36416736,https://www.bbc.com/gahuza/amakuru-59357678
+Kamala Harris muri Korea y’Epfo inyuma y’umusi umwe Korea ya Ruguru irashe ibisasu vya misire,politics,sport,0.62119174,https://www.bbc.com/gahuza/articles/c4n0v7z298yo
+“Mwalimu wanje ni Perezida w’igihugu”,politics,sport,0.28508723,https://www.bbc.com/gahuza/61428950
+"Ukraine-Russia: Bakhmut, igisagara Abarusiya bakibandanya barondera kwigarurira",politics,economy,0.19594604,https://www.bbc.com/gahuza/articles/c4n20ywqvlwo
+Afghanistan: Baracanacanako kugira bave muri ico gihugu,politics,health,0.27446824,https://www.bbc.com/gahuza/58232171
+Desmond Tutu: South Africa yatanguye ikigandaro c'indwi mu kwibuka iyi ntwari yarwanije apartheid,politics,sport,0.69316065,https://www.bbc.com/gahuza/amakuru-59799071
+Zelensky arashikiriza ijambo Congress mu gihe US yamwemereye miriyoni $800m z'imfashanyo ya gisirikare,politics,sport,0.50284994,https://www.bbc.com/gahuza/amakuru-60753224
+Diego Maradona: Umukenguzamateka wa Argentina asaba ko inoti nshasha ijako Maradona,sport,politics,0.26042205,https://www.bbc.com/gahuza/amakuru-55232780
+"Dambe, umukino uriko uramamara kw'isi umezi nk'itera-makofe rya boxe",sport,politics,0.17787132,https://www.bbc.com/gahuza/amakuru-50679041
+Ivangura mu mupira w’amaguru ni ikibazo ngorabahizi,sport,economy,0.18520074,https://www.bbc.com/gahuza/imikino-49950428
+Umunonotsi Caster Semenya wa Afrika y'Epfo yatumiwe guhiganwa muri Diamond League ku metero 800 muri Maroc,sport,politics,0.26681235,https://www.bbc.com/gahuza/imikino-48646311
+"Abatamvyi ba ""breakdancing"" bo muri Senegale bashaka kuja muri Olempike",sport,politics,0.23678279,https://www.bbc.com/gahuza/amakuru-50183232
+Adama Traore akinira Wolves ategerezwa guhitamwo hagati ya Espagne na Mali,sport,politics,0.25332582,https://www.bbc.com/gahuza/amakuru-54418833
+France: Karim Benzema yagarutse mu mugwi nserukiragihugu inyuma y'imyaka itanu,sport,politics,0.25806296,https://www.bbc.com/gahuza/amakuru-57172758
+Abajejwe ikipe y’Intamba mu Rugamba bavuga ko kwirukana Selemani Ndikumana ata ngorane vyateye,sport,politics,0.25165117,https://www.bbc.com/gahuza/imikino-48730303
+Igikombe c'isi 2022: Kuki abakinyi ba Iran banse kuririmba ururirimbo rw’igihugu,sport,economy,0.22365287,https://www.bbc.com/gahuza/articles/cy70l75gqv3o
+I﻿gikombe c'isi 2022: Intambara itoroshe ya FIFA ku nzoga,sport,health,0.21679097,https://www.bbc.com/gahuza/articles/cekv2v4ylelo
+Babuzwa guhiganwa mu bandi kubera uko bavutse,sport,politics,0.20910701,https://www.bbc.com/gahuza/amakuru-57471844
+George Weah ati: 'Imirwi myinshi izozimangana' kubera coronavirus,sport,politics,0.22235383,https://www.bbc.com/gahuza/imikino-52822329
+Africa Cup of Nations: Abafana bazotegerezwa kwicandagisha no kwerekana ibipimo vya Covid,sport,health,0.20979522,https://www.bbc.com/gahuza/amakuru-59698346
+Novak Djokovic: Australia yongeye gufuta visa y'ico camamare muri tennis,sport,politics,0.26507258,https://www.bbc.com/gahuza/amakuru-59995793
+I﻿gikombe c'isi 2022: Ihiganwa muri Qatar rigira ritangure,sport,politics,0.23725908,https://www.bbc.com/gahuza/articles/cpeq10y1g0xo
+"Qatar 2022: Abagore bonyene bagiye guhagarikira inkino z’igikombe c’isi c’abagabo, ubwa mbere mu mateka",sport,politics,0.25965145,https://www.bbc.com/gahuza/articles/ckdr2vxnzyqo
+Ethiopia: Umunonotsi yemerewe imodoka ntarayihabwa kubera ubukene bw'amafaranga y'agaciro,sport,politics,0.25648043,https://www.bbc.com/gahuza/amakuru-61153311
+Italy: Amatohoza kuri Cristiano Ronaldo ku kurenga ku mategeko yo kwirinda Corona,sport,politics,0.2619602,https://www.bbc.com/gahuza/amakuru-55859405
+Edouard Mendy aridoga kubona isanamu yiwe ikoreshwa mu nkuru zerekeye Benjamin Mendy,sport,politics,0.2542187,https://www.bbc.com/gahuza/amakuru-59332580
+Burundi - Olympics: Francine Niyonsaba yaronse 'minima' zo kuja mu nkino za Tokyo,sport,politics,0.23658231,https://www.bbc.com/gahuza/amakuru-57330061
+Ikibumbano ca Kobe Bryant cashizwe aho kajugujugu yagiriye isanganya,sport,politics,0.25731128,https://www.bbc.com/gahuza/amakuru-60155195

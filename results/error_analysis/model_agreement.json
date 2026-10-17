@@ -1,0 +1,7 @@
+{
+  "both_correct": 229,
+  "only_transformer_correct": 6,
+  "only_baseline_correct": 9,
+  "both_wrong": 18,
+  "both_wrong_same_label": 14
+}
