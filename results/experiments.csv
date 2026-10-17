@@ -105,5 +105,5 @@ timestamp,family,model,config,seed,split,accuracy,macro_f1,weighted_f1,macro_pre
 2026-10-17T08:19:24,rnn,bilstm-attn-random,"{""emb_coverage"": null, ""epochs_run"": 15, ""init"": ""random"", ""lr"": 0.002, ""max_len"": 400, ""pooling"": ""attn"", ""vocab"": 17099}",43,test,0.8092,0.622,0.8127,0.6743,0.6301,677.8
 2026-10-17T08:31:50,rnn,bilstm-attn-random,"{""emb_coverage"": null, ""epochs_run"": 17, ""init"": ""random"", ""lr"": 0.002, ""max_len"": 400, ""pooling"": ""attn"", ""vocab"": 17099}",44,val,0.7548,0.5645,0.7648,0.5582,0.5841,741.6
 2026-10-17T08:31:51,rnn,bilstm-attn-random,"{""emb_coverage"": null, ""epochs_run"": 17, ""init"": ""random"", ""lr"": 0.002, ""max_len"": 400, ""pooling"": ""attn"", ""vocab"": 17099}",44,test,0.7939,0.61,0.7958,0.6413,0.6323,741.6
-2026-10-17T09:14:15,transformer,afriberta_base,"{""best_epoch"": 4.0, ""eff_bs"": 16, ""epochs"": 8, ""lr"": 3e-05, ""max_len"": 512}",42,val,0.8659,0.7679,0.8703,0.7637,0.7994,2419.9
-2026-10-17T09:14:15,transformer,afriberta_base,"{""best_epoch"": 4.0, ""eff_bs"": 16, ""epochs"": 8, ""lr"": 3e-05, ""max_len"": 512}",42,test,0.8931,0.7739,0.8944,0.7827,0.8163,2419.9
+2026-10-17T09:14:15,transformer,afriberta_base-fullFT,"{""best_epoch"": 4.0, ""eff_bs"": 16, ""epochs"": 8, ""lr"": 3e-05, ""max_len"": 512}",42,val,0.8659,0.7679,0.8703,0.7637,0.7994,2419.9
+2026-10-17T09:14:15,transformer,afriberta_base-fullFT,"{""best_epoch"": 4.0, ""eff_bs"": 16, ""epochs"": 8, ""lr"": 3e-05, ""max_len"": 512}",42,test,0.8931,0.7739,0.8944,0.7827,0.8163,2419.9

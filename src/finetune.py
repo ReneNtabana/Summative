@@ -22,22 +22,31 @@ Run:  python -m src.finetune --model Davlan/afro-xlmr-base --seeds 42 43 44
 """
 from __future__ import annotations
 
+import os
+
+# Environment must be configured BEFORE torch is imported.
+os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")  # fall back to CPU for any op MPS lacks
+# Apple-silicon memory management. MPS shares RAM with the OS. Without these limits
+# PyTorch's caching allocator keeps growing (we measured 11 GB after the first
+# evaluation) and macOS starts swapping, which slowed training ~40x. The low
+# watermark makes PyTorch release cached blocks early; the high watermark caps the total.
+os.environ.setdefault("PYTORCH_MPS_LOW_WATERMARK_RATIO", "0.5")
+os.environ.setdefault("PYTORCH_MPS_HIGH_WATERMARK_RATIO", "0.9")
+
 import argparse
 import json
-import os
 import time
 
 import numpy as np
 import torch
 from datasets import Dataset
-from transformers import (AutoModelForSequenceClassification, AutoTokenizer,
-                          DataCollatorWithPadding, Trainer, TrainingArguments, set_seed)
+from transformers import (AutoModelForSequenceClassification, AutoTokenizer, DataCollatorWithPadding,
+                          Trainer, TrainerCallback, TrainingArguments, set_seed)
 
 from src.data import ROOT, label_list, load_splits
 from src.evaluate import compute_metrics, log_experiment, save_report
 
-os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
-os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")  # fall back to CPU for any op MPS lacks
 
 
 class WeightedTrainer(Trainer):
@@ -60,12 +69,25 @@ class WeightedTrainer(Trainer):
         return (loss, outputs) if return_outputs else loss
 
 
+class FreeMPSCache(TrainerCallback):
+    """Release PyTorch's cached MPS memory after each evaluation / epoch."""
+
+    def _free(self, *args, **kwargs):
+        import gc
+        gc.collect()
+        if torch.backends.mps.is_available():
+            torch.mps.empty_cache()
+
+    on_evaluate = _free
+    on_epoch_end = _free
+
+
 def short(name: str) -> str:
     return name.split("/")[-1]
 
 
 def run(model_name: str, seed: int, lr: float, epochs: int, max_len: int, bs: int,
-        save_dir: str | None = None) -> dict:
+        save_dir: str | None = None, freeze_embeddings: bool = True) -> dict:
     set_seed(seed)
     s = load_splits()
     labels = label_list()
@@ -83,6 +105,16 @@ def run(model_name: str, seed: int, lr: float, epochs: int, max_len: int, bs: in
     ds = {k: to_ds(v) for k, v in s.items()}
     model = AutoModelForSequenceClassification.from_pretrained(
         model_name, num_labels=len(labels), id2label=dict(enumerate(labels)), label2id=lab2id)
+    if freeze_embeddings:
+        # The word-embedding matrix is 69% of XLM-R/AfroXLMR's parameters (250k x 768)
+        # and 48% of AfriBERTa's. With 1.2k training articles, updating it mainly risks
+        # overfitting (only tokens present in the data would move). Freezing it also cuts
+        # gradient + AdamW memory by about two-thirds, which is what lets the 278M models
+        # train within 16 GB on an M1. Position embeddings and all Transformer layers
+        # are still fine-tuned. The same setting is used for every model.
+        model.base_model.embeddings.word_embeddings.weight.requires_grad_(False)
+    n_train = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    print(f"Trainable parameters: {n_train / 1e6:.1f}M of {model.num_parameters() / 1e6:.1f}M", flush=True)
 
     counts = np.bincount(ds["train"]["label"], minlength=len(labels))
     weights = torch.tensor(len(ds["train"]) / (len(labels) * counts), dtype=torch.float)
@@ -97,7 +129,7 @@ def run(model_name: str, seed: int, lr: float, epochs: int, max_len: int, bs: in
         output_dir=str(out_dir),
         learning_rate=lr,
         per_device_train_batch_size=bs,
-        per_device_eval_batch_size=16,
+        per_device_eval_batch_size=4,   # small eval batches keep MPS memory low
         gradient_accumulation_steps=accum,
         num_train_epochs=epochs,
         warmup_steps=int(0.1 * total_steps),                   # 10% linear warm-up
@@ -117,6 +149,7 @@ def run(model_name: str, seed: int, lr: float, epochs: int, max_len: int, bs: in
         model=model, args=args, train_dataset=ds["train"], eval_dataset=ds["val"],
         processing_class=tok, data_collator=DataCollatorWithPadding(tok),
         compute_metrics=metrics_fn, class_weights=weights,
+        callbacks=[FreeMPSCache()],
     )
     t0 = time.time()
     trainer.train()
@@ -129,6 +162,7 @@ def run(model_name: str, seed: int, lr: float, epochs: int, max_len: int, bs: in
         preds[split] = p.predictions.argmax(-1)
         res[split] = compute_metrics(p.label_ids, preds[split])
     cfg = {"lr": lr, "epochs": epochs, "max_len": max_len, "eff_bs": 16,
+           "freeze_emb": freeze_embeddings, "trainable_M": round(n_train / 1e6, 1),
            "best_epoch": _best_epoch(trainer)}
     for split in ("val", "test"):
         log_experiment("transformer", short(model_name), cfg, split, res[split], seed=seed, train_seconds=secs)
@@ -170,9 +204,12 @@ def main() -> None:
     ap.add_argument("--max_len", type=int, default=512)
     ap.add_argument("--bs", type=int, default=8)
     ap.add_argument("--save_dir", default=None, help="save the model of the FIRST seed here")
+    ap.add_argument("--no_freeze_embeddings", action="store_true",
+                    help="also fine-tune the word-embedding matrix (needs much more memory)")
     a = ap.parse_args()
     for i, seed in enumerate(a.seeds):
-        run(a.model, seed, a.lr, a.epochs, a.max_len, a.bs, save_dir=a.save_dir if i == 0 else None)
+        run(a.model, seed, a.lr, a.epochs, a.max_len, a.bs, save_dir=a.save_dir if i == 0 else None,
+            freeze_embeddings=not a.no_freeze_embeddings)
 
 
 if __name__ == "__main__":
