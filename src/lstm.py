@@ -200,6 +200,8 @@ def run(init: str, pooling: str, seed: int, epochs: int = 30, patience: int = 4,
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--seeds", type=int, nargs="+", default=[42, 43, 44])
+    ap.add_argument("--only", nargs="*", default=None,
+                    help="run only these configs, given as init:pooling (e.g. w2v-kir+kin:attn)")
     args = ap.parse_args()
     torch.set_num_threads(8)
     configs = [
@@ -208,8 +210,11 @@ def main() -> None:
         ("w2v-kir+kin", "maxmean"),
         ("fasttext-kir+kin", "maxmean"),
         ("fasttext-kir+kin", "attn"),
+        ("w2v-kir+kin", "attn"),
         ("random", "attn"),
     ]
+    if args.only:
+        configs = [c for c in configs if f"{c[0]}:{c[1]}" in args.only]
     summary = {}
     for init, pooling in configs:
         f1s = [run(init, pooling, seed)["test"]["macro_f1"] for seed in args.seeds]
