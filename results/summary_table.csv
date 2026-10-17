@@ -3,7 +3,7 @@ baseline,majority,1,0.3511,,0.052,,0.1825,,,,,
 baseline,tfidf-word|nb,1,0.8664,,0.6795,,0.854,0.8,C=0.003,0.6997,,
 baseline,tfidf-word|logreg,1,0.8969,,0.8071,,0.8958,1.4,C=0.3,0.7596,,
 baseline,tfidf-word+char|logreg,1,0.9008,,0.8186,,0.8995,6.1,C=0.3,0.7763,,
-baseline,tfidf-word+char|svm,1,0.9084,,0.833,,0.9077,4.5,C=0.1,0.8052,0.7215,0.8013
+baseline,tfidf-word+char|svm,1,0.9084,,0.833,,0.9077,4.5,C=0.1,0.8052,,
 baseline,tfidf-word|svm,1,0.9046,,0.833,,0.9034,0.8,C=0.1,0.7733,,
 baseline,tfidf-char|logreg,1,0.9008,,0.8524,,0.9004,4.0,C=0.3,0.7893,,
 baseline,tfidf-char|svm,1,0.9122,,0.8657,,0.9119,3.6,C=0.3,0.8056,,
@@ -11,6 +11,15 @@ embeddings,avg-fasttext-kir,1,0.8206,,0.6976,,0.8339,0.5,C=0.1,,,
 embeddings,avg-w2v-kir,1,0.8435,,0.7035,,0.85,0.0,C=0.1,,,
 embeddings,avg-fasttext-kir+kin,1,0.8511,,0.714,,0.8531,3.2,C=0.3,,,
 embeddings,avg-w2v-kir+kin,1,0.8397,,0.729,,0.8441,0.0,C=0.1,,,
-rnn,bilstm-maxmean-random,1,0.7595,,0.5178,,0.7398,534.4,"lr=0.002, max_len=400",,,
-rnn,bilstm-maxmean-w2v-kir,1,0.8779,,0.7048,,0.8776,729.1,"lr=0.002, max_len=400",,,
-rnn,bilstm-maxmean-w2v-kir+kin,1,0.874,,0.7713,,0.8837,718.1,"lr=0.002, max_len=400",,,
+rnn,bilstm-attn-random,3,0.7621,0.0688,0.5852,0.0537,0.7747,619.4333,"lr=0.002, max_len=400",,,
+rnn,bilstm-maxmean-random,3,0.785,0.0249,0.6025,0.0837,0.7798,765.5,"lr=0.002, max_len=400",,,
+rnn,bilstm-attn-w2v-kir+kin,3,0.8346,0.0574,0.6836,0.0584,0.8395,521.6,"lr=0.002, max_len=400",,,
+rnn,bilstm-maxmean-w2v-kir,3,0.8575,0.0192,0.706,0.0147,0.8606,815.2667,"lr=0.002, max_len=400",,,
+rnn,bilstm-maxmean-w2v-kir+kin,3,0.8537,0.0289,0.7171,0.0711,0.8577,664.1333,"lr=0.002, max_len=400",,,
+rnn,bilstm-attn-fasttext-kir+kin,3,0.8804,0.0154,0.721,0.0521,0.8805,502.5667,"lr=0.002, max_len=400",,,
+rnn,bilstm-maxmean-fasttext-kir+kin,3,0.8588,0.0191,0.7357,0.0214,0.8618,786.6,"lr=0.002, max_len=400",,,
+transformer,xlm-roberta-base_lr5e-5-ep15,1,0.2519,,0.0988,,0.2418,3413.2,"lr=5e-05, max_len=512",,,
+transformer,xlm-roberta-base,1,0.5687,,0.2995,,0.5498,1893.1,"lr=3e-05, max_len=512",,0.3504,0.4662
+transformer,afriberta_base-fullFT,1,0.8931,,0.7739,,0.8944,2419.9,"lr=3e-05, max_len=512",,0.7554,0.8302
+transformer,afriberta_base,3,0.8931,0.0138,0.8041,0.025,0.891,1042.4333,"lr=3e-05, max_len=512",,0.7529,0.8302
+transformer,afro-xlmr-base,3,0.9096,0.0117,0.8291,0.0335,0.9096,1864.9667,"lr=3e-05, max_len=512",,0.7987,0.8715

@@ -21,7 +21,7 @@ FAMILY_ORDER = ["baseline", "embeddings", "rnn", "transformer"]
 
 def main() -> None:
     df = pd.read_csv(EXPERIMENTS_CSV)
-    test = df[df.split == "test"].copy()
+    test = df[(df.split == "test") & df.family.isin(FAMILY_ORDER)].copy()
     # For baselines, only the C selected on validation is evaluated on test, so the
     # test rows already correspond to the selected configuration.
     test["config_short"] = test.config.map(lambda c: ", ".join(f"{k}={v}" for k, v in json.loads(c).items()
@@ -41,10 +41,8 @@ def main() -> None:
     ood_f1 = ood.groupby("model_key").macro_f1.mean().rename("ood_f1")
     ood_acc = ood.groupby("model_key").accuracy.mean().rename("ood_acc")
     tab = tab.join(cv, on="model").join(ood_f1, on="model").join(ood_acc, on="model")
-    if "baseline_svm" in ood_f1.index:  # the OOD baseline is the selected TF-IDF model
-        sel = tab[(tab.family == "baseline") & (tab.model == "tfidf-word+char|svm")].index
-        tab.loc[sel, "ood_f1"] = ood_f1["baseline_svm"]
-        tab.loc[sel, "ood_acc"] = ood_acc["baseline_svm"]
+    # (TF-IDF OOD rows are logged per configuration by src/crosslingual.py; the
+    # "baseline_svm" row from src/ood.py is the same word+char SVM and is not needed here.)
 
     tab["family"] = pd.Categorical(tab.family, FAMILY_ORDER, ordered=True)
     tab = tab.sort_values(["family", "f1_mean"]).round(4)
@@ -59,6 +57,13 @@ def main() -> None:
         lines.append(f"| {r.family} | {r.model} | {r.config} | {r.n_seeds} | {pm(r.acc_mean, r.acc_std)} | "
                      f"{pm(r.f1_mean, r.f1_std)} | {'' if pd.isna(r.cv5_f1) else f'{r.cv5_f1:.3f}'} | "
                      f"{'' if pd.isna(r.ood_acc) else f'{r.ood_acc:.3f}'} | {'' if pd.isna(r.ood_f1) else f'{r.ood_f1:.3f}'} |")
+    lines.append("")
+    lines.append("OOD scores for Transformers are from the seed-42 model.")
+    xl = df[df.family == "crosslingual"]
+    if len(xl):
+        lines += ["", "| Cross-lingual (TF-IDF char SVM) | n train | Accuracy | Macro-F1 |", "|---|---|---|---|"]
+        for _, r in xl.iterrows():
+            lines.append(f"| {r.model.split(' ', 1)[1]} | {json.loads(r.config)['n_train']} | {r.accuracy:.3f} | {r.macro_f1:.3f} |")
     (RESULTS_DIR / "summary_table.md").write_text("\n".join(lines) + "\n")
     print("\n".join(lines))
 
