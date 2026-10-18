@@ -11,7 +11,7 @@ technology, environment, culture.
 | **Live system** | https://huggingface.co/spaces/ReneNtabana/kirundi-news-classifier (runs in your browser; first load downloads ~280 MB) |
 | **Fine-tuned model** | https://huggingface.co/ReneNtabana/kirundi-news-classifier |
 | **Demo video** | _TBD_ |
-| **Report (PDF)** | [`report/report.pdf`](report/report.pdf) |
+| **Report (PDF)** | submitted separately |
 
 ## Summary
 * The official KIRNEWS split **leaks its entire test set into training**. We rebuilt a clean split (1,742 articles, 10 classes).
@@ -100,7 +100,6 @@ web/                 deployed web app (static HF Space; transformers.js runs the
 app/                 Gradio version of the app for running the full-precision model locally
 scripts/             run helpers
 results/             metrics, tables, figures (all numbers in the report come from here)
-report/              report source and PDF
 tests/               pytest sanity checks (no split leakage, app/train preprocessing identical)
 ```
 
@@ -122,7 +121,6 @@ python -m src.crosslingual    # Kinyarwanda transfer + OOD for TF-IDF models
 python -m src.error_analysis --model models/ft-<best>
 python -m src.summarize       # tables + comparison figure
 python -m src.export_onnx     # ONNX export for the web app
-python report/build_pdf.py    # report PDF (needs Google Chrome)
 pytest -q
 ```
 Exact package versions: [`requirements-lock.txt`](requirements-lock.txt).
