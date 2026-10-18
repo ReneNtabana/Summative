@@ -80,6 +80,7 @@
       <div class="row">
         <button id="go" disabled>Classify · Tondora</button>
         <span id="status" class="status">Loading model (~280 MB, first visit only)…</span>
+        <span class="status">Tip: Ctrl/⌘ + Enter</span>
       </div>
     </section>
 
@@ -150,33 +151,48 @@ async function load() {
 }
 
 async function classify() {
+  if (!classifier) {
+    $("result").innerHTML = `<div class="note warn">The model is still loading. Please wait a moment and try again.</div>`;
+    return;
+  }
   const text = normalise(`${$("title").value} . ${$("body").value}`).replace(/^[ .]+|[ .]+$/g, "");
   if (text.split(" ").filter(Boolean).length < 3) {
     $("result").innerHTML = `<div class="note warn">Please enter at least a few words of Kirundi text.</div>`;
     return;
   }
+  // Immediate visual feedback, so every click visibly does something
+  // (re-classifying the same text would otherwise show an identical result).
   $("go").disabled = true;
   $("status").textContent = "Classifying…";
-  const t0 = performance.now();
-  // The tokenizer truncates to the model's maximum length (512 subword tokens), as in training.
-  const out = await classifier(text, { top_k: 10 });
-  const ms = Math.round(performance.now() - t0);
-  const top = out[0];
-  let html = `<div class="pred"><div class="top">${escapeHtml(top.label)} <span class="kir">· ${KIRUNDI[top.label] ?? ""}</span></div></div><div class="bars">`;
-  for (const r of out.slice(0, 5)) {
-    html += `<div class="bar"><span>${escapeHtml(r.label)}</span><span class="track"><span class="fill" style="width:${(r.score * 100).toFixed(1)}%;display:block"></span></span><span class="v">${(r.score * 100).toFixed(1)}%</span></div>`;
+  $("result").innerHTML = `<p class="empty">Classifying…</p>`;
+  await new Promise((r) => setTimeout(r, 30));   // let the browser repaint before the model runs
+  try {
+    const t0 = performance.now();
+    // The tokenizer truncates to the model's maximum length (512 subword tokens), as in training.
+    const out = await classifier(text, { top_k: 10 });
+    const ms = Math.round(performance.now() - t0);
+    const top = out[0];
+    let html = `<div class="pred"><div class="top">${escapeHtml(top.label)} <span class="kir">· ${KIRUNDI[top.label] ?? ""}</span></div></div><div class="bars">`;
+    for (const r of out.slice(0, 5)) {
+      html += `<div class="bar"><span>${escapeHtml(r.label)}</span><span class="track"><span class="fill" style="width:${(r.score * 100).toFixed(1)}%;display:block"></span></span><span class="v">${(r.score * 100).toFixed(1)}%</span></div>`;
+    }
+    html += `</div>`;
+    if (looksForeign(text)) {
+      html += `<div class="note warn">This text looks like English or French. The model was trained on Kirundi news and may still guess a topic, but results are not validated for other languages.</div>`;
+    } else if (top.score < THRESHOLD) {
+      html += `<div class="note warn">Low confidence (${(top.score * 100).toFixed(0)}%). The article may be outside the 10 topics or about several at once. Treat the prediction with caution.</div>`;
+    } else {
+      html += `<div class="note info">Confidence ${(top.score * 100).toFixed(0)}% · ${ms} ms · ${text.split(" ").length} words</div>`;
+    }
+    $("result").innerHTML = html;
+    $("status").textContent = "Model ready.";
+  } catch (e) {
+    console.error(e);
+    $("result").innerHTML = `<div class="note warn">Something went wrong while classifying: ${escapeHtml(String(e.message || e))}</div>`;
+    $("status").textContent = "Error. See the message on the right.";
+  } finally {
+    $("go").disabled = false;
   }
-  html += `</div>`;
-  if (looksForeign(text)) {
-    html += `<div class="note warn">This text looks like English or French. The model was trained on Kirundi news and may still guess a topic, but results are not validated for other languages.</div>`;
-  } else if (top.score < THRESHOLD) {
-    html += `<div class="note warn">Low confidence (${(top.score * 100).toFixed(0)}%). The article may be outside the 10 topics or about several at once. Treat the prediction with caution.</div>`;
-  } else {
-    html += `<div class="note info">Confidence ${(top.score * 100).toFixed(0)}% · ${ms} ms</div>`;
-  }
-  $("result").innerHTML = html;
-  $("status").textContent = "Model ready.";
-  $("go").disabled = false;
 }
 
 async function loadExamples() {
@@ -192,6 +208,12 @@ async function loadExamples() {
 }
 
 $("go").addEventListener("click", classify);
+// Ctrl/Cmd + Enter in either field also classifies.
+for (const id of ["title", "body"]) {
+  $(id).addEventListener("keydown", (ev) => {
+    if (ev.key === "Enter" && (ev.ctrlKey || ev.metaKey)) { ev.preventDefault(); classify(); }
+  });
+}
 loadExamples();
 load();
 </script>
